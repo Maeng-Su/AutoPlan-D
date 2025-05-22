@@ -1,0 +1,116 @@
+name: sedd
+channels:
+  - pytorch # 가장 우선
+  - nvidia  # 그 다음 우선
+  - conda-forge # 그 다음 우선 (ffmpeg 등 일반 패키지)
+  - defaults
+dependencies:
+  # --- 핵심 버전 고정 ---
+  - python=3.10 # Python 버전 3.10으로 변경
+  - cudatoolkit=11.8 # CUDA 버전 고정
+
+  # --- PyTorch 관련 (버전은 Conda가 호환되는 것을 찾도록 함) ---
+  # torch==2.0.1 로 시도하되, 안되면 그냥 torch 로 두어 최신 호환 버전을 찾도록 함
+  - pytorch==2.0.1 # 되도록 이 버전을 사용하도록 시도
+  - torchvision # PyTorch와 호환되는 버전 자동 선택
+  - torchaudio  # PyTorch와 호환되는 버전 자동 선택
+
+  # --- 원래 yml에 있던 필수 Conda 패키지 (버전 충돌 가능성 있는 것들은 버전 제거 또는 유연화) ---
+  - pip
+  - packaging
+  - _libgcc_mutex # 버전 명시 제거 또는 확인 후 유지
+  - _openmp_mutex # 버전 명시 제거 또는 확인 후 유지
+  - ca-certificates # 버전 명시 제거 또는 확인 후 유지
+  # - cuda-cccl # cudatoolkit에 포함될 수 있음, 필요시 명시
+  # ... (다른 cuda-* 패키지들은 cudatoolkit=11.8에 의해 관리되도록 하고, 명시적 선언 최소화)
+  - libffi # 버전 명시 제거 또는 확인 후 유지
+  - libgcc-ng # 버전 명시 제거 또는 확인 후 유지
+  - libgomp # 버전 명시 제거 또는 확인 후 유지
+  - libstdcxx-ng # 버전 명시 제거 또는 확인 후 유지
+  - ncurses # 버전 명시 제거 또는 확인 후 유지
+  # - openssl==3.0.13 # <--- 버전 명시 제거! ffmpeg 등이 필요한 버전을 설치하도록 함
+  - readline # 버전 명시 제거 또는 확인 후 유지
+  - setuptools # 버전 명시 제거 또는 확인 후 유지
+  - sqlite # 버전 명시 제거 또는 확인 후 유지
+  - tk # 버전 명시 제거 또는 확인 후 유지
+  - wheel # 버전 명시 제거 또는 확인 후 유지
+  - xz # 버전 명시 제거 또는 확인 후 유지
+  - zlib # 버전 명시 제거 또는 확인 후 유지
+
+pip:
+  # flash-attn은 나중에 수동 설치
+  # - flash-attn==2.2.2
+  - accelerate==0.27.2
+  - aiohttp==3.9.3
+  - aiosignal==1.3.1
+  - antlr4-python3-runtime==4.9.3
+  - appdirs==1.4.4
+  - async-timeout==4.0.3
+  - attrs==23.2.0
+  - beartype==0.14.1
+  - better-abc==0.0.3
+  - certifi==2022.12.7 # pip list에 있었으므로 유지 (conda ca-certificates와 중복될 수 있으나 일단 둠)
+  - charset-normalizer==2.1.1
+  - click==8.1.7
+  - cloudpickle==3.0.0
+  - cmake==3.25.0
+  - datasets==2.17.1
+  - dill==0.3.8
+  - docker-pycreds==0.4.0
+  - einops==0.7.0
+  - fancy-einsum==0.0.3
+  - filelock==3.9.0
+  - frozenlist==1.4.1 # aiohttp 의존성일 수 있음
+  - fsspec==2023.10.0
+  - gitdb==4.0.11
+  - gitpython==3.1.42
+  - huggingface-hub==0.21.1
+  - hydra-core==1.3.2
+  - hydra-submitit-launcher==1.2.0
+  - idna==3.4
+  - jaxtyping==0.2.25
+  - jinja2==3.1.2
+  - lit==15.0.7
+  - markdown-it-py==3.0.0
+  - markupsafe==2.1.3
+  - mdurl==0.1.2
+  - mpmath==1.3.0
+  - multidict==6.0.5 # aiohttp 의존성일 수 있음
+  - multiprocess==0.70.16
+  - networkx==3.2.1
+  - ninja==1.11.1.1
+  - numpy==1.24.1 # PyTorch와 호환되는 버전 중요
+  - omegaconf==2.3.0
+  # - packaging # conda dependencies로 옮김
+  - pandas==2.2.1
+  - pillow==10.2.0
+  - protobuf==4.25.3
+  - psutil==5.9.8
+  - pyarrow==15.0.0
+  - pyarrow-hotfix==0.6
+  - pygments==2.17.2
+  - python-dateutil==2.8.2
+  - pytz==2024.1
+  - pyyaml==6.0.1
+  - regex==2023.12.25
+  - requests==2.28.1
+  - rich==13.7.0
+  - safetensors==0.4.2
+  - sentry-sdk==1.40.6
+  - setproctitle==1.3.3
+  # - six==1.16.0 # packaging이 six를 필요로 할 수 있으나, conda packaging이 처리 기대
+  - smmap==5.0.1
+  - submitit==1.5.1
+  - sympy==1.12
+  - tokenizers==0.15.2
+  - tqdm==4.66.2
+  - transformer-lens==1.14.0 # 이 패키지가 torch 특정 버전을 강제할 수 있음
+  - transformers==4.38.1 # 이 패키지가 torch 특정 버전을 강제할 수 있음
+  - triton==2.0.0 # PyTorch 버전에 맞는 triton 필요
+  - typeguard==2.13.3
+  - typing-extensions==4.8.0 # 버전 명시 제거 또는 확인 후 유지
+  - tzdata==2024.1
+  - urllib3==1.26.13
+  - wandb==0.16.3
+  - xxhash==3.4.1
+  - yarl==1.9.4 # aiohttp 의존성일 수 있음
