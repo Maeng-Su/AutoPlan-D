@@ -77,30 +77,50 @@ class GeneticAlgorithm:
 
         
     def _generate_initial_solution(self): 
-        """목적함수를 최적화 하기 위한 xijt 조합을 임의로 생성.
-        xijt는 날짜 t에, item i를 NC machine j가 생산 요구량 중 생산해야 하는 백분율(범위:0~1).
-        즉, 날짜 t에 item i를 NC machine j가 생산해야 하는 생산량은 xijt*dit.
-        ---
+        """
         하나의 초기 해(염색체 xijt 딕셔너리)를 생성합니다.
-        self.xijt_keys에 정의된 각 (품목, 기계, 시간) 조합에 대해,
-        해당 (품목, 시간)의 요구량(self.dit)이 0보다 크면 0과 1 사이의 랜덤 값을,
-        그렇지 않으면 0을 할당합니다.
-        생성된 해는 self._decode를 통해 한번 정제됩니다.
+        각 (품목, 시간) 조합에 대해, 관련된 모든 기계들의 생산 비율의 합이
+        1.0을 넘지 않도록 정규화된 랜덤 비율을 할당합니다.
         """
         xijt = {}
-        # __init__에서 생성된 self.xijt_keys를 직접 순회
-        for key_tuple in self.xijt_keys: # key_tuple은 (i, j, t) 형태
-            item_key, machine_key, time_key = key_tuple # 명확성을 위해 변수 분리 (선택 사항)
-            
-            # 해당 (item, time)의 요구량(dit) 확인
-            # self.dit는 (item, time)을 키로 가짐
-            if self.dit.get((item_key, time_key), 0) > 0:
-                xijt[key_tuple] = random.uniform(0, 1)
-            else:
-                xijt[key_tuple] = 0
         
-        # 생성된 초기 해를 decode 메소드를 통해 한번 정제
-        # (예: mijt가 0인 부분의 xijt 값을 0으로 만듦)
+        # 1. 모든 키를 (품목, 시간) 쌍으로 먼저 그룹핑합니다.
+        keys_by_item_time = {}
+        for key_tuple in self.xijt_keys:
+            # key_tuple = (item, machine, time)
+            item_key, machine_key, time_key = key_tuple
+            it_pair = (item_key, time_key)
+            if it_pair not in keys_by_item_time:
+                keys_by_item_time[it_pair] = []
+            keys_by_item_time[it_pair].append(key_tuple)
+
+        # 2. 각 (품목, 시간) 그룹에 대해 정규화된 비율을 할당합니다.
+        for it_pair, key_list_for_machines in keys_by_item_time.items():
+            
+            # 해당 (품목, 시간)에 대한 요구량이 없으면 모든 기계의 생산 비율을 0으로 설정
+            if self.dit.get(it_pair, 0) <= 0:
+                for key_tuple in key_list_for_machines:
+                    xijt[key_tuple] = 0.0
+                continue
+            
+            # 요구량이 있다면, 각 기계에 대해 랜덤 숫자를 생성
+            random_values = [random.random() for _ in key_list_for_machines]
+            total_sum = sum(random_values)
+            
+            if total_sum > 0:
+                # 모든 랜덤 숫자의 합으로 각 숫자를 나눠서, 전체 합이 1.0이 되도록 정규화
+                # 이렇게 하면 모든 기계의 생산 비율 합이 정확히 100%가 됨
+                # (약간의 미생산을 허용하고 싶다면, target_sum 같은 변수를 추가로 곱해줄 수도 있음)
+                normalized_ratios = [val / total_sum for val in random_values]
+                
+                for i, key_tuple in enumerate(key_list_for_machines):
+                    xijt[key_tuple] = normalized_ratios[i]
+            else:
+                # 모든 랜덤 숫자가 0인 드문 경우, 모든 비율을 0으로 설정
+                for key_tuple in key_list_for_machines:
+                    xijt[key_tuple] = 0.0
+        
+        # 3. 마지막으로 decode 메소드를 통해 한번 정제합니다.
         return self._decode(xijt)
 
     def _decode(self, individual_xijt): 
@@ -263,85 +283,82 @@ class GeneticAlgorithm:
 
     def _perform_crossover(self, parent1_dict, parent2_dict):
         """
-        두 부모 해(딕셔너리)에 대해 교차 연산을 수행하여 두 자식 해(딕셔너리)를 생성합니다.
-        교차는 self.r_cross 확률로 발생합니다.
-        교차가 발생하면, 생산 능력(self.mijt)이 0보다 큰 '유효한' 모든 유전자 위치에서
-        두 부모의 유전자 값을 교환합니다. (오리지널 코드의 최종 효과 반영)
+        두 부모 해에 대해 산술 교차(Arithmetic Crossover)와 유사한 방식을 적용합니다.
+        각 (품목, 시간) 그룹별로 비율을 교차하여, 자식의 비율 합도 1.0을 유지하도록 합니다.
         """
-        p1_list = ga_util.dict_to_list(parent1_dict, self.xijt_keys)
-        p2_list = ga_util.dict_to_list(parent2_dict, self.xijt_keys)
-
-        child1_list = p1_list.copy()
-        child2_list = p2_list.copy()
-
-        if random.random() < self.r_cross: # 교차율에 따라 교차 수행 결정
-            # self.xijt_keys를 순회하면서 각 유전자 위치의 유효성(mijt > 0) 검사
-            for idx, key_tuple in enumerate(self.xijt_keys):
-                # key_tuple은 (item, machine, time) 형태
-                # 해당 유전자 위치의 생산 능력(mijt) 확인
-                if self.mijt.get(key_tuple, 0) > 0: # 생산 능력이 있는 유효한 위치라면
-                    # 해당 위치의 유전자를 부모간에 교환
-                    child1_list[idx] = p2_list[idx]
-                    child2_list[idx] = p1_list[idx]
+        child1_dict = {}
+        child2_dict = {}
         
-        child1_dict = ga_util.list_to_dict(child1_list, self.xijt_keys)
-        child2_dict = ga_util.list_to_dict(child2_list, self.xijt_keys)
-        
+        # self.xijt_keys를 (item, time)으로 그룹핑 (효율을 위해 __init__에서 미리 해둘 수도 있음)
+        keys_by_item_time = {}
+        for key_tuple in self.xijt_keys:
+            it_pair = (key_tuple[0], key_tuple[2]) # (item, time)
+            if it_pair not in keys_by_item_time:
+                keys_by_item_time[it_pair] = []
+            keys_by_item_time[it_pair].append(key_tuple)
+
+        if random.random() < self.r_cross: # 전체 교차 발생 확률
+            for it_pair, key_list_for_machines in keys_by_item_time.items():
+                # 교배 가중치 (alpha) 랜덤 선택
+                alpha = random.random()
+
+                for key_tuple in key_list_for_machines:
+                    p1_val = parent1_dict.get(key_tuple, 0)
+                    p2_val = parent2_dict.get(key_tuple, 0)
+                    
+                    # 산술 교차 적용
+                    child1_dict[key_tuple] = alpha * p1_val + (1.0 - alpha) * p2_val
+                    child2_dict[key_tuple] = alpha * p2_val + (1.0 - alpha) * p1_val
+        else:
+            # 교차가 일어나지 않으면 부모를 그대로 자식으로
+            child1_dict = parent1_dict.copy()
+            child2_dict = parent2_dict.copy()
+
         return child1_dict, child2_dict
         
     def _apply_mutation(self, chromosome_dict):
         """
-        주어진 염색체(딕셔너리)에 오리지널 노트북의 변이 로직을 적용합니다.
-        각 유전자 위치에서 self.r_mut 확률로 변이 로직이 트리거됩니다.
-        트리거 시, 유효한 유전자 위치들 중 일부(n개)를 선택하여 값을 변경합니다.
-        실제 변이가 발생했을 경우에만 새로운 딕셔너리를 반환하고, 아니면 원본을 반환합니다.
+        염색체에 변이를 적용합니다. self.r_mut 확률로 변이가 발생하며,
+        (품목, 시간) 그룹 전체의 생산 비율을 재분배하여 비율의 합이 1.0인 제약조건을 유지합니다.
         """
-        # self.xijt_keys는 __init__에서 확실히 초기화되었다고 가정
-        chromo_list = ga_util.dict_to_list(chromosome_dict, self.xijt_keys)
-        mutated_list = chromo_list.copy() # 변경될 수 있으므로 복사본에서 작업
+        mutated_chromosome = chromosome_dict.copy() # 원본 수정을 피하기 위해 복사본에서 작업
 
-        mutation_occurred_overall = False # 실제 변이가 일어났는지 추적하는 플래그
-
-        # 1. 염색체의 각 유전자 위치(인덱스 i)를 순회
-        for i in range(len(mutated_list)):
-            # 2. 각 유전자 위치에서 self.r_mut 확률로 "변이 블록" 실행 결정
-            if random.random() < self.r_mut:
-                # --- 변이 블록 시작 (오리지널 로직 반영) ---
-                
-                # 3. 유효 인덱스 추출 (mijt 값이 0보다 큰 곳의 인덱스)
-                #    이 부분은 self.xijt_keys와 self.mijt를 사용해야 함.
-                #    매번 계산하는 것은 비효율적이므로, __init__에서 self.valid_gene_indices 등으로
-                #    미리 계산해두고 사용하는 것이 훨씬 좋지만, 여기서는 오리지널 로직을 최대한 따름.
-                # TODO: (성능 최적화) self.valid_gene_indices를 __init__에서 미리 계산하고 사용 고려.
-                mijt_list_for_check = ga_util.dict_to_list(self.mijt, self.xijt_keys, default_value=0)
-                valid_indices_in_chromosome = [
-                    idx for idx, mijt_val in enumerate(mijt_list_for_check) if mijt_val > 0
-                ]
-
-                if not valid_indices_in_chromosome: # 유효한 변이 위치가 없으면 이 시도에서는 아무것도 안 함
-                    continue
-
-                # 4. 변이할 유전자 개수 'n' 결정 (오리지널 로직)
-                n_to_mutate_float = self.r_mut * len(valid_indices_in_chromosome)
-                n_to_mutate = round(n_to_mutate_float)
-                
-                n_to_mutate = max(0, n_to_mutate) # n이 음수가 되지 않도록
-                n_to_mutate = min(n_to_mutate, len(valid_indices_in_chromosome)) # n이 유효 인덱스 개수를 넘지 않도록
-                
-                if n_to_mutate > 0:
-                    # 5. 유효 인덱스 중에서 n_to_mutate 개를 무작위로 골라 값을 변경
-                    indices_to_change_values_at = random.sample(valid_indices_in_chromosome, n_to_mutate)
-                    
-                    for idx_to_change in indices_to_change_values_at:
-                        mutated_list[idx_to_change] = random.uniform(0, 1)
-                        mutation_occurred_overall = True # 실제 변이가 일어났음을 표시
-                # --- 변이 블록 끝 ---
+        # self.xijt_keys를 (item, time)으로 그룹핑
+        keys_by_item_time = {}
+        for key_tuple in self.xijt_keys:
+            it_pair = (key_tuple[0], key_tuple[2])
+            if it_pair not in keys_by_item_time:
+                keys_by_item_time[it_pair] = []
+            keys_by_item_time[it_pair].append(key_tuple)
         
-        if mutation_occurred_overall:
-            return ga_util.list_to_dict(mutated_list, self.xijt_keys)
-        else:
-            # 변이가 전혀 일어나지 않았으면 원본 딕셔너리 그대로 반환 (불필요한 변환 방지)
-            return chromosome_dict
+        # 각 (item, time) 그룹에 대해 r_mut 확률로 변이 시도
+        for it_pair, key_list_for_machines in keys_by_item_time.items():
+            if random.random() < self.r_mut:
+                # 변이가 결정되면, 해당 (item, time)의 생산 비율을 완전히 새로 생성 (정규화 포함)
+                if self.dit.get(it_pair, 0) > 0:
+                    # _generate_initial_solution의 일부 로직 재사용
+                    random_values = [random.random() for _ in key_list_for_machines]
+                    total_sum = sum(random_values)
+                    
+                    if total_sum > 0:
+                        normalized_ratios = [val / total_sum for val in random_values]
+                        for i, key_tuple in enumerate(key_list_for_machines):
+                            # 유효한 위치(mijt>0)에서만 변이가 일어나도록 할 수도 있음
+                            if self.mijt.get(key_tuple, 0) > 0:
+                                mutated_chromosome[key_tuple] = normalized_ratios[i]
+                            else: # 생산 불가 위치는 0으로 유지
+                                mutated_chromosome[key_tuple] = 0
+                    else: # 모든 랜덤값이 0이면 비율도 0
+                        for key_tuple in key_list_for_machines:
+                            mutated_chromosome[key_tuple] = 0
+
+                    # 정규화 후에는 해당 그룹 내 기계들의 비율 합이 1.0이 되므로, 다시 한번 정규화 필요
+                    current_group_sum = sum(mutated_chromosome.get(key, 0) for key in key_list_for_machines)
+                    if current_group_sum > 0:
+                        for key_tuple in key_list_for_machines:
+                            mutated_chromosome[key_tuple] /= current_group_sum
+        
+        return mutated_chromosome
         
     def solve(self):
         """
@@ -351,8 +368,8 @@ class GeneticAlgorithm:
         # 1. 초기 모집단 생성
         #    _generate_initial_solution은 이미 내부에서 _decode를 호출함.
         self.population = [self._generate_initial_solution() for _ in range(self.n_pop)]
-        print(f"  [solve] 세대 0: 초기 모집단 생성됨 (크기: {len(self.population)})")
-        print(f"  [solve] 세대 0: 단일 염색체 크기: {len(self._generate_initial_solution())})")
+        # print(f"  [solve] 세대 0: 초기 모집단 생성됨 (크기: {len(self.population)})")
+        # print(f"  [solve] 세대 0: 단일 염색체 크기: {len(self._generate_initial_solution())})")
         # 2. 초기 최고해 및 최고 점수 설정
         #    초기 모집단이 비어있을 경우에 대한 방어 코드 추가 가능
         if not self.population:
@@ -413,7 +430,7 @@ class GeneticAlgorithm:
 
             # 4c. 조기 종료 조건 확인
             if no_improvement_streak >= 200: # 이 값은 하이퍼파라미터로 뺄 수도 있음
-                print(f"세대 {gen+1}에서 조기 종료: {no_improvement_streak} 세대 동안 개선 없음.")
+                # print(f"세대 {gen+1}에서 조기 종료: {no_improvement_streak} 세대 동안 개선 없음.")
                 break
                 
             # 4d. 선택 연산 (헬퍼 메소드 호출)
