@@ -177,27 +177,30 @@ class GeneticAlgorithm:
         """
         주어진 해(생산 계획)의 적합도(목적 함수 값)를 계산합니다.
         목표: (긴급 품목의 미생산 페널티) + (과잉생산 페널티)의 합을 최소화.
-        생산량은 round()를 사용하여 계산합니다.
+        총생산량은 모든 기계의 생산량을 합한 후 round()를 사용하여 계산합니다.
         """
-        # 1. 먼저 제약조건을 검사하고 보정된 해를 받음
-        #    individual_xijt_decoded는 이미 _decode를 거친 상태일 수 있지만,
-        #    _check_constraints는 기계 가동 시간 등의 다른 제약을 처리하므로 여기서 호출.
+        # 1. 제약조건 검사
         constrained_xijt = self._check_constraints(decoded_xijt)
         
-        uit = {} # 오리지널 로직의 uit 딕셔너리
+        uit = {} 
 
         # 2. 각 (품목, 시간) 조합에 대해 'u' (요구량 - 생산량) 계산
         for i_key in self.I_set:
             for t_key in self.T_set:
                 demand_qty = self.dit.get((i_key, t_key), 0)
-                
-                produced_qty_sum_rounded = 0
+
+                # 모든 기계의 생산량을 실수 형태로 먼저 모두 더함
+                produced_qty_sum_float = 0.0
                 for j_key in self.J_set:
                     production_ratio = constrained_xijt.get((i_key, j_key, t_key), 0)
                     produced_qty_for_machine = production_ratio * demand_qty 
-                    produced_qty_sum_rounded += round(produced_qty_for_machine)
+                    produced_qty_sum_float += produced_qty_for_machine
+
+                # 총합을 마지막에 한 번만 반올림
+                produced_qty_sum_rounded = round(produced_qty_sum_float)
                 
-                u = demand_qty - produced_qty_sum_rounded # 순수 미생산량 (음수면 과잉생산)
+                # 순수 미생산량 (음수면 과잉생산)
+                u = demand_qty - produced_qty_sum_rounded 
                 
                 # 3. uit 딕셔너리 채우기 (오리지널 로직)
                 if u >= 0: # 미생산 또는 정확히 생산
