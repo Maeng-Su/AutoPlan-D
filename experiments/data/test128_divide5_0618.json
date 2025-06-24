@@ -1,0 +1,494 @@
+[
+  {
+    "input": "납입 기간 날짜는 date401이고, 품목은 item15, 수량은 318, 개당 가격은 25870, 긴급 수량은 1입니다. 품목은 item16, 수량은 383, 개당 가격은 16229, 긴급 수량은 1입니다. 품목은 item96, 수량은 19, 개당 가격은 8333, 긴급 수량은 0입니다. 품목은 item91, 수량은 4, 개당 가격은 36533, 긴급 수량은 0입니다. 품목은 item87, 수량은 196, 개당 가격은 45500, 긴급 수량은 1입니다.",
+    "output": "item15에 할당된 기계는 machine04 35개, machine07 47개, machine10 45개, machine14 17개, machine30 9개, machine33 131개입니다. item16에 할당된 기계는 machine10 113개, machine14 196개, machine21 18개, machine28 39개입니다. item96에 할당된 기계는 machine08 9개, machine09 4개, machine10 1개, machine12 8개, machine14 11개, machine21 8개, machine22 18개, machine23 5개, machine28 5개, machine29 5개, machine30 11개, machine34 7개, machine35 4개입니다. item91에 할당된 기계는 machine08 2개, machine10 1개, machine14 1개, machine28 3개, machine29 2개, machine34 4개, machine35 1개입니다. item87에 할당된 기계는 machine03 83개, machine21 16개, machine32 54개, machine33 29개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date402이고, 품목은 item16, 수량은 383, 개당 가격은 16229, 긴급 수량은 1입니다. 품목은 item96, 수량은 19, 개당 가격은 8333, 긴급 수량은 0입니다. 품목은 item91, 수량은 4, 개당 가격은 36533, 긴급 수량은 0입니다. 품목은 item20, 수량은 85, 개당 가격은 57641, 긴급 수량은 1입니다. 품목은 item87, 수량은 196, 개당 가격은 45500, 긴급 수량은 1입니다.",
+    "output": "item16에 할당된 기계는 machine07 1개, machine21 108개, machine28 53개, machine29 102개, machine30 8개, machine31 30개입니다. item96에 할당된 기계는 machine08 18개, machine09 5개, machine10 10개, machine12 11개, machine14 17개, machine21 10개, machine22 2개, machine23 4개, machine28 1개, machine29 15개, machine30 18개, machine34 1개, machine35 12개입니다. item91에 할당된 기계는 machine08 2개, machine09 1개, machine10 4개, machine14 4개, machine21 1개, machine28 4개, machine29 4개, machine34 4개, machine35 1개입니다. item20에 할당된 기계는 machine03 2개, machine06 5개, machine14 21개, machine16 14개, machine32 8개, machine33 32개입니다. item87에 할당된 기계는 machine03 69개, machine21 1개, machine32 98개, machine33 27개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date403이고, 품목은 item05, 수량은 500, 개당 가격은 2990, 긴급 수량은 0입니다. 품목은 item96, 수량은 19, 개당 가격은 8333, 긴급 수량은 0입니다. 품목은 item91, 수량은 4, 개당 가격은 36533, 긴급 수량은 0입니다. 품목은 item20, 수량은 85, 개당 가격은 57641, 긴급 수량은 1입니다. 품목은 item87, 수량은 196, 개당 가격은 45500, 긴급 수량은 1입니다.",
+    "output": "item05에 할당된 기계는 machine10 102개입니다. item96에 할당된 기계는 machine08 5개, machine09 17개, machine10 10개, machine12 3개, machine14 14개, machine21 5개, machine22 11개, machine23 14개, machine28 17개, machine29 1개, machine30 3개, machine34 3개, machine35 1개입니다. item91에 할당된 기계는 machine10 2개, machine14 2개, machine21 1개, machine28 4개, machine29 1개, machine34 2개, machine35 2개입니다. item20에 할당된 기계는 machine02 7개, machine06 25개, machine14 42개, machine16 3개, machine20 2개, machine32 6개입니다. item87에 할당된 기계는 machine20 26개, machine21 74개, machine32 55개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date404이고, 품목은 item05, 수량은 500, 개당 가격은 2990, 긴급 수량은 0입니다. 품목은 item95, 수량은 2, 개당 가격은 20000, 긴급 수량은 0입니다. 품목은 item91, 수량은 4, 개당 가격은 36533, 긴급 수량은 0입니다. 품목은 item20, 수량은 85, 개당 가격은 57641, 긴급 수량은 1입니다. 품목은 item87, 수량은 196, 개당 가격은 45500, 긴급 수량은 1입니다.",
+    "output": "item95에 할당된 기계는 machine19 2개입니다. item91에 할당된 기계는 machine08 3개, machine09 3개, machine10 2개, machine14 3개, machine21 3개, machine28 4개, machine34 3개, machine35 1개입니다. item20에 할당된 기계는 machine01 3개, machine02 1개, machine03 30개, machine06 5개, machine16 42개입니다. item87에 할당된 기계는 machine01 68개, machine03 34개, machine21 72개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date405이고, 품목은 item05, 수량은 500, 개당 가격은 2990, 긴급 수량은 0입니다. 품목은 item95, 수량은 2, 개당 가격은 20000, 긴급 수량은 0입니다. 품목은 item05, 수량은 500, 개당 가격은 2990, 긴급 수량은 0입니다. 품목은 item20, 수량은 85, 개당 가격은 57641, 긴급 수량은 1입니다. 품목은 item87, 수량은 196, 개당 가격은 45500, 긴급 수량은 1입니다.",
+    "output": "item05에 할당된 기계는 machine10 36개, machine10 3개입니다. item20에 할당된 기계는 machine03 12개, machine06 10개, machine16 59개, machine20 1개입니다. item87에 할당된 기계는 machine03 15개, machine20 4개, machine21 66개, machine32 92개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date406이고, 품목은 item05, 수량은 500, 개당 가격은 2990, 긴급 수량은 0입니다. 품목은 item95, 수량은 2, 개당 가격은 20000, 긴급 수량은 0입니다. 품목은 item05, 수량은 500, 개당 가격은 2990, 긴급 수량은 0입니다. 품목은 item05, 수량은 500, 개당 가격은 2990, 긴급 수량은 0입니다. 품목은 item20, 수량은 85, 개당 가격은 57641, 긴급 수량은 1입니다.",
+    "output": "item05에 할당된 기계는 machine10 42개, machine10 92개입니다. item95에 할당된 기계는 machine19 1개입니다. item20에 할당된 기계는 machine01 1개, machine02 24개, machine03 28개, machine05 7개, machine06 8개, machine14 3개, machine16 9개, machine17 27개, machine18 13개, machine19 1개, machine20 15개, machine32 29개, machine33 9개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date407이고, 품목은 item05, 수량은 500, 개당 가격은 2990, 긴급 수량은 0입니다. 품목은 item95, 수량은 2, 개당 가격은 20000, 긴급 수량은 0입니다. 품목은 item05, 수량은 500, 개당 가격은 2990, 긴급 수량은 0입니다. 품목은 item05, 수량은 500, 개당 가격은 2990, 긴급 수량은 0입니다. 품목은 item05, 수량은 398, 개당 가격은 2990, 긴급 수량은 0입니다.",
+    "output": "item95에 할당된 기계는 machine10 1개입니다. item05에 할당된 기계는 machine10 19개, machine10 14개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date408이고, 품목은 item95, 수량은 2, 개당 가격은 20000, 긴급 수량은 0입니다. 품목은 item05, 수량은 500, 개당 가격은 2990, 긴급 수량은 0입니다. 품목은 item05, 수량은 500, 개당 가격은 2990, 긴급 수량은 0입니다. 품목은 item05, 수량은 398, 개당 가격은 2990, 긴급 수량은 0입니다. 품목은 item51, 수량은 208, 개당 가격은 18500, 긴급 수량은 1입니다.",
+    "output": "item05에 할당된 기계는 machine10 25개, machine10 109개입니다. item51에 할당된 기계는 machine09 71개, machine29 137개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date409이고, 품목은 item05, 수량은 500, 개당 가격은 2990, 긴급 수량은 0입니다. 품목은 item05, 수량은 500, 개당 가격은 2990, 긴급 수량은 0입니다. 품목은 item05, 수량은 398, 개당 가격은 2990, 긴급 수량은 0입니다. 품목은 item51, 수량은 208, 개당 가격은 18500, 긴급 수량은 1입니다. 품목은 item12, 수량은 15, 개당 가격은 15640, 긴급 수량은 0입니다.",
+    "output": "item51에 할당된 기계는 machine08 85개, machine09 7개, machine29 116개입니다. item12에 할당된 기계는 machine09 7개, machine14 9개, machine21 4개, machine22 2개, machine23 13개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date410이고, 품목은 item05, 수량은 500, 개당 가격은 2990, 긴급 수량은 0입니다. 품목은 item05, 수량은 398, 개당 가격은 2990, 긴급 수량은 0입니다. 품목은 item51, 수량은 208, 개당 가격은 18500, 긴급 수량은 1입니다. 품목은 item12, 수량은 15, 개당 가격은 15640, 긴급 수량은 0입니다. 품목은 item95, 수량은 2, 개당 가격은 20000, 긴급 수량은 0입니다.",
+    "output": "item51에 할당된 기계는 machine08 129개, machine09 79개입니다. item12에 할당된 기계는 machine08 3개, machine09 5개, machine14 8개, machine21 3개, machine22 4개, machine23 11개입니다. item95에 할당된 기계는 machine10 1개, machine19 1개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date411이고, 품목은 item05, 수량은 398, 개당 가격은 2990, 긴급 수량은 0입니다. 품목은 item51, 수량은 208, 개당 가격은 18500, 긴급 수량은 1입니다. 품목은 item12, 수량은 15, 개당 가격은 15640, 긴급 수량은 0입니다. 품목은 item95, 수량은 2, 개당 가격은 20000, 긴급 수량은 0입니다. 품목은 item06, 수량은 150, 개당 가격은 4000, 긴급 수량은 0입니다.",
+    "output": "item51에 할당된 기계는 machine08 77개, machine29 131개입니다. item12에 할당된 기계는 machine08 6개, machine09 12개, machine14 12개, machine21 14개, machine22 13개, machine23 4개입니다. item95에 할당된 기계는 machine19 1개입니다. item06에 할당된 기계는 machine22 30개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date412이고, 품목은 item51, 수량은 208, 개당 가격은 18500, 긴급 수량은 1입니다. 품목은 item12, 수량은 15, 개당 가격은 15640, 긴급 수량은 0입니다. 품목은 item95, 수량은 2, 개당 가격은 20000, 긴급 수량은 0입니다. 품목은 item06, 수량은 150, 개당 가격은 4000, 긴급 수량은 0입니다. 품목은 item89, 수량은 144, 개당 가격은 22750, 긴급 수량은 1입니다.",
+    "output": "item51에 할당된 기계는 machine08 35개입니다. item12에 할당된 기계는 machine08 7개, machine09 7개, machine14 8개, machine21 8개, machine22 5개, machine23 3개입니다. item95에 할당된 기계는 machine19 2개입니다. item06에 할당된 기계는 machine22 34개입니다. item89에 할당된 기계는 machine05 33개, machine07 5개, machine10 34개, machine14 42개, machine21 44개, machine23 30개, machine34 34개, machine35 19개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date413이고, 품목은 item12, 수량은 15, 개당 가격은 15640, 긴급 수량은 0입니다. 품목은 item95, 수량은 2, 개당 가격은 20000, 긴급 수량은 0입니다. 품목은 item06, 수량은 150, 개당 가격은 4000, 긴급 수량은 0입니다. 품목은 item57, 수량은 2, 개당 가격은 366680, 긴급 수량은 0입니다. 품목은 item89, 수량은 144, 개당 가격은 22750, 긴급 수량은 1입니다.",
+    "output": "item12에 할당된 기계는 machine08 1개, machine09 8개, machine14 3개, machine21 4개, machine22 8개, machine23 9개입니다. item95에 할당된 기계는 machine10 1개입니다. item06에 할당된 기계는 machine22 100개입니다. item57에 할당된 기계는 machine23 1개, machine28 1개입니다. item89에 할당된 기계는 machine04 20개, machine22 38개, machine23 11개, machine28 33개, machine30 5개, machine33 24개, machine34 10개, machine35 2개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date414이고, 품목은 item95, 수량은 2, 개당 가격은 20000, 긴급 수량은 0입니다. 품목은 item06, 수량은 150, 개당 가격은 4000, 긴급 수량은 0입니다. 품목은 item57, 수량은 2, 개당 가격은 366680, 긴급 수량은 0입니다. 품목은 item89, 수량은 144, 개당 가격은 22750, 긴급 수량은 1입니다. 품목은 item72, 수량은 20, 개당 가격은 18563, 긴급 수량은 0입니다.",
+    "output": "item95에 할당된 기계는 machine10 1개, machine19 1개입니다. item06에 할당된 기계는 machine22 34개입니다. item57에 할당된 기계는 machine04 1개, machine23 2개, machine28 2개입니다. item89에 할당된 기계는 machine04 4개, machine07 2개, machine10 56개, machine21 41개, machine22 18개, machine23 42개, machine34 54개, machine35 4개입니다. item72에 할당된 기계는 machine04 10개, machine08 12개, machine10 1개, machine21 14개, machine23 13개, machine28 17개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date415이고, 품목은 item06, 수량은 150, 개당 가격은 4000, 긴급 수량은 0입니다. 품목은 item57, 수량은 2, 개당 가격은 366680, 긴급 수량은 0입니다. 품목은 item89, 수량은 144, 개당 가격은 22750, 긴급 수량은 1입니다. 품목은 item72, 수량은 20, 개당 가격은 18563, 긴급 수량은 0입니다. 품목은 item91, 수량은 4, 개당 가격은 14835, 긴급 수량은 0입니다.",
+    "output": "item06에 할당된 기계는 machine22 45개입니다. item57에 할당된 기계는 machine04 2개, machine09 1개, machine21 1개, machine23 2개, machine28 2개입니다. item89에 할당된 기계는 machine04 3개, machine09 51개, machine10 1개, machine21 35개, machine22 4개, machine23 5개, machine28 29개, machine34 2개, machine35 3개입니다. item72에 할당된 기계는 machine04 11개, machine08 10개, machine09 13개, machine10 14개, machine21 1개, machine23 14개, machine28 10개입니다. item91에 할당된 기계는 machine08 2개, machine09 4개, machine10 1개, machine21 2개, machine28 4개, machine29 4개, machine34 3개, machine35 2개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date416이고, 품목은 item57, 수량은 2, 개당 가격은 366680, 긴급 수량은 0입니다. 품목은 item89, 수량은 144, 개당 가격은 22750, 긴급 수량은 1입니다. 품목은 item72, 수량은 20, 개당 가격은 18563, 긴급 수량은 0입니다. 품목은 item91, 수량은 4, 개당 가격은 14835, 긴급 수량은 0입니다. 품목은 item87, 수량은 216, 개당 가격은 42810, 긴급 수량은 1입니다.",
+    "output": "item57에 할당된 기계는 machine23 1개, machine28 1개입니다. item89에 할당된 기계는 machine08 29개, machine10 5개, machine22 20개, machine23 9개, machine28 50개, machine34 64개입니다. item72에 할당된 기계는 machine04 1개, machine08 11개, machine09 6개, machine10 19개, machine21 7개, machine23 14개, machine28 11개입니다. item91에 할당된 기계는 machine10 1개, machine14 1개, machine21 1개, machine34 3개, machine35 2개입니다. item87에 할당된 기계는 machine03 60개, machine18 42개, machine32 5개, machine33 8개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date417이고, 품목은 item57, 수량은 2, 개당 가격은 366680, 긴급 수량은 0입니다. 품목은 item72, 수량은 20, 개당 가격은 18563, 긴급 수량은 0입니다. 품목은 item91, 수량은 4, 개당 가격은 14835, 긴급 수량은 0입니다. 품목은 item87, 수량은 216, 개당 가격은 42810, 긴급 수량은 1입니다. 품목은 item35, 수량은 28, 개당 가격은 242250, 긴급 수량은 1입니다.",
+    "output": "item57에 할당된 기계는 machine04 2개, machine05 2개, machine09 1개, machine14 1개, machine20 1개, machine21 1개, machine23 2개, machine28 2개입니다. item72에 할당된 기계는 machine04 13개, machine08 7개, machine09 17개, machine10 2개, machine21 8개, machine23 13개, machine28 9개입니다. item91에 할당된 기계는 machine08 3개, machine14 3개, machine21 2개, machine28 1개, machine29 1개, machine34 1개, machine35 3개입니다. item87에 할당된 기계는 machine01 72개, machine18 34개, machine21 38개, machine32 35개, machine33 35개입니다. item35에 할당된 기계는 machine05 10개, machine19 9개, machine20 8개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date418이고, 품목은 item72, 수량은 20, 개당 가격은 18563, 긴급 수량은 0입니다. 품목은 item91, 수량은 4, 개당 가격은 14835, 긴급 수량은 0입니다. 품목은 item87, 수량은 216, 개당 가격은 42810, 긴급 수량은 1입니다. 품목은 item35, 수량은 28, 개당 가격은 242250, 긴급 수량은 1입니다. 품목은 item86, 수량은 64, 개당 가격은 23740, 긴급 수량은 0입니다.",
+    "output": "item72에 할당된 기계는 machine04 3개, machine09 2개, machine10 3개, machine21 3개, machine23 10개, machine28 14개입니다. item91에 할당된 기계는 machine08 1개, machine09 3개, machine10 2개, machine14 1개, machine21 1개, machine28 4개, machine29 1개, machine34 1개, machine35 3개입니다. item87에 할당된 기계는 machine01 69개, machine03 60개, machine32 69개, machine33 14개입니다. item35에 할당된 기계는 machine05 2개, machine19 14개, machine20 12개입니다. item86에 할당된 기계는 machine08 5개, machine09 4개, machine10 41개, machine21 7개, machine28 16개, machine32 40개, machine33 50개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date419이고, 품목은 item91, 수량은 4, 개당 가격은 14835, 긴급 수량은 0입니다. 품목은 item87, 수량은 216, 개당 가격은 42810, 긴급 수량은 1입니다. 품목은 item35, 수량은 28, 개당 가격은 242250, 긴급 수량은 1입니다. 품목은 item78, 수량은 48, 개당 가격은 11500, 긴급 수량은 0입니다. 품목은 item86, 수량은 64, 개당 가격은 23740, 긴급 수량은 0입니다.",
+    "output": "item91에 할당된 기계는 machine08 1개, machine09 1개, machine10 3개, machine14 1개, machine28 1개, machine34 4개, machine35 2개입니다. item87에 할당된 기계는 machine01 101개, machine05 33개, machine32 70개입니다. item35에 할당된 기계는 machine05 10개, machine19 8개, machine20 10개입니다. item78에 할당된 기계는 machine08 21개, machine09 45개, machine10 23개, machine14 7개, machine21 24개, machine32 2개, machine33 3개입니다. item86에 할당된 기계는 machine08 52개, machine09 50개, machine10 38개, machine21 59개, machine28 19개, machine32 51개, machine33 38개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date420이고, 품목은 item87, 수량은 216, 개당 가격은 42810, 긴급 수량은 1입니다. 품목은 item35, 수량은 28, 개당 가격은 242250, 긴급 수량은 1입니다. 품목은 item78, 수량은 48, 개당 가격은 11500, 긴급 수량은 0입니다. 품목은 item86, 수량은 64, 개당 가격은 23740, 긴급 수량은 0입니다. 품목은 item83, 수량은 5, 개당 가격은 7752, 긴급 수량은 0입니다.",
+    "output": "item87에 할당된 기계는 machine18 14개, machine21 17개, machine32 89개, machine33 85개입니다. item35에 할당된 기계는 machine05 8개, machine19 10개, machine20 10개입니다. item78에 할당된 기계는 machine08 25개, machine09 7개, machine10 6개, machine14 23개, machine21 28개, machine32 27개, machine33 8개입니다. item86에 할당된 기계는 machine08 6개, machine09 21개, machine10 43개, machine21 40개, machine28 7개, machine32 36개, machine33 60개입니다. item83에 할당된 기계는 machine08 3개, machine09 2개, machine10 2개, machine14 5개, machine21 5개, machine22 3개, machine23 5개, machine31 4개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date421이고, 품목은 item35, 수량은 28, 개당 가격은 242250, 긴급 수량은 1입니다. 품목은 item78, 수량은 48, 개당 가격은 11500, 긴급 수량은 0입니다. 품목은 item86, 수량은 64, 개당 가격은 23740, 긴급 수량은 0입니다. 품목은 item15, 수량은 318, 개당 가격은 25870, 긴급 수량은 1입니다. 품목은 item83, 수량은 5, 개당 가격은 7752, 긴급 수량은 0입니다.",
+    "output": "item35에 할당된 기계는 machine05 4개, machine19 12개, machine20 12개입니다. item78에 할당된 기계는 machine08 34개, machine09 22개, machine10 10개, machine14 14개, machine21 38개, machine32 48개, machine33 36개입니다. item86에 할당된 기계는 machine08 16개, machine09 49개, machine10 42개, machine21 56개, machine28 42개, machine32 11개, machine33 54개입니다. item15에 할당된 기계는 machine10 66개, machine14 38개, machine20 100개, machine30 15개, machine33 99개입니다. item83에 할당된 기계는 machine09 1개, machine10 1개, machine14 4개, machine22 3개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date422이고, 품목은 item78, 수량은 48, 개당 가격은 11500, 긴급 수량은 0입니다. 품목은 item86, 수량은 64, 개당 가격은 23740, 긴급 수량은 0입니다. 품목은 item15, 수량은 318, 개당 가격은 25870, 긴급 수량은 1입니다. 품목은 item83, 수량은 5, 개당 가격은 7752, 긴급 수량은 0입니다. 품목은 item10, 수량은 178, 개당 가격은 5050, 긴급 수량은 0입니다.",
+    "output": "item78에 할당된 기계는 machine08 26개, machine09 33개, machine10 37개, machine14 31개, machine21 12개, machine32 3개, machine33 24개입니다. item86에 할당된 기계는 machine08 40개, machine09 15개, machine10 41개, machine21 4개, machine28 22개, machine32 3개, machine33 44개입니다. item15에 할당된 기계는 machine05 33개, machine07 68개, machine08 19개, machine23 16개, machine28 46개, machine30 38개, machine33 98개입니다. item83에 할당된 기계는 machine08 4개, machine21 1개, machine22 1개, machine23 1개, machine31 5개입니다. item10에 할당된 기계는 machine07 117개, machine08 53개, machine09 149개, machine21 74개, machine22 125개, machine23 98개, machine28 120개, machine30 166개, machine31 174개, machine34 29개, machine35 83개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date423이고, 품목은 item78, 수량은 48, 개당 가격은 11500, 긴급 수량은 0입니다. 품목은 item15, 수량은 318, 개당 가격은 25870, 긴급 수량은 1입니다. 품목은 item83, 수량은 5, 개당 가격은 7752, 긴급 수량은 0입니다. 품목은 item10, 수량은 178, 개당 가격은 5050, 긴급 수량은 0입니다. 품목은 item59, 수량은 24, 개당 가격은 8134, 긴급 수량은 0입니다.",
+    "output": "item78에 할당된 기계는 machine08 16개, machine09 11개, machine10 33개, machine14 21개, machine21 31개, machine32 9개, machine33 32개입니다. item15에 할당된 기계는 machine07 34개, machine08 10개, machine10 28개, machine12 37개, machine20 45개, machine23 28개, machine33 136개입니다. item83에 할당된 기계는 machine08 1개, machine10 4개, machine22 4개, machine23 1개입니다. item10에 할당된 기계는 machine07 48개, machine08 11개, machine09 124개, machine21 164개, machine22 116개, machine23 119개, machine28 149개, machine30 154개, machine31 60개, machine34 41개, machine35 45개입니다. item59에 할당된 기계는 machine08 3개, machine10 2개, machine21 2개, machine28 9개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date424이고, 품목은 item15, 수량은 318, 개당 가격은 25870, 긴급 수량은 1입니다. 품목은 item83, 수량은 5, 개당 가격은 7752, 긴급 수량은 0입니다. 품목은 item10, 수량은 178, 개당 가격은 5050, 긴급 수량은 0입니다. 품목은 item34, 수량은 42, 개당 가격은 64130, 긴급 수량은 0입니다. 품목은 item59, 수량은 24, 개당 가격은 8134, 긴급 수량은 0입니다.",
+    "output": "item15에 할당된 기계는 machine10 21개, machine20 69개, machine23 48개, machine31 55개, machine33 125개입니다. item83에 할당된 기계는 machine10 4개, machine22 3개, machine31 3개입니다. item10에 할당된 기계는 machine07 148개, machine08 46개, machine09 110개, machine21 40개, machine22 22개, machine23 114개, machine28 27개, machine30 2개, machine31 139개, machine34 176개, machine35 164개입니다. item34에 할당된 기계는 machine09 9개, machine23 29개, machine29 3개, machine32 26개입니다. item59에 할당된 기계는 machine08 4개, machine10 14개, machine21 18개, machine28 19개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date425이고, 품목은 item15, 수량은 318, 개당 가격은 25870, 긴급 수량은 1입니다. 품목은 item10, 수량은 178, 개당 가격은 5050, 긴급 수량은 0입니다. 품목은 item33, 수량은 42, 개당 가격은 64130, 긴급 수량은 0입니다. 품목은 item34, 수량은 42, 개당 가격은 64130, 긴급 수량은 0입니다. 품목은 item59, 수량은 24, 개당 가격은 8134, 긴급 수량은 0입니다.",
+    "output": "item15에 할당된 기계는 machine08 25개, machine10 33개, machine20 111개, machine21 27개, machine33 112개, machine35 10개입니다. item10에 할당된 기계는 machine07 111개, machine08 14개, machine21 16개, machine22 150개, machine23 62개, machine28 83개, machine30 33개, machine31 65개, machine34 53개, machine35 55개입니다. item33에 할당된 기계는 machine09 2개, machine29 23개입니다. item34에 할당된 기계는 machine09 4개, machine23 40개, machine29 13개, machine32 1개입니다. item59에 할당된 기계는 machine08 15개, machine10 23개, machine21 23개, machine28 16개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date426이고, 품목은 item10, 수량은 178, 개당 가격은 5050, 긴급 수량은 0입니다. 품목은 item33, 수량은 42, 개당 가격은 64130, 긴급 수량은 0입니다. 품목은 item34, 수량은 42, 개당 가격은 64130, 긴급 수량은 0입니다. 품목은 item59, 수량은 24, 개당 가격은 8134, 긴급 수량은 0입니다. 품목은 item18, 수량은 40, 개당 가격은 17794, 긴급 수량은 1입니다.",
+    "output": "item10에 할당된 기계는 machine07 164개, machine08 93개, machine09 146개, machine21 100개, machine22 149개, machine23 170개, machine28 126개, machine30 78개, machine31 9개, machine34 105개, machine35 75개입니다. item33에 할당된 기계는 machine09 5개, machine29 25개입니다. item34에 할당된 기계는 machine09 12개, machine23 27개, machine29 1개, machine32 23개입니다. item59에 할당된 기계는 machine08 13개, machine10 15개, machine21 2개, machine28 3개입니다. item18에 할당된 기계는 machine04 1개, machine07 29개, machine08 2개, machine09 19개, machine10 3개, machine14 14개, machine21 1개, machine22 7개, machine23 5개, machine28 4개, machine29 11개, machine34 15개, machine35 2개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date427이고, 품목은 item33, 수량은 42, 개당 가격은 64130, 긴급 수량은 0입니다. 품목은 item34, 수량은 42, 개당 가격은 64130, 긴급 수량은 0입니다. 품목은 item59, 수량은 24, 개당 가격은 8134, 긴급 수량은 0입니다. 품목은 item17, 수량은 40, 개당 가격은 24418, 긴급 수량은 1입니다. 품목은 item18, 수량은 40, 개당 가격은 17794, 긴급 수량은 1입니다.",
+    "output": "item33에 할당된 기계는 machine09 18개, machine29 35개입니다. item34에 할당된 기계는 machine09 1개, machine23 15개, machine29 5개, machine32 2개입니다. item59에 할당된 기계는 machine08 7개, machine10 15개, machine21 11개, machine28 10개입니다. item17에 할당된 기계는 machine04 2개, machine07 4개, machine09 9개, machine10 5개, machine14 6개, machine18 13개, machine21 16개, machine22 40개, machine23 2개, machine28 14개, machine29 4개, machine33 16개, machine35 11개입니다. item18에 할당된 기계는 machine08 20개, machine09 13개, machine10 32개, machine21 10개, machine22 14개, machine23 7개, machine28 12개, machine29 6개, machine30 11개, machine34 10개, machine35 38개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date428이고, 품목은 item33, 수량은 42, 개당 가격은 64130, 긴급 수량은 0입니다. 품목은 item34, 수량은 42, 개당 가격은 64130, 긴급 수량은 0입니다. 품목은 item17, 수량은 40, 개당 가격은 24418, 긴급 수량은 1입니다. 품목은 item18, 수량은 40, 개당 가격은 17794, 긴급 수량은 1입니다. 품목은 item09, 수량은 188, 개당 가격은 3452, 긴급 수량은 0입니다.",
+    "output": "item33에 할당된 기계는 machine29 8개입니다. item34에 할당된 기계는 machine09 32개, machine23 18개, machine29 1개, machine32 24개입니다. item17에 할당된 기계는 machine04 7개, machine07 14개, machine08 3개, machine09 1개, machine10 12개, machine14 7개, machine18 6개, machine21 8개, machine22 11개, machine23 12개, machine28 5개, machine29 1개, machine33 24개, machine35 27개입니다. item18에 할당된 기계는 machine04 12개, machine07 4개, machine08 10개, machine09 7개, machine10 8개, machine14 21개, machine21 17개, machine22 4개, machine23 21개, machine28 9개, machine29 37개, machine30 28개, machine34 8개, machine35 4개입니다. item09에 할당된 기계는 machine08 74개, machine10 90개, machine14 70개, machine21 21개, machine22 175개, machine28 102개, machine30 164개, machine31 105개, machine35 83개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date429이고, 품목은 item33, 수량은 42, 개당 가격은 64130, 긴급 수량은 0입니다. 품목은 item17, 수량은 40, 개당 가격은 24418, 긴급 수량은 1입니다. 품목은 item18, 수량은 40, 개당 가격은 17794, 긴급 수량은 1입니다. 품목은 item09, 수량은 188, 개당 가격은 3452, 긴급 수량은 0입니다. 품목은 item24, 수량은 30, 개당 가격은 26719, 긴급 수량은 0입니다.",
+    "output": "item33에 할당된 기계는 machine09 2개, machine29 1개입니다. item17에 할당된 기계는 machine04 33개, machine07 27개, machine08 10개, machine09 2개, machine10 1개, machine14 1개, machine18 7개, machine21 12개, machine22 7개, machine23 6개, machine28 3개, machine29 14개, machine33 6개, machine35 1개입니다. item18에 할당된 기계는 machine04 21개, machine07 17개, machine08 8개, machine09 19개, machine14 34개, machine21 30개, machine22 6개, machine23 28개, machine28 15개, machine29 17개, machine30 3개, machine34 15개, machine35 16개입니다. item09에 할당된 기계는 machine08 45개, machine10 96개, machine14 162개, machine21 60개, machine22 80개, machine28 31개, machine30 89개, machine31 129개, machine35 7개입니다. item24에 할당된 기계는 machine04 15개, machine05 28개, machine07 26개, machine08 23개, machine09 21개, machine10 27개, machine14 3개, machine20 24개, machine21 8개, machine22 11개, machine28 17개, machine30 14개, machine33 18개, machine34 12개, machine35 15개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date430이고, 품목은 item17, 수량은 40, 개당 가격은 24418, 긴급 수량은 1입니다. 품목은 item18, 수량은 40, 개당 가격은 17794, 긴급 수량은 1입니다. 품목은 item09, 수량은 188, 개당 가격은 3452, 긴급 수량은 0입니다. 품목은 item24, 수량은 30, 개당 가격은 26719, 긴급 수량은 0입니다. 품목은 item63, 수량은 72, 개당 가격은 24360, 긴급 수량은 0입니다.",
+    "output": "item17에 할당된 기계는 machine04 2개, machine08 1개, machine09 32개, machine10 4개, machine18 7개, machine21 1개, machine22 1개, machine23 12개, machine28 21개, machine29 13개, machine33 7개, machine35 25개입니다. item18에 할당된 기계는 machine04 16개, machine07 11개, machine08 28개, machine09 39개, machine10 14개, machine14 10개, machine21 2개, machine22 4개, machine23 6개, machine28 12개, machine29 18개, machine30 20개, machine34 33개, machine35 10개입니다. item09에 할당된 기계는 machine08 179개, machine10 134개, machine14 54개, machine21 20개, machine22 40개, machine28 110개, machine30 78개, machine31 127개, machine35 130개입니다. item24에 할당된 기계는 machine04 16개, machine05 17개, machine07 15개, machine08 29개, machine09 3개, machine10 25개, machine14 22개, machine20 10개, machine21 17개, machine22 25개, machine28 3개, machine30 23개, machine33 15개, machine34 24개, machine35 26개입니다. item63에 할당된 기계는 machine08 10개, machine21 18개, machine32 60개, machine33 6개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date431이고, 품목은 item17, 수량은 40, 개당 가격은 24418, 긴급 수량은 1입니다. 품목은 item09, 수량은 188, 개당 가격은 3452, 긴급 수량은 0입니다. 품목은 item24, 수량은 58, 개당 가격은 26719, 긴급 수량은 0입니다. 품목은 item63, 수량은 72, 개당 가격은 24360, 긴급 수량은 0입니다.",
+    "output": "item17에 할당된 기계는 machine04 9개, machine07 4개, machine08 4개, machine09 6개, machine10 1개, machine14 5개, machine18 5개, machine21 2개, machine22 7개, machine23 11개, machine28 15개, machine29 25개, machine33 19개, machine35 6개입니다. item09에 할당된 기계는 machine08 98개, machine10 63개, machine14 100개, machine21 137개, machine22 128개, machine28 61개, machine30 65개, machine31 23개, machine35 47개입니다. item24에 할당된 기계는 machine04 15개, machine05 9개, machine07 50개, machine08 15개, machine09 23개, machine10 48개, machine14 31개, machine20 7개, machine21 11개, machine22 1개, machine28 3개, machine30 23개, machine33 33개, machine34 40개, machine35 48개입니다. item63에 할당된 기계는 machine08 7개, machine21 69개, machine32 46개, machine33 21개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date432이고, 품목은 item09, 수량은 188, 개당 가격은 3452, 긴급 수량은 0입니다. 품목은 item24, 수량은 58, 개당 가격은 26719, 긴급 수량은 0입니다. 품목은 item62, 수량은 72, 개당 가격은 20475, 긴급 수량은 0입니다. 품목은 item63, 수량은 72, 개당 가격은 24360, 긴급 수량은 0입니다.",
+    "output": "item09에 할당된 기계는 machine08 5개, machine10 146개, machine14 82개, machine21 88개, machine22 114개, machine28 164개, machine30 176개, machine31 25개, machine35 133개입니다. item24에 할당된 기계는 machine04 25개, machine05 52개, machine09 19개, machine10 28개, machine14 8개, machine20 31개, machine22 1개, machine28 48개, machine30 21개, machine33 31개, machine34 55개, machine35 11개입니다. item62에 할당된 기계는 machine09 33개, machine28 2개, machine29 42개, machine32 17개, machine33 13개입니다. item63에 할당된 기계는 machine32 4개, machine33 30개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date433이고, 품목은 item24, 수량은 58, 개당 가격은 26719, 긴급 수량은 0입니다. 품목은 item62, 수량은 72, 개당 가격은 20475, 긴급 수량은 0입니다. 품목은 item63, 수량은 72, 개당 가격은 24360, 긴급 수량은 0입니다. 품목은 item66, 수량은 20, 개당 가격은 86940, 긴급 수량은 0입니다.",
+    "output": "item24에 할당된 기계는 machine04 1개, machine05 32개, machine07 20개, machine08 52개, machine10 40개, machine14 30개, machine20 19개, machine21 1개, machine22 2개, machine28 52개, machine30 4개, machine34 16개, machine35 57개입니다. item62에 할당된 기계는 machine08 9개, machine21 11개, machine28 17개, machine29 28개, machine32 44개입니다. item63에 할당된 기계는 machine08 3개, machine21 31개, machine32 31개입니다. item66에 할당된 기계는 machine08 7개, machine10 4개, machine14 1개, machine21 7개, machine23 18개, machine28 5개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date434이고, 품목은 item24, 수량은 28, 개당 가격은 26719, 긴급 수량은 0입니다. 품목은 item62, 수량은 72, 개당 가격은 20475, 긴급 수량은 0입니다. 품목은 item63, 수량은 72, 개당 가격은 24360, 긴급 수량은 0입니다. 품목은 item66, 수량은 20, 개당 가격은 86940, 긴급 수량은 0입니다. 품목은 item82, 수량은 24, 개당 가격은 8226, 긴급 수량은 0입니다.",
+    "output": "item24에 할당된 기계는 machine04 1개, machine05 23개, machine07 8개, machine08 11개, machine10 11개, machine14 13개, machine20 23개, machine21 9개, machine22 24개, machine28 11개, machine30 10개, machine34 28개, machine35 14개입니다. item62에 할당된 기계는 machine21 26개, machine28 50개, machine29 67개, machine32 4개입니다. item63에 할당된 기계는 machine08 40개, machine21 50개, machine32 43개입니다. item66에 할당된 기계는 machine08 11개, machine10 3개, machine14 15개, machine23 12개, machine28 7개입니다. item82에 할당된 기계는 machine08 1개, machine10 10개, machine14 13개, machine21 17개, machine22 20개, machine23 3개, machine28 8개, machine30 3개, machine35 6개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date435이고, 품목은 item02, 수량은 300, 개당 가격은 10450, 긴급 수량은 0입니다. 품목은 item24, 수량은 28, 개당 가격은 26719, 긴급 수량은 0입니다. 품목은 item62, 수량은 72, 개당 가격은 20475, 긴급 수량은 0입니다. 품목은 item66, 수량은 20, 개당 가격은 86940, 긴급 수량은 0입니다. 품목은 item82, 수량은 24, 개당 가격은 8226, 긴급 수량은 0입니다.",
+    "output": "item02에 할당된 기계는 machine14 171개입니다. item24에 할당된 기계는 machine04 6개, machine05 1개, machine07 22개, machine08 7개, machine10 15개, machine14 7개, machine20 5개, machine21 16개, machine22 26개, machine28 6개, machine30 19개, machine33 16개, machine34 23개, machine35 15개입니다. item62에 할당된 기계는 machine08 37개, machine21 26개, machine28 66개, machine29 36개, machine32 61개, machine33 7개입니다. item66에 할당된 기계는 machine08 6개, machine10 10개, machine14 11개, machine21 18개, machine23 9개, machine28 9개, machine33 15개입니다. item82에 할당된 기계는 machine08 16개, machine10 22개, machine14 23개, machine21 2개, machine22 4개, machine23 2개, machine28 19개, machine30 2개, machine35 10개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date436이고, 품목은 item02, 수량은 300, 개당 가격은 10450, 긴급 수량은 0입니다. 품목은 item62, 수량은 72, 개당 가격은 20475, 긴급 수량은 0입니다. 품목은 item66, 수량은 20, 개당 가격은 86940, 긴급 수량은 0입니다. 품목은 item82, 수량은 24, 개당 가격은 8226, 긴급 수량은 0입니다. 품목은 item27, 수량은 5, 개당 가격은 53798, 긴급 수량은 1입니다.",
+    "output": "item02에 할당된 기계는 machine14 277개입니다. item62에 할당된 기계는 machine08 70개, machine21 59개, machine28 15개, machine29 19개, machine32 33개, machine33 24개입니다. item66에 할당된 기계는 machine08 15개, machine10 14개, machine14 9개, machine21 5개, machine23 16개, machine28 12개, machine33 18개입니다. item82에 할당된 기계는 machine08 7개, machine10 19개, machine14 17개, machine21 9개, machine22 15개, machine23 19개, machine28 10개, machine35 13개입니다. item27에 할당된 기계는 machine08 2개, machine21 3개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date437이고, 품목은 item02, 수량은 300, 개당 가격은 10450, 긴급 수량은 0입니다. 품목은 item66, 수량은 20, 개당 가격은 86940, 긴급 수량은 0입니다. 품목은 item82, 수량은 24, 개당 가격은 8226, 긴급 수량은 0입니다. 품목은 item27, 수량은 5, 개당 가격은 53798, 긴급 수량은 1입니다. 품목은 item94, 수량은 6, 개당 가격은 33984, 긴급 수량은 0입니다.",
+    "output": "item02에 할당된 기계는 machine09 76개, machine14 214개입니다. item66에 할당된 기계는 machine08 18개, machine09 10개, machine10 1개, machine14 6개, machine21 19개, machine23 1개, machine28 4개, machine33 8개입니다. item82에 할당된 기계는 machine08 8개, machine09 17개, machine10 5개, machine14 16개, machine21 20개, machine22 20개, machine23 17개, machine28 17개, machine30 20개, machine35 20개입니다. item27에 할당된 기계는 machine09 1개, machine21 1개, machine30 1개, machine32 2개입니다. item94에 할당된 기계는 machine01 1개, machine04 3개, machine05 4개, machine08 2개, machine09 1개, machine10 4개, machine14 5개, machine32 5개, machine33 4개, machine34 4개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date438이고, 품목은 item02, 수량은 300, 개당 가격은 10450, 긴급 수량은 0입니다. 품목은 item82, 수량은 24, 개당 가격은 8226, 긴급 수량은 0입니다. 품목은 item25, 수량은 6, 개당 가격은 72993, 긴급 수량은 0입니다. 품목은 item27, 수량은 5, 개당 가격은 53798, 긴급 수량은 1입니다. 품목은 item94, 수량은 6, 개당 가격은 33984, 긴급 수량은 0입니다.",
+    "output": "item02에 할당된 기계는 machine09 77개, machine14 65개입니다. item82에 할당된 기계는 machine08 19개, machine10 11개, machine14 2개, machine21 21개, machine22 12개, machine23 22개, machine28 10개, machine30 7개, machine35 24개입니다. item25에 할당된 기계는 machine03 5개, machine05 2개, machine06 3개, machine17 3개, machine19 3개, machine33 3개, machine35 4개입니다. item27에 할당된 기계는 machine09 1개, machine14 2개, machine21 1개, machine32 1개입니다. item94에 할당된 기계는 machine01 3개, machine04 2개, machine05 3개, machine08 2개, machine09 2개, machine10 1개, machine14 3개, machine32 4개, machine33 6개, machine34 1개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date439이고, 품목은 item02, 수량은 300, 개당 가격은 10450, 긴급 수량은 0입니다. 품목은 item25, 수량은 6, 개당 가격은 72993, 긴급 수량은 0입니다. 품목은 item27, 수량은 5, 개당 가격은 53798, 긴급 수량은 1입니다. 품목은 item79, 수량은 24, 개당 가격은 29900, 긴급 수량은 0입니다. 품목은 item94, 수량은 6, 개당 가격은 33984, 긴급 수량은 0입니다.",
+    "output": "item02에 할당된 기계는 machine14 15개입니다. item25에 할당된 기계는 machine01 2개, machine03 4개, machine05 3개, machine06 3개, machine17 1개, machine19 5개, machine32 2개, machine33 6개, machine34 3개, machine35 3개입니다. item27에 할당된 기계는 machine07 1개, machine08 1개, machine09 1개, machine30 2개입니다. item79에 할당된 기계는 machine04 1개, machine08 12개, machine09 22개, machine20 11개, machine21 12개, machine23 16개, machine28 20개, machine33 10개입니다. item94에 할당된 기계는 machine01 3개, machine04 5개, machine05 5개, machine08 1개, machine09 2개, machine14 5개, machine21 5개, machine32 6개, machine33 5개, machine34 5개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date440이고, 품목은 item19, 수량은 2, 개당 가격은 19300, 긴급 수량은 1입니다. 품목은 item25, 수량은 6, 개당 가격은 72993, 긴급 수량은 0입니다. 품목은 item27, 수량은 5, 개당 가격은 53798, 긴급 수량은 1입니다. 품목은 item79, 수량은 24, 개당 가격은 29900, 긴급 수량은 0입니다. 품목은 item94, 수량은 6, 개당 가격은 33984, 긴급 수량은 0입니다.",
+    "output": "item19에 할당된 기계는 machine01 1개, machine14 2개, machine20 1개, machine21 2개, machine22 1개, machine23 1개, machine28 1개, machine30 1개, machine31 1개, machine33 1개입니다. item25에 할당된 기계는 machine03 1개, machine05 4개, machine06 3개, machine17 3개, machine19 4개, machine32 3개, machine33 4개, machine34 5개, machine35 5개입니다. item27에 할당된 기계는 machine07 1개, machine08 1개, machine14 1개, machine21 1개입니다. item79에 할당된 기계는 machine04 7개, machine08 20개, machine09 1개, machine20 3개, machine21 12개, machine23 14개, machine28 11개, machine29 20개, machine33 24개입니다. item94에 할당된 기계는 machine01 1개, machine04 6개, machine08 2개, machine09 5개, machine10 5개, machine14 1개, machine21 1개, machine32 6개, machine33 1개, machine34 3개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date441이고, 품목은 item19, 수량은 2, 개당 가격은 19300, 긴급 수량은 1입니다. 품목은 item25, 수량은 6, 개당 가격은 72993, 긴급 수량은 0입니다. 품목은 item79, 수량은 24, 개당 가격은 29900, 긴급 수량은 0입니다. 품목은 item94, 수량은 6, 개당 가격은 33984, 긴급 수량은 0입니다. 품목은 item01, 수량은 8, 개당 가격은 16231, 긴급 수량은 0입니다.",
+    "output": "item19에 할당된 기계는 machine10 2개, machine22 1개, machine23 1개, machine30 1개, machine31 1개입니다. item25에 할당된 기계는 machine03 1개, machine05 5개, machine06 3개, machine17 6개, machine19 5개, machine32 3개, machine33 1개, machine34 5개입니다. item79에 할당된 기계는 machine04 19개, machine08 3개, machine09 16개, machine20 1개, machine21 20개, machine23 20개, machine28 7개, machine29 2개, machine33 1개입니다. item94에 할당된 기계는 machine01 1개, machine05 6개, machine08 5개, machine09 6개, machine10 5개, machine14 1개, machine21 6개, machine32 1개, machine33 1개, machine34 1개입니다. item01에 할당된 기계는 machine04 8개, machine08 1개, machine21 2개, machine28 2개, machine30 4개, machine33 4개, machine35 8개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date442이고, 품목은 item19, 수량은 2, 개당 가격은 19300, 긴급 수량은 1입니다. 품목은 item25, 수량은 6, 개당 가격은 72993, 긴급 수량은 0입니다. 품목은 item79, 수량은 24, 개당 가격은 29900, 긴급 수량은 0입니다. 품목은 item01, 수량은 8, 개당 가격은 16231, 긴급 수량은 0입니다. 품목은 item89, 수량은 200, 개당 가격은 24418, 긴급 수량은 1입니다.",
+    "output": "item19에 할당된 기계는 machine04 1개, machine07 1개, machine08 1개, machine10 1개, machine14 1개, machine20 1개, machine21 1개, machine22 1개, machine28 1개, machine30 1개, machine31 1개, machine34 1개, machine35 1개입니다. item25에 할당된 기계는 machine03 4개, machine05 3개, machine06 5개, machine17 3개, machine19 1개, machine32 2개, machine33 5개, machine34 2개, machine35 3개입니다. item79에 할당된 기계는 machine04 18개, machine08 8개, machine09 19개, machine20 8개, machine21 19개, machine23 17개, machine28 23개, machine29 1개, machine33 12개입니다. item89에 할당된 기계는 machine10 92개, machine22 5개, machine23 24개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date443이고, 품목은 item19, 수량은 2, 개당 가격은 19300, 긴급 수량은 1입니다. 품목은 item79, 수량은 24, 개당 가격은 29900, 긴급 수량은 0입니다. 품목은 item01, 수량은 8, 개당 가격은 16231, 긴급 수량은 0입니다. 품목은 item60, 수량은 47, 개당 가격은 20054, 긴급 수량은 0입니다. 품목은 item89, 수량은 200, 개당 가격은 24418, 긴급 수량은 1입니다.",
+    "output": "item19에 할당된 기계는 machine04 2개, machine08 1개, machine09 1개, machine14 2개, machine21 2개, machine30 1개입니다. item79에 할당된 기계는 machine04 19개, machine08 3개, machine09 20개, machine20 3개, machine21 13개, machine23 19개, machine28 22개, machine29 11개, machine33 20개입니다. item01에 할당된 기계는 machine21 7개, machine28 5개, machine30 2개, machine33 7개, machine35 2개입니다. item60에 할당된 기계는 machine10 40개, machine23 38개, machine28 23개입니다. item89에 할당된 기계는 machine10 48개, machine21 5개, machine22 79개, machine23 4개, machine30 21개, machine34 6개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date444이고, 품목은 item19, 수량은 2, 개당 가격은 19300, 긴급 수량은 1입니다. 품목은 item01, 수량은 8, 개당 가격은 16231, 긴급 수량은 0입니다. 품목은 item60, 수량은 47, 개당 가격은 20054, 긴급 수량은 0입니다. 품목은 item89, 수량은 200, 개당 가격은 24418, 긴급 수량은 1입니다. 품목은 item68, 수량은 120, 개당 가격은 27590, 긴급 수량은 1입니다.",
+    "output": "item19에 할당된 기계는 machine01 1개, machine04 1개, machine09 1개, machine14 1개, machine20 1개, machine21 2개, machine22 1개, machine28 1개, machine31 2개입니다. item01에 할당된 기계는 machine21 7개, machine28 1개입니다. item60에 할당된 기계는 machine10 23개, machine23 3개, machine28 22개입니다. item89에 할당된 기계는 machine07 14개, machine10 27개, machine21 4개, machine22 13개, machine23 33개, machine28 9개, machine29 25개, machine34 40개입니다. item68에 할당된 기계는 machine09 6개, machine29 54개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date445이고, 품목은 item01, 수량은 8, 개당 가격은 16231, 긴급 수량은 0입니다. 품목은 item60, 수량은 47, 개당 가격은 20054, 긴급 수량은 0입니다. 품목은 item89, 수량은 200, 개당 가격은 24418, 긴급 수량은 1입니다. 품목은 item65, 수량은 160, 개당 가격은 23500, 긴급 수량은 1입니다. 품목은 item68, 수량은 120, 개당 가격은 27590, 긴급 수량은 1입니다.",
+    "output": "item01에 할당된 기계는 machine04 7개, machine08 1개, machine35 1개입니다. item60에 할당된 기계는 machine04 20개, machine10 36개, machine23 34개입니다. item89에 할당된 기계는 machine04 20개, machine08 44개, machine10 43개, machine14 53개, machine23 8개, machine30 19개, machine35 8개입니다. item65에 할당된 기계는 machine10 51개, machine21 38개, machine22 48개입니다. item68에 할당된 기계는 machine10 45개, machine21 34개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date446이고, 품목은 item60, 수량은 47, 개당 가격은 20054, 긴급 수량은 0입니다. 품목은 item89, 수량은 200, 개당 가격은 24418, 긴급 수량은 1입니다. 품목은 item65, 수량은 160, 개당 가격은 23500, 긴급 수량은 1입니다. 품목은 item68, 수량은 120, 개당 가격은 27590, 긴급 수량은 1입니다. 품목은 item73, 수량은 42, 개당 가격은 37650, 긴급 수량은 0입니다.",
+    "output": "item60에 할당된 기계는 machine10 42개, machine23 43개입니다. item89에 할당된 기계는 machine10 99개, machine23 48개, machine34 32개, machine35 20개입니다. item65에 할당된 기계는 machine04 65개, machine08 28개, machine09 3개입니다. item68에 할당된 기계는 machine09 50개, machine29 38개입니다. item73에 할당된 기계는 machine28 27개, machine29 31개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date447이고, 품목은 item60, 수량은 47, 개당 가격은 20054, 긴급 수량은 0입니다. 품목은 item65, 수량은 160, 개당 가격은 23500, 긴급 수량은 1입니다. 품목은 item68, 수량은 120, 개당 가격은 27590, 긴급 수량은 1입니다. 품목은 item04, 수량은 56, 개당 가격은 32450, 긴급 수량은 0입니다. 품목은 item73, 수량은 42, 개당 가격은 37650, 긴급 수량은 0입니다.",
+    "output": "item60에 할당된 기계는 machine04 18개, machine10 6개, machine23 19개, machine28 41개입니다. item65에 할당된 기계는 machine10 68개, machine22 44개, machine28 9개, machine30 36개입니다. item68에 할당된 기계는 machine09 33개, machine10 19개, machine28 14개, machine29 54개입니다. item04에 할당된 기계는 machine14 20개, machine28 17개입니다. item73에 할당된 기계는 machine28 13개, machine29 3개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date448이고, 품목은 item65, 수량은 160, 개당 가격은 23500, 긴급 수량은 1입니다. 품목은 item68, 수량은 120, 개당 가격은 27590, 긴급 수량은 1입니다. 품목은 item04, 수량은 56, 개당 가격은 32450, 긴급 수량은 0입니다. 품목은 item11, 수량은 16, 개당 가격은 9546, 긴급 수량은 0입니다. 품목은 item73, 수량은 42, 개당 가격은 37650, 긴급 수량은 0입니다.",
+    "output": "item65에 할당된 기계는 machine04 47개, machine10 40개, machine22 63개, machine28 9개입니다. item68에 할당된 기계는 machine10 51개, machine21 25개, machine28 14개, machine29 30개입니다. item04에 할당된 기계는 machine14 27개, machine28 20개입니다. item11에 할당된 기계는 machine07 11개, machine08 12개, machine09 1개, machine10 11개, machine14 9개, machine21 6개, machine22 9개, machine23 1개, machine28 14개, machine29 14개, machine30 11개, machine31 9개, machine32 16개, machine33 12개, machine35 2개입니다. item73에 할당된 기계는 machine28 9개, machine29 27개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date449이고, 품목은 item65, 수량은 160, 개당 가격은 23500, 긴급 수량은 1입니다. 품목은 item04, 수량은 56, 개당 가격은 32450, 긴급 수량은 0입니다. 품목은 item11, 수량은 16, 개당 가격은 9546, 긴급 수량은 0입니다. 품목은 item28, 수량은 8, 개당 가격은 17050, 긴급 수량은 0입니다. 품목은 item73, 수량은 42, 개당 가격은 37650, 긴급 수량은 0입니다.",
+    "output": "item65에 할당된 기계는 machine04 24개, machine10 59개, machine22 8개, machine28 47개, machine33 22개입니다. item04에 할당된 기계는 machine04 6개, machine14 45개, machine28 27개입니다. item11에 할당된 기계는 machine07 12개, machine08 12개, machine09 12개, machine14 12개, machine21 6개, machine22 8개, machine23 10개, machine28 15개, machine29 1개, machine30 2개, machine31 14개, machine32 7개, machine33 1개, machine35 2개입니다. item28에 할당된 기계는 machine05 3개, machine09 6개, machine10 3개, machine21 4개, machine22 5개, machine23 5개, machine28 6개, machine29 2개, machine30 5개, machine31 3개, machine32 3개, machine33 7개, machine34 2개입니다. item73에 할당된 기계는 machine28 30개, machine29 9개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date450이고, 품목은 item04, 수량은 56, 개당 가격은 32450, 긴급 수량은 0입니다. 품목은 item11, 수량은 16, 개당 가격은 9546, 긴급 수량은 0입니다. 품목은 item28, 수량은 8, 개당 가격은 17050, 긴급 수량은 0입니다. 품목은 item73, 수량은 42, 개당 가격은 37650, 긴급 수량은 0입니다. 품목은 item26, 수량은 25, 개당 가격은 25840, 긴급 수량은 0입니다.",
+    "output": "item04에 할당된 기계는 machine14 26개, machine28 24개입니다. item11에 할당된 기계는 machine07 11개, machine08 15개, machine09 3개, machine10 12개, machine14 1개, machine21 5개, machine22 7개, machine23 10개, machine28 11개, machine29 9개, machine30 5개, machine31 4개, machine32 2개, machine33 2개, machine35 13개입니다. item28에 할당된 기계는 machine05 4개, machine08 2개, machine09 3개, machine10 8개, machine14 4개, machine21 6개, machine22 6개, machine23 7개, machine28 6개, machine29 7개, machine30 3개, machine31 6개, machine32 5개, machine33 8개, machine34 4개입니다. item73에 할당된 기계는 machine28 25개, machine29 37개입니다. item26에 할당된 기계는 machine01 25개, machine07 24개, machine08 3개, machine09 12개, machine10 8개, machine14 17개, machine21 19개, machine23 5개, machine28 19개, machine33 5개, machine34 17개, machine35 6개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date451이고, 품목은 item04, 수량은 56, 개당 가격은 32450, 긴급 수량은 0입니다. 품목은 item11, 수량은 16, 개당 가격은 9546, 긴급 수량은 0입니다. 품목은 item28, 수량은 8, 개당 가격은 17050, 긴급 수량은 0입니다. 품목은 item08, 수량은 138, 개당 가격은 4845, 긴급 수량은 0입니다. 품목은 item26, 수량은 25, 개당 가격은 25840, 긴급 수량은 0입니다.",
+    "output": "item04에 할당된 기계는 machine04 3개, machine14 55개, machine28 18개입니다. item11에 할당된 기계는 machine07 9개, machine08 4개, machine09 10개, machine10 16개, machine14 4개, machine21 7개, machine22 7개, machine23 4개, machine28 10개, machine29 4개, machine30 2개, machine31 6개, machine32 11개, machine33 6개, machine35 11개입니다. item28에 할당된 기계는 machine08 3개, machine09 4개, machine10 1개, machine21 3개, machine22 7개, machine23 6개, machine29 6개, machine30 7개, machine31 3개, machine32 6개입니다. item08에 할당된 기계는 machine08 98개, machine09 17개, machine10 18개, machine14 36개, machine21 50개, machine22 62개, machine30 80개, machine31 99개, machine35 102개입니다. item26에 할당된 기계는 machine01 10개, machine07 15개, machine08 9개, machine09 9개, machine10 12개, machine14 13개, machine21 12개, machine23 21개, machine28 18개, machine33 8개, machine34 21개, machine35 12개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date452이고, 품목은 item11, 수량은 16, 개당 가격은 9546, 긴급 수량은 0입니다. 품목은 item28, 수량은 8, 개당 가격은 17050, 긴급 수량은 0입니다. 품목은 item07, 수량은 52, 개당 가격은 6295, 긴급 수량은 0입니다. 품목은 item08, 수량은 138, 개당 가격은 4845, 긴급 수량은 0입니다. 품목은 item26, 수량은 25, 개당 가격은 25840, 긴급 수량은 0입니다.",
+    "output": "item11에 할당된 기계는 machine07 9개, machine08 8개, machine09 12개, machine10 7개, machine14 11개, machine21 10개, machine22 2개, machine23 2개, machine28 5개, machine29 4개, machine30 12개, machine31 1개, machine32 14개, machine33 2개, machine35 3개입니다. item28에 할당된 기계는 machine05 7개, machine08 3개, machine09 2개, machine10 4개, machine14 4개, machine21 7개, machine22 4개, machine23 3개, machine28 4개, machine29 7개, machine30 3개, machine31 8개, machine32 6개, machine33 3개입니다. item07에 할당된 기계는 machine04 28개, machine08 29개, machine09 28개, machine10 4개, machine14 14개, machine21 9개, machine22 20개, machine29 49개, machine30 15개, machine31 42개, machine34 14개, machine35 39개입니다. item08에 할당된 기계는 machine08 68개, machine09 13개, machine10 47개, machine14 23개, machine22 66개, machine30 14개, machine31 120개, machine35 77개입니다. item26에 할당된 기계는 machine01 12개, machine07 12개, machine08 19개, machine09 22개, machine10 13개, machine14 3개, machine21 3개, machine23 17개, machine28 24개, machine33 13개, machine34 5개, machine35 15개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date453이고, 품목은 item28, 수량은 8, 개당 가격은 17050, 긴급 수량은 0입니다. 품목은 item07, 수량은 52, 개당 가격은 6295, 긴급 수량은 0입니다. 품목은 item08, 수량은 138, 개당 가격은 4845, 긴급 수량은 0입니다. 품목은 item26, 수량은 25, 개당 가격은 25840, 긴급 수량은 0입니다. 품목은 item77, 수량은 240, 개당 가격은 12500, 긴급 수량은 1입니다.",
+    "output": "item28에 할당된 기계는 machine05 4개, machine08 4개, machine09 5개, machine10 5개, machine14 3개, machine21 3개, machine22 1개, machine23 1개, machine28 3개, machine29 4개, machine30 8개, machine31 8개, machine32 3개, machine33 3개, machine34 1개입니다. item07에 할당된 기계는 machine04 5개, machine08 32개, machine10 9개, machine21 38개, machine30 51개, machine31 20개, machine34 13개, machine35 43개입니다. item08에 할당된 기계는 machine08 69개, machine10 8개, machine14 67개, machine21 56개, machine30 135개, machine31 55개, machine35 15개입니다. item26에 할당된 기계는 machine01 11개, machine07 16개, machine08 7개, machine10 6개, machine14 16개, machine21 16개, machine23 15개, machine33 15개, machine34 7개, machine35 5개입니다. item77에 할당된 기계는 machine08 10개, machine10 151개, machine23 79개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date454이고, 품목은 item07, 수량은 52, 개당 가격은 6295, 긴급 수량은 0입니다. 품목은 item08, 수량은 138, 개당 가격은 4845, 긴급 수량은 0입니다. 품목은 item26, 수량은 25, 개당 가격은 25840, 긴급 수량은 0입니다. 품목은 item77, 수량은 240, 개당 가격은 12500, 긴급 수량은 1입니다. 품목은 item03, 수량은 400, 개당 가격은 13960, 긴급 수량은 1입니다.",
+    "output": "item07에 할당된 기계는 machine04 1개, machine10 37개, machine14 21개, machine30 5개, machine31 41개, machine34 42개, machine35 40개입니다. item08에 할당된 기계는 machine10 56개, machine14 120개, machine30 125개, machine31 130개, machine35 7개입니다. item26에 할당된 기계는 machine01 20개, machine07 24개, machine10 1개, machine14 5개, machine33 2개, machine34 12개, machine35 10개입니다. item77에 할당된 기계는 machine10 235개입니다. item03에 할당된 기계는 machine01 51개, machine10 87개, machine14 5개, machine22 33개, machine23 132개, machine29 54개, machine35 37개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date455이고, 품목은 item07, 수량은 52, 개당 가격은 6295, 긴급 수량은 0입니다. 품목은 item08, 수량은 138, 개당 가격은 4845, 긴급 수량은 0입니다. 품목은 item77, 수량은 240, 개당 가격은 12500, 긴급 수량은 1입니다. 품목은 item03, 수량은 400, 개당 가격은 13960, 긴급 수량은 1입니다. 품목은 item38, 수량은 70, 개당 가격은 7600, 긴급 수량은 0입니다.",
+    "output": "item07에 할당된 기계는 machine04 5개, machine09 43개, machine10 29개, machine14 16개, machine22 5개, machine30 50개, machine31 11개, machine34 6개, machine35 9개입니다. item08에 할당된 기계는 machine09 44개, machine10 120개, machine14 36개, machine22 23개, machine30 78개, machine31 37개, machine35 9개입니다. item77에 할당된 기계는 machine10 180개, machine22 54개입니다. item03에 할당된 기계는 machine01 38개, machine09 98개, machine10 63개, machine23 101개, machine28 11개, machine29 89개입니다. item38에 할당된 기계는 machine08 49개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date456이고, 품목은 item07, 수량은 52, 개당 가격은 6295, 긴급 수량은 0입니다. 품목은 item77, 수량은 240, 개당 가격은 12500, 긴급 수량은 1입니다. 품목은 item03, 수량은 400, 개당 가격은 13960, 긴급 수량은 1입니다. 품목은 item38, 수량은 70, 개당 가격은 7600, 긴급 수량은 0입니다. 품목은 item53, 수량은 20, 개당 가격은 42940, 긴급 수량은 0입니다.",
+    "output": "item07에 할당된 기계는 machine04 34개, machine09 36개, machine10 17개, machine14 4개, machine21 48개, machine22 28개, machine29 23개, machine30 46개, machine31 13개, machine34 32개, machine35 51개입니다. item77에 할당된 기계는 machine09 84개, machine10 39개, machine21 13개, machine22 4개, machine28 57개, machine29 35개입니다. item03에 할당된 기계는 machine01 198개, machine09 125개, machine29 76개입니다. item38에 할당된 기계는 machine08 20개입니다. item53에 할당된 기계는 machine04 10개, machine10 13개, machine28 19개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date457이고, 품목은 item77, 수량은 240, 개당 가격은 12500, 긴급 수량은 1입니다. 품목은 item03, 수량은 400, 개당 가격은 13960, 긴급 수량은 1입니다. 품목은 item38, 수량은 70, 개당 가격은 7600, 긴급 수량은 0입니다. 품목은 item53, 수량은 20, 개당 가격은 42940, 긴급 수량은 0입니다. 품목은 item52, 수량은 44, 개당 가격은 8835, 긴급 수량은 0입니다.",
+    "output": "item77에 할당된 기계는 machine09 16개, machine10 114개, machine23 96개, machine28 1개입니다. item03에 할당된 기계는 machine01 36개, machine07 29개, machine08 119개, machine14 26개, machine22 28개, machine28 89개, machine29 73개입니다. item38에 할당된 기계는 machine08 45개입니다. item53에 할당된 기계는 machine04 3개, machine10 10개, machine28 12개입니다. item52에 할당된 기계는 machine08 8개, machine33 43개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date458이고, 품목은 item03, 수량은 400, 개당 가격은 13960, 긴급 수량은 1입니다. 품목은 item38, 수량은 70, 개당 가격은 7600, 긴급 수량은 0입니다. 품목은 item53, 수량은 20, 개당 가격은 42940, 긴급 수량은 0입니다. 품목은 item36, 수량은 40, 개당 가격은 27039, 긴급 수량은 0입니다. 품목은 item52, 수량은 44, 개당 가격은 8835, 긴급 수량은 0입니다.",
+    "output": "item03에 할당된 기계는 machine01 154개, machine09 12개, machine10 82개, machine29 53개, machine34 99개입니다. item38에 할당된 기계는 machine08 23개입니다. item53에 할당된 기계는 machine04 5개, machine10 15개, machine28 7개입니다. item36에 할당된 기계는 machine08 22개, machine09 34개, machine32 4개, machine33 26개입니다. item52에 할당된 기계는 machine08 26개, machine33 3개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date459이고, 품목은 item38, 수량은 70, 개당 가격은 7600, 긴급 수량은 0입니다. 품목은 item53, 수량은 20, 개당 가격은 42940, 긴급 수량은 0입니다. 품목은 item36, 수량은 40, 개당 가격은 27039, 긴급 수량은 0입니다. 품목은 item52, 수량은 44, 개당 가격은 8835, 긴급 수량은 0입니다. 품목은 item35, 수량은 32, 개당 가격은 242250, 긴급 수량은 1입니다.",
+    "output": "item38에 할당된 기계는 machine08 68개입니다. item53에 할당된 기계는 machine04 2개, machine10 10개, machine28 17개입니다. item36에 할당된 기계는 machine08 21개, machine09 19개, machine32 27개, machine33 39개입니다. item52에 할당된 기계는 machine08 8개, machine33 8개입니다. item35에 할당된 기계는 machine05 11개, machine19 11개, machine20 10개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date460이고, 품목은 item53, 수량은 20, 개당 가격은 42940, 긴급 수량은 0입니다. 품목은 item36, 수량은 40, 개당 가격은 27039, 긴급 수량은 0입니다. 품목은 item52, 수량은 44, 개당 가격은 8835, 긴급 수량은 0입니다. 품목은 item30, 수량은 16, 개당 가격은 95000, 긴급 수량은 0입니다. 품목은 item35, 수량은 32, 개당 가격은 242250, 긴급 수량은 1입니다.",
+    "output": "item53에 할당된 기계는 machine04 8개, machine10 2개, machine28 15개입니다. item36에 할당된 기계는 machine08 26개, machine09 32개, machine32 40개, machine33 8개입니다. item52에 할당된 기계는 machine08 29개, machine33 17개입니다. item30에 할당된 기계는 machine23 14개, machine30 15개입니다. item35에 할당된 기계는 machine05 9개, machine19 11개, machine20 12개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date461이고, 품목은 item36, 수량은 40, 개당 가격은 27039, 긴급 수량은 0입니다. 품목은 item52, 수량은 44, 개당 가격은 8835, 긴급 수량은 0입니다. 품목은 item30, 수량은 16, 개당 가격은 95000, 긴급 수량은 0입니다. 품목은 item31, 수량은 16, 개당 가격은 7500, 긴급 수량은 0입니다. 품목은 item35, 수량은 32, 개당 가격은 242250, 긴급 수량은 1입니다.",
+    "output": "item36에 할당된 기계는 machine08 20개, machine09 13개, machine32 3개, machine33 3개입니다. item52에 할당된 기계는 machine08 8개, machine33 5개입니다. item30에 할당된 기계는 machine23 13개, machine29 8개, machine30 14개입니다. item31에 할당된 기계는 machine10 2개, machine22 12개입니다. item35에 할당된 기계는 machine05 8개, machine19 14개, machine20 10개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date462이고, 품목은 item36, 수량은 40, 개당 가격은 27039, 긴급 수량은 0입니다. 품목은 item30, 수량은 16, 개당 가격은 95000, 긴급 수량은 0입니다. 품목은 item31, 수량은 16, 개당 가격은 7500, 긴급 수량은 0입니다. 품목은 item35, 수량은 32, 개당 가격은 242250, 긴급 수량은 1입니다. 품목은 item74, 수량은 33, 개당 가격은 11900, 긴급 수량은 0입니다.",
+    "output": "item36에 할당된 기계는 machine08 19개, machine09 31개, machine32 22개, machine33 2개입니다. item30에 할당된 기계는 machine23 6개, machine30 1개입니다. item31에 할당된 기계는 machine10 11개, machine22 8개입니다. item35에 할당된 기계는 machine05 10개, machine19 11개, machine20 11개입니다. item74에 할당된 기계는 machine08 24개, machine09 9개, machine10 28개, machine14 28개, machine21 33개, machine22 8개, machine23 12개, machine28 22개, machine29 13개, machine33 20개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date463이고, 품목은 item30, 수량은 16, 개당 가격은 95000, 긴급 수량은 0입니다. 품목은 item31, 수량은 16, 개당 가격은 7500, 긴급 수량은 0입니다. 품목은 item35, 수량은 32, 개당 가격은 242250, 긴급 수량은 1입니다. 품목은 item74, 수량은 33, 개당 가격은 11900, 긴급 수량은 0입니다. 품목은 item85, 수량은 64, 개당 가격은 246800, 긴급 수량은 0입니다.",
+    "output": "item30에 할당된 기계는 machine23 4개, machine29 8개, machine30 3개입니다. item31에 할당된 기계는 machine10 5개, machine22 6개입니다. item35에 할당된 기계는 machine05 8개, machine19 14개, machine20 10개입니다. item74에 할당된 기계는 machine08 26개, machine09 3개, machine14 7개, machine21 26개, machine22 2개, machine23 29개, machine28 16개, machine29 30개, machine33 9개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date464이고, 품목은 item30, 수량은 16, 개당 가격은 95000, 긴급 수량은 0입니다. 품목은 item31, 수량은 16, 개당 가격은 7500, 긴급 수량은 0입니다. 품목은 item44, 수량은 12, 개당 가격은 39200, 긴급 수량은 0입니다. 품목은 item74, 수량은 33, 개당 가격은 11900, 긴급 수량은 0입니다. 품목은 item85, 수량은 64, 개당 가격은 246800, 긴급 수량은 0입니다.",
+    "output": "item30에 할당된 기계는 machine23 11개, machine29 12개, machine30 4개입니다. item31에 할당된 기계는 machine10 7개, machine22 6개입니다. item44에 할당된 기계는 machine05 12개, machine32 8개입니다. item74에 할당된 기계는 machine08 33개, machine09 17개, machine10 24개, machine14 32개, machine21 25개, machine22 13개, machine23 2개, machine28 3개, machine29 24개, machine33 17개입니다. item85에 할당된 기계는 machine10 44개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date465이고, 품목은 item31, 수량은 16, 개당 가격은 7500, 긴급 수량은 0입니다. 품목은 item44, 수량은 12, 개당 가격은 39200, 긴급 수량은 0입니다. 품목은 item74, 수량은 33, 개당 가격은 11900, 긴급 수량은 0입니다. 품목은 item85, 수량은 64, 개당 가격은 246800, 긴급 수량은 0입니다. 품목은 item87, 수량은 200, 개당 가격은 40973, 긴급 수량은 1입니다.",
+    "output": "item31에 할당된 기계는 machine10 1개, machine22 15개입니다. item44에 할당된 기계는 machine32 10개입니다. item74에 할당된 기계는 machine08 17개, machine09 23개, machine10 27개, machine14 8개, machine22 30개, machine23 29개, machine28 30개, machine29 8개, machine33 9개입니다. item85에 할당된 기계는 machine10 17개입니다. item87에 할당된 기계는 machine03 43개, machine18 27개, machine19 60개, machine32 15개, machine33 55개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date466이고, 품목은 item44, 수량은 12, 개당 가격은 39200, 긴급 수량은 0입니다. 품목은 item74, 수량은 33, 개당 가격은 11900, 긴급 수량은 0입니다. 품목은 item85, 수량은 64, 개당 가격은 246800, 긴급 수량은 0입니다. 품목은 item87, 수량은 200, 개당 가격은 40973, 긴급 수량은 1입니다. 품목은 item61, 수량은 72, 개당 가격은 26140, 긴급 수량은 0입니다.",
+    "output": "item74에 할당된 기계는 machine08 11개, machine09 14개, machine10 17개, machine14 16개, machine22 17개, machine23 8개, machine28 22개, machine29 21개입니다. item87에 할당된 기계는 machine01 87개, machine03 67개, machine17 45개, machine18 1개입니다. item61에 할당된 기계는 machine09 24개, machine21 7개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date467이고, 품목은 item44, 수량은 12, 개당 가격은 39200, 긴급 수량은 0입니다. 품목은 item85, 수량은 64, 개당 가격은 246800, 긴급 수량은 0입니다. 품목은 item87, 수량은 200, 개당 가격은 40973, 긴급 수량은 1입니다. 품목은 item45, 수량은 716, 개당 가격은 23362, 긴급 수량은 1입니다. 품목은 item61, 수량은 72, 개당 가격은 26140, 긴급 수량은 0입니다.",
+    "output": "item85에 할당된 기계는 machine10 53개입니다. item87에 할당된 기계는 machine01 67개, machine21 40개, machine32 68개, machine33 16개입니다. item45에 할당된 기계는 machine08 89개, machine30 113개, machine32 93개, machine33 117개입니다. item61에 할당된 기계는 machine09 32개, machine21 45개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date468이고, 품목은 item44, 수량은 12, 개당 가격은 39200, 긴급 수량은 0입니다. 품목은 item87, 수량은 200, 개당 가격은 40973, 긴급 수량은 1입니다. 품목은 item45, 수량은 716, 개당 가격은 23362, 긴급 수량은 1입니다. 품목은 item61, 수량은 72, 개당 가격은 26140, 긴급 수량은 0입니다. 품목은 item65, 수량은 194, 개당 가격은 23500, 긴급 수량은 1입니다.",
+    "output": "item44에 할당된 기계는 machine05 2개, machine32 12개입니다. item87에 할당된 기계는 machine01 77개, machine05 29개, machine32 8개, machine33 43개입니다. item45에 할당된 기계는 machine08 131개, machine32 78개, machine33 95개입니다. item61에 할당된 기계는 machine09 44개입니다. item65에 할당된 기계는 machine09 33개, machine10 15개, machine28 83개, machine33 6개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date469이고, 품목은 item87, 수량은 200, 개당 가격은 40973, 긴급 수량은 1입니다. 품목은 item22, 수량은 66, 개당 가격은 60000, 긴급 수량은 1입니다. 품목은 item45, 수량은 716, 개당 가격은 23362, 긴급 수량은 1입니다. 품목은 item61, 수량은 72, 개당 가격은 26140, 긴급 수량은 0입니다. 품목은 item65, 수량은 194, 개당 가격은 23500, 긴급 수량은 1입니다.",
+    "output": "item87에 할당된 기계는 machine01 59개, machine05 17개, machine17 35개, machine19 57개입니다. item22에 할당된 기계는 machine01 2개, machine03 19개, machine06 8개, machine16 17개, machine19 24개, machine20 15개, machine34 2개입니다. item65에 할당된 기계는 machine04 10개, machine28 130개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date470이고, 품목은 item22, 수량은 66, 개당 가격은 60000, 긴급 수량은 1입니다. 품목은 item45, 수량은 716, 개당 가격은 23362, 긴급 수량은 1입니다. 품목은 item55, 수량은 18, 개당 가격은 44732, 긴급 수량은 0입니다. 품목은 item61, 수량은 72, 개당 가격은 26140, 긴급 수량은 0입니다. 품목은 item65, 수량은 194, 개당 가격은 23500, 긴급 수량은 1입니다.",
+    "output": "item22에 할당된 기계는 machine03 16개, machine06 3개, machine16 5개, machine19 6개, machine34 34개입니다. item55에 할당된 기계는 machine10 7개, machine23 14개, machine28 13개입니다. item61에 할당된 기계는 machine09 15개입니다. item65에 할당된 기계는 machine09 33개, machine10 46개, machine22 8개, machine28 37개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date471이고, 품목은 item22, 수량은 66, 개당 가격은 60000, 긴급 수량은 1입니다. 품목은 item45, 수량은 716, 개당 가격은 23362, 긴급 수량은 1입니다. 품목은 item55, 수량은 18, 개당 가격은 44732, 긴급 수량은 0입니다. 품목은 item65, 수량은 194, 개당 가격은 23500, 긴급 수량은 1입니다. 품목은 item67, 수량은 2, 개당 가격은 32000, 긴급 수량은 0입니다.",
+    "output": "item22에 할당된 기계는 machine01 26개, machine06 2개, machine16 2개, machine18 9개, machine19 4개, machine34 20개입니다. item55에 할당된 기계는 machine04 4개, machine10 17개, machine23 17개, machine28 17개입니다. item65에 할당된 기계는 machine04 66개, machine09 29개, machine10 59개, machine22 14개, machine28 22개입니다. item67에 할당된 기계는 machine23 1개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date472이고, 품목은 item22, 수량은 66, 개당 가격은 60000, 긴급 수량은 1입니다. 품목은 item55, 수량은 18, 개당 가격은 44732, 긴급 수량은 0입니다. 품목은 item65, 수량은 194, 개당 가격은 23500, 긴급 수량은 1입니다. 품목은 item67, 수량은 2, 개당 가격은 32000, 긴급 수량은 0입니다. 품목은 item88, 수량은 400, 개당 가격은 21160, 긴급 수량은 0입니다.",
+    "output": "item22에 할당된 기계는 machine01 36개, machine05 1개, machine06 3개, machine16 2개, machine19 5개, machine20 12개, machine21 5개입니다. item55에 할당된 기계는 machine23 4개, machine28 5개입니다. item65에 할당된 기계는 machine09 20개, machine28 62개, machine30 20개입니다. item67에 할당된 기계는 machine21 1개, machine23 2개입니다. item88에 할당된 기계는 machine28 130개, machine29 98개, machine31 34개, machine33 25개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date473이고, 품목은 item22, 수량은 66, 개당 가격은 60000, 긴급 수량은 1입니다. 품목은 item55, 수량은 18, 개당 가격은 44732, 긴급 수량은 0입니다. 품목은 item67, 수량은 2, 개당 가격은 32000, 긴급 수량은 0입니다. 품목은 item88, 수량은 400, 개당 가격은 21160, 긴급 수량은 0입니다. 품목은 item89, 수량은 400, 개당 가격은 28520, 긴급 수량은 0입니다.",
+    "output": "item22에 할당된 기계는 machine01 17개, machine03 17개, machine06 19개, machine16 2개, machine19 9개, machine20 2개입니다. item55에 할당된 기계는 machine04 11개, machine10 8개, machine23 5개입니다. item67에 할당된 기계는 machine23 1개입니다. item88에 할당된 기계는 machine04 8개, machine10 162개, machine35 100개입니다. item89에 할당된 기계는 machine10 220개, machine23 344개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date474이고, 품목은 item55, 수량은 18, 개당 가격은 44732, 긴급 수량은 0입니다. 품목은 item67, 수량은 2, 개당 가격은 32000, 긴급 수량은 0입니다. 품목은 item88, 수량은 400, 개당 가격은 21160, 긴급 수량은 0입니다. 품목은 item89, 수량은 400, 개당 가격은 28520, 긴급 수량은 0입니다. 품목은 item92, 수량은 20, 개당 가격은 12740, 긴급 수량은 0입니다.",
+    "output": "item88에 할당된 기계는 machine31 45개, machine32 142개입니다. item92에 할당된 기계는 machine08 13개, machine09 7개, machine10 11개, machine21 18개, machine23 7개, machine28 17개, machine30 1개, machine32 9개, machine33 8개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date475이고, 품목은 item67, 수량은 2, 개당 가격은 32000, 긴급 수량은 0입니다. 품목은 item88, 수량은 400, 개당 가격은 21160, 긴급 수량은 0입니다. 품목은 item89, 수량은 400, 개당 가격은 28520, 긴급 수량은 0입니다. 품목은 item90, 수량은 10, 개당 가격은 21260, 긴급 수량은 0입니다. 품목은 item92, 수량은 20, 개당 가격은 12740, 긴급 수량은 0입니다.",
+    "output": "item67에 할당된 기계는 machine23 2개입니다. item88에 할당된 기계는 machine23 107개입니다. item89에 할당된 기계는 machine23 224개입니다. item90에 할당된 기계는 machine08 3개, machine09 8개, machine21 5개, machine23 4개, machine28 4개, machine29 7개, machine32 8개, machine33 2개입니다. item92에 할당된 기계는 machine08 6개, machine09 13개, machine10 2개, machine21 9개, machine23 20개, machine28 17개, machine30 7개, machine32 13개, machine33 14개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date476이고, 품목은 item88, 수량은 400, 개당 가격은 21160, 긴급 수량은 0입니다. 품목은 item89, 수량은 400, 개당 가격은 28520, 긴급 수량은 0입니다. 품목은 item88, 수량은 144, 개당 가격은 16100, 긴급 수량은 1입니다. 품목은 item90, 수량은 10, 개당 가격은 21260, 긴급 수량은 0입니다. 품목은 item92, 수량은 20, 개당 가격은 12740, 긴급 수량은 0입니다.",
+    "output": "item88에 할당된 기계는 machine07 71개, machine10 47개, machine22 77개, machine04 27개, machine07 2개, machine10 15개, machine14 10개, machine21 42개, machine22 56개, machine23 43개, machine28 23개, machine29 30개, machine31 4개, machine32 3개, machine33 1개, machine34 36개입니다. item89에 할당된 기계는 machine22 66개, machine23 245개입니다. item90에 할당된 기계는 machine09 7개, machine21 3개, machine23 4개, machine28 5개, machine29 7개, machine32 6개, machine33 9개입니다. item92에 할당된 기계는 machine09 8개, machine10 6개, machine21 14개, machine23 13개, machine28 10개, machine30 2개, machine32 6개, machine33 10개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date477이고, 품목은 item89, 수량은 400, 개당 가격은 28520, 긴급 수량은 0입니다. 품목은 item13, 수량은 370, 개당 가격은 9416, 긴급 수량은 1입니다. 품목은 item88, 수량은 144, 개당 가격은 16100, 긴급 수량은 1입니다. 품목은 item90, 수량은 10, 개당 가격은 21260, 긴급 수량은 0입니다. 품목은 item92, 수량은 20, 개당 가격은 12740, 긴급 수량은 0입니다.",
+    "output": "item89에 할당된 기계는 machine04 30개, machine09 63개, machine10 32개, machine23 381개, machine30 54개입니다. item13에 할당된 기계는 machine08 102개, machine29 102개, machine30 14개, machine31 139개입니다. item88에 할당된 기계는 machine04 40개, machine08 16개, machine10 31개, machine28 23개, machine32 25개입니다. item90에 할당된 기계는 machine08 9개, machine28 4개, machine29 2개, machine32 3개, machine33 10개입니다. item92에 할당된 기계는 machine08 9개, machine10 16개, machine28 8개, machine30 19개, machine32 5개, machine33 19개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date478이고, 품목은 item13, 수량은 370, 개당 가격은 9416, 긴급 수량은 1입니다. 품목은 item88, 수량은 144, 개당 가격은 16100, 긴급 수량은 1입니다. 품목은 item89, 수량은 144, 개당 가격은 22750, 긴급 수량은 1입니다. 품목은 item90, 수량은 10, 개당 가격은 21260, 긴급 수량은 0입니다. 품목은 item92, 수량은 20, 개당 가격은 12740, 긴급 수량은 0입니다.",
+    "output": "item13에 할당된 기계는 machine11 116개, machine24 79개, machine31 141개입니다. item88에 할당된 기계는 machine10 13개, machine28 103개, machine31 7개입니다. item89에 할당된 기계는 machine05 12개, machine10 29개, machine28 88개, machine30 1개입니다. item92에 할당된 기계는 machine30 14개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date479이고, 품목은 item13, 수량은 370, 개당 가격은 9416, 긴급 수량은 1입니다. 품목은 item88, 수량은 144, 개당 가격은 16100, 긴급 수량은 1입니다. 품목은 item89, 수량은 144, 개당 가격은 22750, 긴급 수량은 1입니다. 품목은 item90, 수량은 10, 개당 가격은 21260, 긴급 수량은 0입니다. 품목은 item41, 수량은 52, 개당 가격은 481190, 긴급 수량은 1입니다.",
+    "output": "item13에 할당된 기계는 machine24 121개, machine30 100개, machine31 5개, machine35 40개입니다. item88에 할당된 기계는 machine10 58개, machine28 6개, machine31 50개, machine33 13개, machine35 12개입니다. item89에 할당된 기계는 machine10 52개, machine28 40개, machine33 9개, machine35 34개입니다. item90에 할당된 기계는 machine28 2개, machine33 2개입니다. item41에 할당된 기계는 machine06 7개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date480이고, 품목은 item13, 수량은 370, 개당 가격은 9416, 긴급 수량은 1입니다. 품목은 item88, 수량은 144, 개당 가격은 16100, 긴급 수량은 1입니다. 품목은 item89, 수량은 144, 개당 가격은 22750, 긴급 수량은 1입니다. 품목은 item41, 수량은 52, 개당 가격은 481190, 긴급 수량은 1입니다. 품목은 item49, 수량은 42, 개당 가격은 11500, 긴급 수량은 0입니다.",
+    "output": "item13에 할당된 기계는 machine21 34개, machine24 108개, machine34 80개입니다. item88에 할당된 기계는 machine10 16개, machine21 32개, machine33 48개, machine34 6개입니다. item89에 할당된 기계는 machine10 32개, machine21 40개, machine33 13개, machine34 40개입니다. item41에 할당된 기계는 machine06 8개, machine19 7개입니다. item49에 할당된 기계는 machine14 37개, machine21 20개, machine33 27개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date481이고, 품목은 item13, 수량은 370, 개당 가격은 9416, 긴급 수량은 1입니다. 품목은 item89, 수량은 144, 개당 가격은 22750, 긴급 수량은 1입니다. 품목은 item39, 수량은 80, 개당 가격은 10220, 긴급 수량은 0입니다. 품목은 item41, 수량은 52, 개당 가격은 481190, 긴급 수량은 1입니다. 품목은 item49, 수량은 42, 개당 가격은 11500, 긴급 수량은 0입니다.",
+    "output": "item13에 할당된 기계는 machine22 69개, machine24 145개입니다. item89에 할당된 기계는 machine04 2개, machine10 30개, machine21 1개, machine22 41개, machine28 35개입니다. item39에 할당된 기계는 machine09 52개입니다. item41에 할당된 기계는 machine06 6개, machine19 6개입니다. item49에 할당된 기계는 machine14 32개, machine21 42개, machine33 25개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date482이고, 품목은 item89, 수량은 144, 개당 가격은 22750, 긴급 수량은 1입니다. 품목은 item39, 수량은 80, 개당 가격은 10220, 긴급 수량은 0입니다. 품목은 item41, 수량은 52, 개당 가격은 481190, 긴급 수량은 1입니다. 품목은 item49, 수량은 42, 개당 가격은 11500, 긴급 수량은 0입니다. 품목은 item87, 수량은 204, 개당 가격은 40973, 긴급 수량은 1입니다.",
+    "output": "item89에 할당된 기계는 machine07 49개, machine10 7개, machine21 8개, machine22 10개, machine23 107개, machine28 28개, machine34 8개입니다. item39에 할당된 기계는 machine09 15개입니다. item49에 할당된 기계는 machine14 11개입니다. item87에 할당된 기계는 machine01 66개, machine05 47개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date483이고, 품목은 item39, 수량은 80, 개당 가격은 10220, 긴급 수량은 0입니다. 품목은 item41, 수량은 52, 개당 가격은 481190, 긴급 수량은 1입니다. 품목은 item42, 수량은 128, 개당 가격은 9170, 긴급 수량은 0입니다. 품목은 item49, 수량은 42, 개당 가격은 11500, 긴급 수량은 0입니다. 품목은 item87, 수량은 204, 개당 가격은 40973, 긴급 수량은 1입니다.",
+    "output": "item39에 할당된 기계는 machine09 34개입니다. item41에 할당된 기계는 machine06 8개, machine19 8개입니다. item42에 할당된 기계는 machine08 100개입니다. item49에 할당된 기계는 machine14 15개, machine33 29개입니다. item87에 할당된 기계는 machine03 81개, machine18 7개, machine32 106개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date484이고, 품목은 item39, 수량은 80, 개당 가격은 10220, 긴급 수량은 0입니다. 품목은 item42, 수량은 128, 개당 가격은 9170, 긴급 수량은 0입니다. 품목은 item49, 수량은 42, 개당 가격은 11500, 긴급 수량은 0입니다. 품목은 item87, 수량은 204, 개당 가격은 40973, 긴급 수량은 1입니다. 품목은 item47, 수량은 66, 개당 가격은 8000, 긴급 수량은 0입니다.",
+    "output": "item39에 할당된 기계는 machine09 37개입니다. item42에 할당된 기계는 machine08 40개입니다. item49에 할당된 기계는 machine14 25개, machine21 11개, machine33 6개입니다. item87에 할당된 기계는 machine03 24개, machine17 35개, machine20 30개, machine32 109개, machine33 6개입니다. item47에 할당된 기계는 machine08 13개, machine23 39개, machine28 64개, machine29 37개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date485이고, 품목은 item39, 수량은 80, 개당 가격은 10220, 긴급 수량은 0입니다. 품목은 item42, 수량은 128, 개당 가격은 9170, 긴급 수량은 0입니다. 품목은 item87, 수량은 204, 개당 가격은 40973, 긴급 수량은 1입니다. 품목은 item47, 수량은 66, 개당 가격은 8000, 긴급 수량은 0입니다. 품목은 item50, 수량은 5, 개당 가격은 266000, 긴급 수량은 0입니다.",
+    "output": "item39에 할당된 기계는 machine09 11개입니다. item42에 할당된 기계는 machine08 115개입니다. item87에 할당된 기계는 machine01 95개, machine19 10개, machine20 30개, machine21 62개, machine32 7개입니다. item47에 할당된 기계는 machine08 25개, machine23 65개, machine28 6개, machine29 19개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date486이고, 품목은 item42, 수량은 128, 개당 가격은 9170, 긴급 수량은 0입니다. 품목은 item87, 수량은 204, 개당 가격은 40973, 긴급 수량은 1입니다. 품목은 item47, 수량은 66, 개당 가격은 8000, 긴급 수량은 0입니다. 품목은 item48, 수량은 240, 개당 가격은 11000, 긴급 수량은 0입니다. 품목은 item50, 수량은 5, 개당 가격은 266000, 긴급 수량은 0입니다.",
+    "output": "item42에 할당된 기계는 machine08 72개입니다. item87에 할당된 기계는 machine17 23개, machine21 4개, machine32 97개, machine33 80개입니다. item47에 할당된 기계는 machine23 59개, machine28 49개, machine29 20개입니다. item48에 할당된 기계는 machine09 97개입니다. item50에 할당된 기계는 machine23 2개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date487이고, 품목은 item42, 수량은 128, 개당 가격은 9170, 긴급 수량은 0입니다. 품목은 item47, 수량은 66, 개당 가격은 8000, 긴급 수량은 0입니다. 품목은 item48, 수량은 240, 개당 가격은 11000, 긴급 수량은 0입니다. 품목은 item50, 수량은 5, 개당 가격은 266000, 긴급 수량은 0입니다. 품목은 item58, 수량은 20, 개당 가격은 17684, 긴급 수량은 0입니다.",
+    "output": "item42에 할당된 기계는 machine08 122개입니다. item47에 할당된 기계는 machine23 28개, machine28 58개, machine29 58개입니다. item48에 할당된 기계는 machine09 48개입니다. item50에 할당된 기계는 machine23 4개입니다. item58에 할당된 기계는 machine10 18개, machine21 12개, machine23 5개, machine28 8개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date488이고, 품목은 item47, 수량은 66, 개당 가격은 8000, 긴급 수량은 0입니다. 품목은 item48, 수량은 240, 개당 가격은 11000, 긴급 수량은 0입니다. 품목은 item50, 수량은 5, 개당 가격은 266000, 긴급 수량은 0입니다. 품목은 item58, 수량은 20, 개당 가격은 17684, 긴급 수량은 0입니다. 품목은 item81, 수량은 24, 개당 가격은 166250, 긴급 수량은 1입니다.",
+    "output": "item47에 할당된 기계는 machine23 59개, machine28 65개, machine29 54개입니다. item58에 할당된 기계는 machine10 5개, machine21 18개, machine23 16개, machine28 8개입니다. item81에 할당된 기계는 machine01 12개, machine06 12개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date489이고, 품목은 item48, 수량은 240, 개당 가격은 11000, 긴급 수량은 0입니다. 품목은 item50, 수량은 5, 개당 가격은 266000, 긴급 수량은 0입니다. 품목은 item58, 수량은 20, 개당 가격은 17684, 긴급 수량은 0입니다. 품목은 item21, 수량은 396, 개당 가격은 22005, 긴급 수량은 1입니다. 품목은 item81, 수량은 24, 개당 가격은 166250, 긴급 수량은 1입니다.",
+    "output": "item50에 할당된 기계는 machine23 4개입니다. item58에 할당된 기계는 machine10 5개, machine21 3개, machine23 5개입니다. item21에 할당된 기계는 machine10 112개, machine22 105개, machine23 113개, machine29 65개입니다. item81에 할당된 기계는 machine01 3개, machine03 11개, machine17 2개, machine19 8개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date490이고, 품목은 item48, 수량은 240, 개당 가격은 11000, 긴급 수량은 0입니다. 품목은 item58, 수량은 20, 개당 가격은 17684, 긴급 수량은 0입니다. 품목은 item21, 수량은 396, 개당 가격은 22005, 긴급 수량은 1입니다. 품목은 item81, 수량은 24, 개당 가격은 166250, 긴급 수량은 1입니다. 품목은 item22, 수량은 46, 개당 가격은 60000, 긴급 수량은 1입니다.",
+    "output": "item48에 할당된 기계는 machine08 51개입니다. item58에 할당된 기계는 machine10 11개, machine21 1개, machine23 11개, machine28 8개입니다. item21에 할당된 기계는 machine08 48개, machine21 33개, machine22 8개, machine23 161개, machine28 29개, machine30 42개입니다. item81에 할당된 기계는 machine01 7개, machine06 2개, machine17 1개, machine19 7개입니다. item22에 할당된 기계는 machine01 6개, machine03 2개, machine05 3개, machine06 23개, machine08 5개, machine19 20개, machine20 12개, machine21 17개, machine32 4개, machine33 25개, machine34 16개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date491이고, 품목은 item58, 수량은 20, 개당 가격은 17684, 긴급 수량은 0입니다. 품목은 item21, 수량은 396, 개당 가격은 22005, 긴급 수량은 1입니다. 품목은 item81, 수량은 24, 개당 가격은 166250, 긴급 수량은 1입니다. 품목은 item22, 수량은 46, 개당 가격은 60000, 긴급 수량은 1입니다. 품목은 item35, 수량은 15, 개당 가격은 242250, 긴급 수량은 1입니다.",
+    "output": "item58에 할당된 기계는 machine10 5개, machine21 19개, machine23 6개, machine28 13개입니다. item21에 할당된 기계는 machine08 73개, machine10 145개, machine21 92개, machine23 23개, machine28 96개입니다. item81에 할당된 기계는 machine01 2개, machine06 4개, machine17 11개, machine19 6개입니다. item22에 할당된 기계는 machine01 8개, machine03 3개, machine05 3개, machine06 14개, machine08 1개, machine16 8개, machine19 3개, machine20 16개, machine21 31개, machine32 2개, machine33 31개, machine34 10개입니다. item35에 할당된 기계는 machine19 1개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date492이고, 품목은 item21, 수량은 396, 개당 가격은 22005, 긴급 수량은 1입니다. 품목은 item81, 수량은 24, 개당 가격은 166250, 긴급 수량은 1입니다. 품목은 item22, 수량은 46, 개당 가격은 60000, 긴급 수량은 1입니다. 품목은 item35, 수량은 15, 개당 가격은 242250, 긴급 수량은 1입니다. 품목은 item89, 수량은 84, 개당 가격은 24418, 긴급 수량은 1입니다.",
+    "output": "item21에 할당된 기계는 machine08 42개, machine14 54개, machine23 182개, machine28 108개, machine30 74개입니다. item81에 할당된 기계는 machine03 4개, machine19 11개입니다. item22에 할당된 기계는 machine01 6개, machine03 16개, machine05 27개, machine06 7개, machine08 11개, machine16 7개, machine18 25개, machine19 4개, machine20 1개, machine21 3개, machine32 27개, machine33 2개, machine34 18개입니다. item35에 할당된 기계는 machine05 12개, machine19 1개, machine20 4개입니다. item89에 할당된 기계는 machine04 13개, machine05 23개, machine07 5개, machine08 9개, machine09 49개, machine10 39개, machine14 11개, machine21 15개, machine22 27개, machine23 42개, machine28 23개, machine30 2개, machine32 45개, machine33 55개, machine34 52개, machine35 8개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date493이고, 품목은 item21, 수량은 396, 개당 가격은 22005, 긴급 수량은 1입니다. 품목은 item22, 수량은 46, 개당 가격은 60000, 긴급 수량은 1입니다. 품목은 item35, 수량은 15, 개당 가격은 242250, 긴급 수량은 1입니다. 품목은 item88, 수량은 84, 개당 가격은 17794, 긴급 수량은 1입니다. 품목은 item89, 수량은 84, 개당 가격은 24418, 긴급 수량은 1입니다.",
+    "output": "item21에 할당된 기계는 machine09 33개, machine14 35개, machine23 171개, machine28 4개입니다. item22에 할당된 기계는 machine01 5개, machine03 11개, machine05 25개, machine06 13개, machine08 24개, machine16 34개, machine18 16개, machine19 18개, machine20 6개, machine21 13개, machine32 5개, machine33 20개, machine34 30개입니다. item35에 할당된 기계는 machine19 8개, machine20 2개입니다. item88에 할당된 기계는 machine04 3개, machine07 73개, machine10 23개, machine22 7개, machine23 54개, machine28 2개, machine29 48개, machine31 74개, machine32 47개, machine34 8개, machine35 73개입니다. item89에 할당된 기계는 machine04 40개, machine05 22개, machine07 29개, machine10 18개, machine22 14개, machine23 5개, machine28 70개, machine29 8개, machine30 23개, machine32 4개, machine34 9개, machine35 1개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date494이고, 품목은 item22, 수량은 46, 개당 가격은 60000, 긴급 수량은 1입니다. 품목은 item35, 수량은 15, 개당 가격은 242250, 긴급 수량은 1입니다. 품목은 item88, 수량은 84, 개당 가격은 17794, 긴급 수량은 1입니다. 품목은 item89, 수량은 200, 개당 가격은 24418, 긴급 수량은 1입니다.",
+    "output": "item22에 할당된 기계는 machine01 14개, machine03 9개, machine05 13개, machine06 37개, machine08 20개, machine16 3개, machine18 17개, machine19 16개, machine20 10개, machine21 9개, machine32 14개, machine33 2개, machine34 10개입니다. item35에 할당된 기계는 machine05 6개, machine20 7개입니다. item88에 할당된 기계는 machine10 1개, machine23 54개, machine28 8개, machine31 10개, machine33 5개입니다. item89에 할당된 기계는 machine05 45개, machine10 19개, machine23 11개, machine28 63개, machine30 34개, machine33 14개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date495이고, 품목은 item35, 수량은 15, 개당 가격은 242250, 긴급 수량은 1입니다. 품목은 item88, 수량은 200, 개당 가격은 17794, 긴급 수량은 1입니다. 품목은 item89, 수량은 200, 개당 가격은 24418, 긴급 수량은 1입니다.",
+    "output": "item35에 할당된 기계는 machine05 1개, machine19 9개입니다. item88에 할당된 기계는 machine04 70개, machine10 66개, machine23 59개입니다. item89에 할당된 기계는 machine04 23개, machine10 1개, machine14 9개, machine23 153개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date496이고, 품목은 item87, 수량은 208, 개당 가격은 40973, 긴급 수량은 1입니다. 품목은 item88, 수량은 200, 개당 가격은 17794, 긴급 수량은 1입니다. 품목은 item89, 수량은 200, 개당 가격은 24418, 긴급 수량은 1입니다.",
+    "output": "item87에 할당된 기계는 machine01 66개, machine03 81개, machine21 37개입니다. item88에 할당된 기계는 machine10 1개, machine21 60개, machine23 17개, machine28 45개입니다. item89에 할당된 기계는 machine07 13개, machine10 35개, machine21 20개, machine23 122개, machine28 5개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date497이고, 품목은 item87, 수량은 208, 개당 가격은 40973, 긴급 수량은 1입니다. 품목은 item88, 수량은 200, 개당 가격은 17794, 긴급 수량은 1입니다. 품목은 item89, 수량은 116, 개당 가격은 24418, 긴급 수량은 1입니다. 품목은 item10, 수량은 210, 개당 가격은 5303, 긴급 수량은 0입니다.",
+    "output": "item87에 할당된 기계는 machine01 71개, machine17 49개, machine19 9개, machine20 37개입니다. item88에 할당된 기계는 machine07 28개, machine09 120개, machine10 9개, machine23 3개, machine34 25개입니다. item89에 할당된 기계는 machine07 26개, machine10 17개, machine23 23개, machine30 2개입니다. item10에 할당된 기계는 machine07 205개, machine08 39개, machine09 30개, machine21 15개, machine22 170개, machine23 175개, machine28 173개, machine30 89개, machine31 55개, machine34 103개, machine35 27개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date498이고, 품목은 item87, 수량은 208, 개당 가격은 40973, 긴급 수량은 1입니다. 품목은 item88, 수량은 116, 개당 가격은 17794, 긴급 수량은 1입니다. 품목은 item89, 수량은 116, 개당 가격은 24418, 긴급 수량은 1입니다. 품목은 item10, 수량은 210, 개당 가격은 5303, 긴급 수량은 0입니다. 품목은 item46, 수량은 44, 개당 가격은 21360, 긴급 수량은 0입니다.",
+    "output": "item87에 할당된 기계는 machine20 35개입니다. item88에 할당된 기계는 machine07 39개, machine08 30개, machine10 14개, machine23 8개, machine28 26개, machine31 1개, machine34 9개입니다. item89에 할당된 기계는 machine07 51개, machine08 5개, machine10 52개, machine23 23개, machine28 23개, machine34 3개입니다. item10에 할당된 기계는 machine07 131개, machine08 2개, machine09 132개, machine21 112개, machine22 181개, machine23 115개, machine28 32개, machine30 121개, machine31 82개, machine34 131개, machine35 57개입니다. item46에 할당된 기계는 machine08 9개, machine09 23개, machine14 35개, machine21 41개, machine28 33개, machine29 17개, machine33 25개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date499이고, 품목은 item87, 수량은 208, 개당 가격은 40973, 긴급 수량은 1입니다. 품목은 item88, 수량은 116, 개당 가격은 17794, 긴급 수량은 1입니다. 품목은 item10, 수량은 210, 개당 가격은 5303, 긴급 수량은 0입니다. 품목은 item43, 수량은 8, 개당 가격은 11602, 긴급 수량은 0입니다. 품목은 item46, 수량은 44, 개당 가격은 21360, 긴급 수량은 0입니다.",
+    "output": "item87에 할당된 기계는 machine18 8개, machine20 19개입니다. item88에 할당된 기계는 machine04 2개, machine07 2개, machine08 10개, machine09 2개, machine10 44개, machine14 5개, machine22 70개, machine23 2개, machine28 31개, machine29 21개, machine31 20개, machine34 46개, machine35 16개입니다. item10에 할당된 기계는 machine07 174개, machine09 163개, machine21 119개, machine22 63개, machine23 151개, machine28 38개, machine30 72개, machine31 26개, machine34 145개, machine35 184개입니다. item43에 할당된 기계는 machine08 4개, machine33 7개입니다. item46에 할당된 기계는 machine08 9개, machine09 29개, machine14 20개, machine21 20개, machine28 44개, machine29 30개, machine33 35개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date500이고, 품목은 item87, 수량은 208, 개당 가격은 40973, 긴급 수량은 1입니다. 품목은 item10, 수량은 210, 개당 가격은 5303, 긴급 수량은 0입니다. 품목은 item43, 수량은 8, 개당 가격은 11602, 긴급 수량은 0입니다. 품목은 item46, 수량은 44, 개당 가격은 21360, 긴급 수량은 0입니다. 품목은 item54, 수량은 48, 개당 가격은 12400, 긴급 수량은 0입니다.",
+    "output": "item87에 할당된 기계는 machine03 91개, machine21 54개, machine32 63개입니다. item10에 할당된 기계는 machine07 15개, machine08 123개, machine09 90개, machine21 92개, machine22 146개, machine23 160개, machine28 105개, machine30 104개, machine31 39개, machine34 148개, machine35 130개입니다. item43에 할당된 기계는 machine08 5개, machine33 5개입니다. item46에 할당된 기계는 machine08 24개, machine09 5개, machine14 28개, machine21 18개, machine28 31개, machine29 9개, machine33 33개입니다. item54에 할당된 기계는 machine07 16개, machine08 26개, machine09 37개, machine10 4개, machine21 31개, machine33 27개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date501이고, 품목은 item10, 수량은 210, 개당 가격은 5303, 긴급 수량은 0입니다. 품목은 item43, 수량은 8, 개당 가격은 11602, 긴급 수량은 0입니다. 품목은 item46, 수량은 44, 개당 가격은 21360, 긴급 수량은 0입니다. 품목은 item54, 수량은 48, 개당 가격은 12400, 긴급 수량은 0입니다. 품목은 item93, 수량은 48, 개당 가격은 13030, 긴급 수량은 0입니다.",
+    "output": "item10에 할당된 기계는 machine07 191개, machine08 96개, machine09 170개, machine21 104개, machine22 6개, machine23 197개, machine28 83개, machine30 36개, machine31 73개, machine34 115개, machine35 26개입니다. item43에 할당된 기계는 machine08 2개, machine33 1개입니다. item46에 할당된 기계는 machine08 23개, machine09 5개, machine14 23개, machine21 23개, machine28 39개, machine29 13개, machine33 3개입니다. item54에 할당된 기계는 machine07 27개, machine08 19개, machine09 28개, machine10 16개, machine21 47개, machine33 39개입니다. item93에 할당된 기계는 machine07 1개, machine08 44개, machine21 47개, machine28 46개, machine32 38개, machine33 4개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date502이고, 품목은 item43, 수량은 8, 개당 가격은 11602, 긴급 수량은 0입니다. 품목은 item46, 수량은 44, 개당 가격은 21360, 긴급 수량은 0입니다. 품목은 item32, 수량은 90, 개당 가격은 17436, 긴급 수량은 0입니다. 품목은 item54, 수량은 48, 개당 가격은 12400, 긴급 수량은 0입니다. 품목은 item93, 수량은 48, 개당 가격은 13030, 긴급 수량은 0입니다.",
+    "output": "item43에 할당된 기계는 machine08 6개, machine33 2개입니다. item46에 할당된 기계는 machine08 38개, machine09 19개, machine14 27개, machine21 16개, machine28 34개, machine29 41개입니다. item32에 할당된 기계는 machine32 13개입니다. item54에 할당된 기계는 machine07 21개, machine08 35개, machine09 5개, machine10 2개, machine21 44개, machine33 43개입니다. item93에 할당된 기계는 machine07 45개, machine08 18개, machine09 36개, machine21 2개, machine28 21개, machine32 12개, machine33 9개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date503이고, 품목은 item43, 수량은 8, 개당 가격은 11602, 긴급 수량은 0입니다. 품목은 item32, 수량은 90, 개당 가격은 17436, 긴급 수량은 0입니다. 품목은 item41, 수량은 52, 개당 가격은 481190, 긴급 수량은 1입니다. 품목은 item54, 수량은 48, 개당 가격은 12400, 긴급 수량은 0입니다. 품목은 item93, 수량은 48, 개당 가격은 13030, 긴급 수량은 0입니다.",
+    "output": "item43에 할당된 기계는 machine08 8개, machine33 6개입니다. item32에 할당된 기계는 machine32 10개입니다. item41에 할당된 기계는 machine06 8개, machine19 8개입니다. item54에 할당된 기계는 machine07 32개, machine08 28개, machine09 8개, machine10 30개, machine21 33개, machine33 4개입니다. item93에 할당된 기계는 machine07 8개, machine08 1개, machine09 33개, machine21 38개, machine28 5개, machine32 26개, machine33 29개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date504이고, 품목은 item32, 수량은 90, 개당 가격은 17436, 긴급 수량은 0입니다. 품목은 item41, 수량은 52, 개당 가격은 481190, 긴급 수량은 1입니다. 품목은 item54, 수량은 48, 개당 가격은 12400, 긴급 수량은 0입니다. 품목은 item64, 수량은 40, 개당 가격은 17836, 긴급 수량은 0입니다. 품목은 item93, 수량은 48, 개당 가격은 13030, 긴급 수량은 0입니다.",
+    "output": "item32에 할당된 기계는 machine32 62개입니다. item41에 할당된 기계는 machine06 8개, machine19 8개입니다. item54에 할당된 기계는 machine07 12개, machine08 33개, machine09 18개, machine10 3개, machine21 16개, machine33 30개입니다. item64에 할당된 기계는 machine08 17개, machine09 12개, machine10 2개, machine14 31개, machine21 19개, machine28 11개, machine29 24개, machine30 13개, machine32 35개, machine33 23개입니다. item93에 할당된 기계는 machine07 32개, machine08 14개, machine09 34개, machine21 17개, machine28 33개, machine33 26개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date505이고, 품목은 item32, 수량은 90, 개당 가격은 17436, 긴급 수량은 0입니다. 품목은 item41, 수량은 52, 개당 가격은 481190, 긴급 수량은 1입니다. 품목은 item64, 수량은 40, 개당 가격은 17836, 긴급 수량은 0입니다. 품목은 item93, 수량은 48, 개당 가격은 13030, 긴급 수량은 0입니다. 품목은 item40, 수량은 28, 개당 가격은 31160, 긴급 수량은 1입니다.",
+    "output": "item32에 할당된 기계는 machine32 50개입니다. item41에 할당된 기계는 machine06 8개, machine19 8개입니다. item64에 할당된 기계는 machine08 31개, machine09 32개, machine10 25개, machine14 23개, machine21 23개, machine28 7개, machine29 29개, machine30 5개, machine33 32개입니다. item93에 할당된 기계는 machine07 6개, machine08 41개, machine09 21개, machine21 25개, machine28 25개, machine32 29개, machine33 41개입니다. item40에 할당된 기계는 machine09 28개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date506이고, 품목은 item32, 수량은 90, 개당 가격은 17436, 긴급 수량은 0입니다. 품목은 item41, 수량은 52, 개당 가격은 481190, 긴급 수량은 1입니다. 품목은 item64, 수량은 40, 개당 가격은 17836, 긴급 수량은 0입니다. 품목은 item40, 수량은 28, 개당 가격은 31160, 긴급 수량은 1입니다. 품목은 item69, 수량은 4, 개당 가격은 44803, 긴급 수량은 0입니다.",
+    "output": "item32에 할당된 기계는 machine32 30개입니다. item41에 할당된 기계는 machine06 8개, machine19 8개입니다. item64에 할당된 기계는 machine08 29개, machine09 6개, machine10 26개, machine14 18개, machine21 24개, machine28 17개, machine29 15개, machine30 16개, machine32 1개, machine33 19개입니다. item40에 할당된 기계는 machine09 27개입니다. item69에 할당된 기계는 machine04 1개, machine10 2개, machine14 2개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date507이고, 품목은 item41, 수량은 52, 개당 가격은 481190, 긴급 수량은 1입니다. 품목은 item64, 수량은 40, 개당 가격은 17836, 긴급 수량은 0입니다. 품목은 item40, 수량은 28, 개당 가격은 31160, 긴급 수량은 1입니다. 품목은 item69, 수량은 4, 개당 가격은 44803, 긴급 수량은 0입니다. 품목은 item80, 수량은 48, 개당 가격은 36575, 긴급 수량은 0입니다.",
+    "output": "item41에 할당된 기계는 machine06 8개, machine19 8개입니다. item64에 할당된 기계는 machine08 17개, machine09 11개, machine10 15개, machine14 27개, machine21 4개, machine28 40개, machine29 39개, machine30 16개, machine32 39개, machine33 13개입니다. item40에 할당된 기계는 machine09 23개입니다. item69에 할당된 기계는 machine04 1개, machine10 2개, machine14 3개, machine21 2개입니다. item80에 할당된 기계는 machine04 11개, machine10 3개, machine23 42개, machine28 14개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date508이고, 품목은 item64, 수량은 40, 개당 가격은 17836, 긴급 수량은 0입니다. 품목은 item40, 수량은 28, 개당 가격은 31160, 긴급 수량은 1입니다. 품목은 item69, 수량은 4, 개당 가격은 44803, 긴급 수량은 0입니다. 품목은 item75, 수량은 72, 개당 가격은 14448, 긴급 수량은 1입니다. 품목은 item80, 수량은 48, 개당 가격은 36575, 긴급 수량은 0입니다.",
+    "output": "item64에 할당된 기계는 machine08 18개, machine09 17개, machine10 31개, machine14 38개, machine21 9개, machine28 23개, machine29 29개, machine30 30개, machine32 11개, machine33 14개입니다. item40에 할당된 기계는 machine09 4개입니다. item69에 할당된 기계는 machine04 1개, machine14 1개, machine21 3개입니다. item75에 할당된 기계는 machine08 3개, machine09 1개, machine10 15개, machine14 30개, machine29 23개, machine30 29개입니다. item80에 할당된 기계는 machine04 44개, machine10 31개, machine23 25개, machine28 5개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date509이고, 품목은 item40, 수량은 28, 개당 가격은 31160, 긴급 수량은 1입니다. 품목은 item69, 수량은 4, 개당 가격은 44803, 긴급 수량은 0입니다. 품목은 item75, 수량은 72, 개당 가격은 14448, 긴급 수량은 1입니다. 품목은 item80, 수량은 48, 개당 가격은 36575, 긴급 수량은 0입니다. 품목은 item70, 수량은 40, 개당 가격은 13099, 긴급 수량은 0입니다.",
+    "output": "item40에 할당된 기계는 machine09 22개입니다. item69에 할당된 기계는 machine04 3개, machine10 2개, machine14 1개, machine21 2개입니다. item75에 할당된 기계는 machine08 1개, machine09 3개, machine10 24개, machine14 11개, machine21 16개, machine28 13개, machine29 6개, machine30 28개, machine35 2개입니다. item80에 할당된 기계는 machine04 10개, machine10 43개, machine23 1개, machine28 25개입니다. item70에 할당된 기계는 machine04 39개, machine08 28개, machine10 40개, machine21 10개, machine22 34개, machine28 37개, machine29 2개, machine30 2개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date510이고, 품목은 item69, 수량은 4, 개당 가격은 44803, 긴급 수량은 0입니다. 품목은 item75, 수량은 72, 개당 가격은 14448, 긴급 수량은 1입니다. 품목은 item80, 수량은 48, 개당 가격은 36575, 긴급 수량은 0입니다. 품목은 item14, 수량은 430, 개당 가격은 7810, 긴급 수량은 1입니다. 품목은 item70, 수량은 40, 개당 가격은 13099, 긴급 수량은 0입니다.",
+    "output": "item69에 할당된 기계는 machine04 1개, machine10 2개, machine21 2개입니다. item75에 할당된 기계는 machine08 8개, machine09 26개, machine10 34개, machine14 28개, machine21 13개, machine28 10개, machine29 18개, machine30 1개, machine35 15개입니다. item80에 할당된 기계는 machine04 7개, machine10 34개, machine23 15개, machine28 33개입니다. item14에 할당된 기계는 machine01 11개, machine10 80개, machine14 42개, machine25 88개, machine26 30개, machine28 31개, machine35 62개입니다. item70에 할당된 기계는 machine04 6개, machine10 15개, machine23 2개, machine28 18개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date511이고, 품목은 item75, 수량은 72, 개당 가격은 14448, 긴급 수량은 1입니다. 품목은 item80, 수량은 48, 개당 가격은 36575, 긴급 수량은 0입니다. 품목은 item02, 수량은 300, 개당 가격은 10450, 긴급 수량은 0입니다. 품목은 item14, 수량은 430, 개당 가격은 7810, 긴급 수량은 1입니다. 품목은 item70, 수량은 40, 개당 가격은 13099, 긴급 수량은 0입니다.",
+    "output": "item75에 할당된 기계는 machine08 16개, machine09 22개, machine10 1개, machine14 4개, machine21 45개, machine28 7개, machine29 10개, machine30 34개, machine35 1개입니다. item80에 할당된 기계는 machine04 12개, machine10 38개, machine23 24개, machine28 40개입니다. item14에 할당된 기계는 machine01 157개, machine07 151개, machine10 70개, machine29 13개, machine30 49개, machine31 10개입니다. item70에 할당된 기계는 machine04 10개, machine10 19개, machine28 12개, machine29 26개, machine30 39개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date512이고, 품목은 item75, 수량은 72, 개당 가격은 14448, 긴급 수량은 1입니다. 품목은 item02, 수량은 300, 개당 가격은 10450, 긴급 수량은 0입니다. 품목은 item14, 수량은 430, 개당 가격은 7810, 긴급 수량은 1입니다. 품목은 item70, 수량은 40, 개당 가격은 13099, 긴급 수량은 0입니다. 품목은 item56, 수량은 8, 개당 가격은 20343, 긴급 수량은 0입니다.",
+    "output": "item75에 할당된 기계는 machine08 7개, machine09 18개, machine10 25개, machine14 9개, machine21 17개, machine28 27개, machine29 2개, machine30 5개, machine35 1개입니다. item14에 할당된 기계는 machine01 307개, machine07 55개, machine08 89개, machine26 23개, machine31 37개입니다. item70에 할당된 기계는 machine04 18개, machine08 18개, machine23 2개입니다. item56에 할당된 기계는 machine09 7개, machine14 1개, machine21 3개, machine23 3개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date513이고, 품목은 item02, 수량은 300, 개당 가격은 10450, 긴급 수량은 0입니다. 품목은 item14, 수량은 430, 개당 가격은 7810, 긴급 수량은 1입니다. 품목은 item70, 수량은 40, 개당 가격은 13099, 긴급 수량은 0입니다. 품목은 item56, 수량은 8, 개당 가격은 20343, 긴급 수량은 0입니다. 품목은 item71, 수량은 12, 개당 가격은 47900, 긴급 수량은 0입니다.",
+    "output": "item14에 할당된 기계는 machine01 33개, machine08 21개, machine10 294개, machine21 32개, machine22 50개입니다. item70에 할당된 기계는 machine04 32개, machine08 20개, machine10 9개, machine21 21개입니다. item56에 할당된 기계는 machine04 5개, machine09 6개, machine14 7개, machine21 6개, machine23 7개입니다. item71에 할당된 기계는 machine05 2개, machine20 7개, machine33 2개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date514이고, 품목은 item02, 수량은 300, 개당 가격은 10450, 긴급 수량은 0입니다. 품목은 item14, 수량은 430, 개당 가격은 7810, 긴급 수량은 1입니다. 품목은 item37, 수량은 24, 개당 가격은 19200, 긴급 수량은 0입니다. 품목은 item56, 수량은 8, 개당 가격은 20343, 긴급 수량은 0입니다. 품목은 item71, 수량은 12, 개당 가격은 47900, 긴급 수량은 0입니다.",
+    "output": "item02에 할당된 기계는 machine14 48개입니다. item14에 할당된 기계는 machine01 35개, machine10 32개, machine28 124개, machine29 170개, machine30 69개입니다. item37에 할당된 기계는 machine08 15개입니다. item56에 할당된 기계는 machine04 4개, machine09 3개, machine14 1개, machine21 6개, machine23 2개입니다. item71에 할당된 기계는 machine05 4개, machine20 4개, machine33 5개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date515이고, 품목은 item02, 수량은 300, 개당 가격은 10450, 긴급 수량은 0입니다. 품목은 item37, 수량은 24, 개당 가격은 19200, 긴급 수량은 0입니다. 품목은 item56, 수량은 8, 개당 가격은 20343, 긴급 수량은 0입니다. 품목은 item71, 수량은 12, 개당 가격은 47900, 긴급 수량은 0입니다. 품목은 item76, 수량은 20, 개당 가격은 35100, 긴급 수량은 0입니다.",
+    "output": "item02에 할당된 기계는 machine14 50개입니다. item37에 할당된 기계는 machine08 21개입니다. item56에 할당된 기계는 machine04 4개, machine09 7개, machine14 3개, machine21 6개, machine23 6개입니다. item71에 할당된 기계는 machine05 6개, machine20 9개, machine33 12개입니다. item76에 할당된 기계는 machine04 10개, machine08 19개, machine09 19개, machine10 11개, machine14 6개, machine21 6개, machine22 16개, machine23 2개, machine28 7개, machine29 5개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date516이고, 품목은 item37, 수량은 24, 개당 가격은 19200, 긴급 수량은 0입니다. 품목은 item56, 수량은 8, 개당 가격은 20343, 긴급 수량은 0입니다. 품목은 item71, 수량은 12, 개당 가격은 47900, 긴급 수량은 0입니다. 품목은 item76, 수량은 20, 개당 가격은 35100, 긴급 수량은 0입니다. 품목은 item84, 수량은 24, 개당 가격은 34000, 긴급 수량은 1입니다.",
+    "output": "item37에 할당된 기계는 machine08 12개입니다. item56에 할당된 기계는 machine04 1개, machine09 2개, machine14 8개, machine21 1개, machine23 1개입니다. item71에 할당된 기계는 machine05 9개, machine33 8개입니다. item76에 할당된 기계는 machine04 11개, machine08 11개, machine09 8개, machine10 19개, machine14 1개, machine21 4개, machine22 14개, machine23 18개, machine28 4개, machine29 4개입니다. item84에 할당된 기계는 machine04 11개, machine05 6개, machine07 6개, machine10 1개, machine14 1개, machine20 6개, machine21 1개, machine28 2개, machine32 10개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date517이고, 품목은 item37, 수량은 24, 개당 가격은 19200, 긴급 수량은 0입니다. 품목은 item71, 수량은 12, 개당 가격은 47900, 긴급 수량은 0입니다. 품목은 item76, 수량은 20, 개당 가격은 35100, 긴급 수량은 0입니다. 품목은 item84, 수량은 24, 개당 가격은 34000, 긴급 수량은 1입니다. 품목은 item84, 수량은 24, 개당 가격은 34000, 긴급 수량은 1입니다.",
+    "output": "item37에 할당된 기계는 machine08 18개입니다. item71에 할당된 기계는 machine05 7개, machine20 11개, machine33 1개입니다. item76에 할당된 기계는 machine04 7개, machine08 4개, machine09 2개, machine10 11개, machine14 8개, machine21 5개, machine22 9개, machine23 15개, machine28 2개, machine29 4개입니다. item84에 할당된 기계는 machine04 4개, machine05 9개, machine07 3개, machine10 5개, machine20 3개, machine21 4개, machine28 5개, machine32 10개, machine33 2개, machine04 3개, machine05 2개, machine07 6개, machine10 8개, machine14 9개, machine20 18개, machine21 7개, machine28 2개, machine32 12개, machine33 3개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date518이고, 품목은 item37, 수량은 24, 개당 가격은 19200, 긴급 수량은 0입니다. 품목은 item76, 수량은 20, 개당 가격은 35100, 긴급 수량은 0입니다. 품목은 item84, 수량은 24, 개당 가격은 34000, 긴급 수량은 1입니다. 품목은 item23, 수량은 40, 개당 가격은 20957, 긴급 수량은 1입니다. 품목은 item84, 수량은 24, 개당 가격은 34000, 긴급 수량은 1입니다.",
+    "output": "item37에 할당된 기계는 machine08 19개입니다. item76에 할당된 기계는 machine04 10개, machine08 18개, machine09 15개, machine10 15개, machine14 5개, machine21 13개, machine22 8개, machine23 16개, machine28 19개, machine29 2개입니다. item84에 할당된 기계는 machine04 4개, machine05 8개, machine07 4개, machine10 6개, machine14 8개, machine20 7개, machine21 10개, machine28 4개, machine32 4개, machine33 1개, machine04 4개, machine05 5개, machine07 5개, machine10 2개, machine14 15개, machine28 9개, machine32 6개, machine33 7개입니다. item23에 할당된 기계는 machine04 21개, machine07 35개, machine08 23개, machine09 16개, machine10 21개, machine12 9개, machine14 4개, machine18 31개, machine23 6개, machine28 4개, machine30 40개, machine31 10개, machine34 3개, machine35 10개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date519이고, 품목은 item76, 수량은 20, 개당 가격은 35100, 긴급 수량은 0입니다. 품목은 item84, 수량은 24, 개당 가격은 34000, 긴급 수량은 1입니다. 품목은 item23, 수량은 40, 개당 가격은 20957, 긴급 수량은 1입니다. 품목은 item84, 수량은 24, 개당 가격은 34000, 긴급 수량은 1입니다. 품목은 item02, 수량은 300, 개당 가격은 10450, 긴급 수량은 0입니다.",
+    "output": "item76에 할당된 기계는 machine04 14개, machine08 3개, machine09 15개, machine10 18개, machine14 20개, machine21 3개, machine22 15개, machine23 12개, machine28 1개, machine29 5개입니다. item84에 할당된 기계는 machine04 1개, machine05 22개, machine07 24개, machine10 11개, machine14 7개, machine20 1개, machine21 3개, machine28 8개, machine32 4개, machine33 8개, machine04 6개, machine05 8개, machine07 17개, machine20 8개, machine33 6개입니다. item23에 할당된 기계는 machine04 20개, machine07 8개, machine08 6개, machine09 2개, machine12 1개, machine14 29개, machine18 25개, machine20 6개, machine22 3개, machine23 13개, machine30 38개, machine31 2개, machine34 19개, machine35 7개입니다. item02에 할당된 기계는 machine09 40개, machine14 207개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date520이고, 품목은 item84, 수량은 24, 개당 가격은 34000, 긴급 수량은 1입니다. 품목은 item23, 수량은 40, 개당 가격은 20957, 긴급 수량은 1입니다. 품목은 item84, 수량은 24, 개당 가격은 34000, 긴급 수량은 1입니다. 품목은 item02, 수량은 300, 개당 가격은 10450, 긴급 수량은 0입니다. 품목은 item35, 수량은 28, 개당 가격은 242250, 긴급 수량은 1입니다.",
+    "output": "item84에 할당된 기계는 machine04 8개, machine05 3개, machine07 3개, machine10 9개, machine14 5개, machine20 5개, machine21 22개, machine28 3개, machine32 7개, machine33 7개, machine05 14개, machine07 18개, machine10 7개, machine14 3개, machine21 2개, machine32 22개, machine33 1개입니다. item23에 할당된 기계는 machine07 5개, machine08 21개, machine09 29개, machine10 1개, machine12 17개, machine14 23개, machine18 35개, machine21 4개, machine22 17개, machine23 7개, machine30 18개, machine31 2개, machine34 2개, machine35 27개입니다. item02에 할당된 기계는 machine14 152개입니다. item35에 할당된 기계는 machine05 5개, machine19 11개, machine20 2개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date521이고, 품목은 item23, 수량은 40, 개당 가격은 20957, 긴급 수량은 1입니다. 품목은 item84, 수량은 24, 개당 가격은 34000, 긴급 수량은 1입니다. 품목은 item02, 수량은 300, 개당 가격은 10450, 긴급 수량은 0입니다. 품목은 item35, 수량은 28, 개당 가격은 242250, 긴급 수량은 1입니다. 품목은 item29, 수량은 12, 개당 가격은 6750, 긴급 수량은 0입니다.",
+    "output": "item23에 할당된 기계는 machine07 14개, machine08 19개, machine09 11개, machine10 9개, machine12 8개, machine14 25개, machine18 5개, machine20 40개, machine21 4개, machine22 1개, machine23 6개, machine28 2개, machine30 3개, machine31 9개, machine35 10개입니다. item84에 할당된 기계는 machine05 5개, machine07 5개, machine10 1개, machine14 21개, machine20 1개, machine21 15개, machine32 1개, machine33 9개입니다. item02에 할당된 기계는 machine14 43개입니다. item35에 할당된 기계는 machine19 9개입니다. item29에 할당된 기계는 machine29 4개, machine30 5개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date522이고, 품목은 item23, 수량은 40, 개당 가격은 20957, 긴급 수량은 1입니다. 품목은 item02, 수량은 300, 개당 가격은 10450, 긴급 수량은 0입니다. 품목은 item35, 수량은 28, 개당 가격은 242250, 긴급 수량은 1입니다. 품목은 item29, 수량은 12, 개당 가격은 6750, 긴급 수량은 0입니다. 품목은 item14, 수량은 400, 개당 가격은 7810, 긴급 수량은 1입니다.",
+    "output": "item23에 할당된 기계는 machine04 37개, machine07 15개, machine08 5개, machine09 37개, machine10 16개, machine12 1개, machine14 35개, machine18 12개, machine21 1개, machine22 4개, machine23 1개, machine28 4개, machine30 14개, machine31 8개, machine34 3개, machine35 40개입니다. item02에 할당된 기계는 machine09 98개, machine14 233개입니다. item35에 할당된 기계는 machine19 12개, machine20 2개입니다. item29에 할당된 기계는 machine29 9개, machine30 1개입니다. item14에 할당된 기계는 machine01 49개, machine07 40개, machine10 151개, machine28 16개입니다."
+  },
+  {
+    "input": "납입 기간 날짜는 date523이고, 품목은 item02, 수량은 300, 개당 가격은 10450, 긴급 수량은 0입니다. 품목은 item35, 수량은 28, 개당 가격은 242250, 긴급 수량은 1입니다. 품목은 item29, 수량은 12, 개당 가격은 6750, 긴급 수량은 0입니다. 품목은 item14, 수량은 400, 개당 가격은 7810, 긴급 수량은 1입니다. 품목은 item02, 수량은 325, 개당 가격은 10450, 긴급 수량은 0입니다.",
+    "output": "item02에 할당된 기계는 machine14 262개, machine14 274개입니다. item35에 할당된 기계는 machine05 8개, machine19 12개, machine20 6개입니다. item29에 할당된 기계는 machine29 5개, machine30 10개입니다. item14에 할당된 기계는 machine01 195개, machine07 50개, machine10 144개, machine31 9개입니다."
+  }
+]

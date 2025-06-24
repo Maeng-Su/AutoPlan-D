@@ -1,0 +1,1792 @@
+order,machine,gt
+"• date161 item59 8134 0 24
+• date169 item01 16231 0 8
+• date174 item07 6295 0 52
+• date179 item35 242250 1 32
+• date182 item13 9416 1 370
+• date182 item89 22750 1 144
+• date190 item88 17794 1 84
+• date195 item75 14448 1 72
+• date196 item02 10450 0 300
+• date243 item14 7810 1 400","• item88 machine34 4.42
+• item89 machine35 4.58
+• item89 machine07 5.17
+• item14 machine09 3.89
+• item07 machine04 3.42
+• item13 machine24 3.64
+• item07 machine31 2.67
+• item89 machine14 9.67
+• item02 machine14 0.82
+• item14 machine35 3.18
+• item13 machine08 3.17
+• item75 machine14 4.8
+• item14 machine07 2.82
+• item89 machine32 8.27
+• item89 machine22 4.7
+• item88 machine35 4.35
+• item13 machine23 3.14
+• item07 machine30 3.05
+• item07 machine21 4.17
+• item88 machine10 1.38
+• item88 machine04 4.7
+• item01 machine33 5.53
+• item14 machine08 3.25
+• item14 machine26 3.38
+• item14 machine25 3.0
+• item75 machine21 4.43
+• item14 machine29 3.25
+• item01 machine30 3.36
+• item14 machine31 2.86
+• item14 machine22 4.88
+• item13 machine09 3.61
+• item89 machine29 8.81
+• item01 machine21 3.17
+• item75 machine08 4.24
+• item14 machine14 2.83
+• item13 machine11 5.0
+• item89 machine09 8.99
+• item88 machine29 1.0
+• item75 machine35 3.67
+• item07 machine09 2.52
+• item01 machine35 5.72
+• item14 machine21 4.13
+• item13 machine30 3.76
+• item89 machine04 9.86
+• item13 machine07 3.67
+• item89 machine05 10.0
+• item88 machine22 2.8
+• item01 machine08 4.64
+• item88 machine23 1.5
+• item14 machine28 1.61
+• item07 machine08 2.4
+• item35 machine19 42.0
+• item14 machine30 4.62
+• item88 machine09 4.28
+• item89 machine28 2.97
+• item89 machine21 5.35
+• item07 machine14 2.47
+• item75 machine28 1.0
+• item07 machine35 2.98
+• item14 machine10 1.55
+• item35 machine05 49.0
+• item88 machine31 3.87
+• item88 machine32 1.5
+• item01 machine04 1.12
+• item89 machine33 9.25
+• item01 machine28 4.83
+• item88 machine28 2.62
+• item13 machine35 3.46
+• item07 machine34 2.62
+• item35 machine20 49.0
+• item13 machine22 3.19
+• item88 machine14 4.63
+• item59 machine21 2.59
+• item01 machine32 3.17
+• item75 machine30 5.0
+• item13 machine34 4.24
+• item89 machine34 3.77
+• item59 machine28 3.5
+• item88 machine07 4.27
+• item59 machine08 3.83
+• item88 machine33 4.87
+• item14 machine23 2.2
+• item07 machine10 2.67
+• item13 machine31 3.98
+• item89 machine30 8.68
+• item89 machine10 1.44
+• item88 machine08 4.29
+• item75 machine09 4.79
+• item07 machine22 3.69
+• item59 machine10 2.0
+• item02 machine09 3.86
+• item88 machine21 3.35
+• item07 machine29 2.57
+• item14 machine34 2.97
+• item13 machine21 2.94
+• item13 machine29 4.0
+• item89 machine23 1.44
+• item75 machine29 6.42
+• item89 machine08 6.23
+• item14 machine01 1.17
+• item75 machine10 4.07","• item59 machine08 date161 10
+• item59 machine21 date161 3
+• item59 machine28 date161 11
+• item01 machine04 date169 1
+• item01 machine32 date169 1
+• item07 machine04 date174 6
+• item07 machine08 date174 6
+• item07 machine09 date174 7
+• item07 machine10 date174 2
+• item07 machine14 date174 5
+• item07 machine21 date174 3
+• item07 machine22 date174 3
+• item07 machine29 date174 1
+• item07 machine30 date174 7
+• item07 machine31 date174 7
+• item07 machine34 date174 1
+• item07 machine35 date174 3
+• item35 machine05 date179 12
+• item35 machine19 date179 8
+• item35 machine20 date179 12
+• item13 machine07 date182 35
+• item13 machine08 date182 23
+• item13 machine09 date182 27
+• item13 machine11 date182 34
+• item13 machine21 date182 19
+• item13 machine22 date182 5
+• item13 machine23 date182 38
+• item13 machine24 date182 21
+• item13 machine29 date182 48
+• item13 machine30 date182 32
+• item13 machine31 date182 25
+• item13 machine34 date182 37
+• item13 machine35 date182 27
+• item89 machine04 date182 12
+• item89 machine05 date182 9
+• item89 machine07 date182 12
+• item89 machine08 date182 1
+• item89 machine09 date182 3
+• item89 machine10 date182 10
+• item89 machine14 date182 6
+• item89 machine21 date182 13
+• item89 machine22 date182 16
+• item89 machine23 date182 9
+• item89 machine28 date182 10
+• item89 machine29 date182 3
+• item89 machine30 date182 13
+• item89 machine32 date182 14
+• item89 machine33 date182 4
+• item89 machine34 date182 5
+• item89 machine35 date182 2
+• item88 machine04 date190 2
+• item88 machine07 date190 5
+• item88 machine08 date190 7
+• item88 machine09 date190 6
+• item88 machine10 date190 8
+• item88 machine14 date190 3
+• item88 machine21 date190 6
+• item88 machine22 date190 5
+• item88 machine23 date190 4
+• item88 machine28 date190 1
+• item88 machine29 date190 7
+• item88 machine31 date190 7
+• item88 machine32 date190 10
+• item88 machine33 date190 5
+• item88 machine34 date190 6
+• item88 machine35 date190 2
+• item75 machine08 date195 1
+• item75 machine09 date195 11
+• item75 machine14 date195 13
+• item75 machine21 date195 10
+• item75 machine28 date195 15
+• item75 machine29 date195 3
+• item75 machine30 date195 16
+• item75 machine35 date195 3
+• item02 machine09 date196 133
+• item02 machine14 date196 164
+• item14 machine01 date243 7
+• item14 machine07 date243 27
+• item14 machine08 date243 46
+• item14 machine09 date243 42
+• item14 machine10 date243 25
+• item14 machine14 date243 29
+• item14 machine21 date243 13
+• item14 machine22 date243 26
+• item14 machine23 date243 28
+• item14 machine25 date243 17
+• item14 machine26 date243 37
+• item14 machine28 date243 24
+• item14 machine29 date243 10
+• item14 machine30 date243 26
+• item14 machine31 date243 4
+• item14 machine34 date243 23
+• item14 machine35 date243 16"
+"• date130 item05 2990 0 398
+• date153 item91 14835 0 4
+• date154 item87 42810 1 216
+• date166 item66 86940 0 20
+• date168 item94 33984 0 6
+• date169 item87 45500 1 196
+• date169 item89 24418 1 200
+• date189 item35 242250 1 15
+• date190 item89 24418 1 84
+• date207 item84 34000 1 24","• item66 machine09 8.21
+• item94 machine14 7.0
+• item87 machine01 5.88
+• item89 machine35 4.58
+• item84 machine20 17.27
+• item94 machine21 7.24
+• item89 machine07 5.17
+• item35 machine19 42.0
+• item66 machine14 9.82
+• item84 machine21 15.38
+• item87 machine03 6.5
+• item89 machine28 2.97
+• item91 machine10 5.32
+• item89 machine21 5.35
+• item91 machine28 4.33
+• item66 machine21 8.04
+• item66 machine33 6.83
+• item94 machine08 6.79
+• item35 machine05 49.0
+• item87 machine32 5.49
+• item89 machine29 8.81
+• item94 machine01 10.0
+• item94 machine10 6.93
+• item87 machine18 11.82
+• item87 machine21 7.85
+• item91 machine09 4.03
+• item94 machine09 6.17
+• item87 machine05 11.64
+• item94 machine33 7.05
+• item94 machine34 5.51
+• item89 machine10 1.44
+• item89 machine14 9.67
+• item84 machine10 13.5
+• item84 machine28 15.0
+• item89 machine09 8.99
+• item84 machine14 12.67
+• item89 machine34 3.77
+• item91 machine21 4.8
+• item84 machine05 15.89
+• item91 machine34 5.25
+• item94 machine05 10.0
+• item91 machine35 4.5
+• item66 machine08 7.21
+• item05 machine10 4.6
+• item89 machine32 8.27
+• item87 machine20 11.37
+• item89 machine33 9.25
+• item89 machine22 4.7
+• item94 machine04 5.0
+• item66 machine10 9.82
+• item94 machine32 7.29
+• item91 machine08 4.42
+• item66 machine23 7.92
+• item84 machine04 17.5
+• item84 machine07 7.0
+• item87 machine19 10.0
+• item91 machine14 4.0
+• item66 machine28 8.41
+• item89 machine23 1.44
+• item89 machine30 8.68
+• item35 machine20 49.0
+• item84 machine33 12.74
+• item84 machine32 14.4
+• item87 machine33 6.9
+• item89 machine08 6.23
+• item89 machine04 9.86
+• item87 machine17 12.0
+• item91 machine29 5.32
+• item89 machine05 10.0","• item05 machine10 date130 11
+• item87 machine01 date154 8
+• item87 machine03 date154 15
+• item87 machine05 date154 37
+• item87 machine17 date154 29
+• item87 machine18 date154 31
+• item87 machine19 date154 9
+• item87 machine20 date154 17
+• item87 machine21 date154 26
+• item87 machine32 date154 30
+• item87 machine33 date154 14
+• item66 machine08 date166 4
+• item66 machine10 date166 2
+• item66 machine14 date166 4
+• item66 machine21 date166 1
+• item66 machine23 date166 2
+• item66 machine28 date166 1
+• item66 machine33 date166 4
+• item94 machine01 date168 1
+• item94 machine09 date168 1
+• item94 machine14 date168 1
+• item94 machine21 date168 1
+• item94 machine34 date168 1
+• item87 machine01 date169 34
+• item87 machine03 date169 26
+• item87 machine05 date169 16
+• item87 machine17 date169 30
+• item87 machine18 date169 18
+• item87 machine19 date169 31
+• item87 machine20 date169 12
+• item87 machine21 date169 9
+• item87 machine32 date169 19
+• item87 machine33 date169 3
+• item89 machine04 date169 7
+• item89 machine05 date169 12
+• item89 machine07 date169 13
+• item89 machine08 date169 10
+• item89 machine09 date169 19
+• item89 machine10 date169 7
+• item89 machine14 date169 20
+• item89 machine21 date169 2
+• item89 machine22 date169 12
+• item89 machine23 date169 11
+• item89 machine28 date169 2
+• item89 machine29 date169 14
+• item89 machine30 date169 20
+• item89 machine32 date169 8
+• item89 machine33 date169 13
+• item89 machine34 date169 15
+• item89 machine35 date169 14
+• item35 machine05 date189 4
+• item35 machine19 date189 8
+• item35 machine20 date189 3
+• item89 machine04 date190 5
+• item89 machine05 date190 8
+• item89 machine07 date190 6
+• item89 machine08 date190 8
+• item89 machine09 date190 5
+• item89 machine10 date190 2
+• item89 machine14 date190 8
+• item89 machine21 date190 2
+• item89 machine22 date190 7
+• item89 machine23 date190 7
+• item89 machine28 date190 2
+• item89 machine29 date190 6
+• item89 machine30 date190 2
+• item89 machine32 date190 4
+• item89 machine33 date190 8
+• item89 machine34 date190 3
+• item89 machine35 date190 2
+• item84 machine04 date207 1
+• item84 machine05 date207 4
+• item84 machine07 date207 3
+• item84 machine10 date207 3
+• item84 machine14 date207 3
+• item84 machine20 date207 2
+• item84 machine21 date207 1
+• item84 machine28 date207 1
+• item84 machine32 date207 2
+• item84 machine33 date207 4"
+"• date133 item15 25870 1 318
+• date133 item51 18500 1 208
+• date150 item12 15640 0 15
+• date168 item79 29900 0 24
+• date180 item87 40973 1 200
+• date181 item61 26140 0 72
+• date182 item90 21260 0 10
+• date182 item92 12740 0 20
+• date190 item88 17794 1 116
+• date193 item93 13030 0 48","• item90 machine09 6.73
+• item88 machine34 4.42
+• item15 machine09 10.33
+• item15 machine31 9.0
+• item87 machine03 6.5
+• item90 machine28 7.5
+• item79 machine28 6.25
+• item79 machine08 3.21
+• item12 machine08 8.17
+• item79 machine04 7.32
+• item79 machine20 9.32
+• item87 machine18 11.82
+• item87 machine21 7.85
+• item87 machine32 5.49
+• item93 machine09 3.8
+• item92 machine08 3.81
+• item93 machine08 3.94
+• item79 machine09 11.98
+• item15 machine08 9.12
+• item12 machine14 8.22
+• item88 machine35 4.35
+• item15 machine23 11.77
+• item15 machine35 9.4
+• item15 machine14 11.23
+• item92 machine32 4.78
+• item90 machine23 3.7
+• item92 machine28 4.17
+• item88 machine10 1.38
+• item15 machine28 9.54
+• item88 machine04 4.7
+• item79 machine21 7.32
+• item93 machine07 4.58
+• item90 machine08 4.62
+• item15 machine33 4.4
+• item79 machine33 7.49
+• item15 machine12 12.32
+• item90 machine21 4.46
+• item88 machine29 1.0
+• item90 machine29 7.83
+• item90 machine33 6.22
+• item87 machine19 10.0
+• item15 machine05 10.42
+• item15 machine04 12.84
+• item92 machine21 3.5
+• item51 machine09 6.02
+• item88 machine22 2.8
+• item12 machine21 9.32
+• item92 machine23 3.95
+• item93 machine33 4.43
+• item88 machine23 1.5
+• item61 machine09 5.0
+• item15 machine20 4.0
+• item88 machine09 4.28
+• item79 machine23 6.0
+• item92 machine33 4.44
+• item87 machine05 11.64
+• item88 machine31 3.87
+• item15 machine29 13.05
+• item88 machine32 1.5
+• item93 machine21 3.78
+• item88 machine28 2.62
+• item12 machine23 11.21
+• item90 machine32 5.66
+• item92 machine10 4.12
+• item15 machine10 8.99
+• item88 machine14 4.63
+• item87 machine33 6.9
+• item87 machine17 12.0
+• item79 machine29 7.32
+• item87 machine01 5.88
+• item88 machine07 4.27
+• item61 machine21 4.33
+• item93 machine32 4.22
+• item88 machine33 4.87
+• item88 machine08 4.29
+• item93 machine28 4.32
+• item15 machine07 8.69
+• item88 machine21 3.35
+• item92 machine30 4.13
+• item51 machine08 4.59
+• item87 machine20 11.37
+• item51 machine29 4.17
+• item15 machine34 12.47
+• item12 machine22 12.5
+• item12 machine09 10.62
+• item15 machine21 9.87
+• item15 machine30 9.0
+• item92 machine09 3.75","• item15 machine04 date133 30
+• item15 machine05 date133 37
+• item15 machine07 date133 4
+• item15 machine08 date133 23
+• item15 machine09 date133 12
+• item15 machine10 date133 16
+• item15 machine12 date133 15
+• item15 machine14 date133 35
+• item15 machine20 date133 14
+• item15 machine21 date133 13
+• item15 machine23 date133 23
+• item15 machine28 date133 30
+• item15 machine29 date133 4
+• item15 machine30 date133 6
+• item15 machine31 date133 3
+• item15 machine33 date133 30
+• item15 machine35 date133 23
+• item51 machine08 date133 74
+• item51 machine09 date133 39
+• item51 machine29 date133 94
+• item12 machine08 date150 3
+• item12 machine09 date150 3
+• item12 machine14 date150 1
+• item12 machine21 date150 1
+• item12 machine22 date150 6
+• item12 machine23 date150 2
+• item79 machine04 date168 3
+• item79 machine08 date168 1
+• item79 machine09 date168 3
+• item79 machine20 date168 2
+• item79 machine21 date168 4
+• item79 machine23 date168 3
+• item79 machine28 date168 3
+• item79 machine29 date168 3
+• item79 machine33 date168 3
+• item87 machine01 date180 27
+• item87 machine03 date180 27
+• item87 machine05 date180 28
+• item87 machine17 date180 29
+• item87 machine18 date180 4
+• item87 machine19 date180 35
+• item87 machine20 date180 6
+• item87 machine21 date180 8
+• item87 machine32 date180 9
+• item87 machine33 date180 25
+• item61 machine09 date181 37
+• item61 machine21 date181 35
+• item90 machine08 date182 1
+• item90 machine28 date182 1
+• item92 machine09 date182 1
+• item92 machine10 date182 1
+• item92 machine21 date182 1
+• item92 machine23 date182 1
+• item92 machine28 date182 1
+• item92 machine30 date182 1
+• item92 machine32 date182 1
+• item92 machine33 date182 1
+• item88 machine04 date190 9
+• item88 machine07 date190 6
+• item88 machine08 date190 11
+• item88 machine09 date190 5
+• item88 machine10 date190 4
+• item88 machine14 date190 6
+• item88 machine21 date190 13
+• item88 machine22 date190 7
+• item88 machine23 date190 11
+• item88 machine28 date190 12
+• item88 machine29 date190 8
+• item88 machine31 date190 5
+• item88 machine32 date190 9
+• item88 machine33 date190 10
+• item88 machine34 date190 1
+• item88 machine35 date190 2
+• item93 machine07 date193 1
+• item93 machine08 date193 3
+• item93 machine09 date193 3
+• item93 machine21 date193 3
+• item93 machine28 date193 2
+• item93 machine32 date193 1
+• item93 machine33 date193 3"
+"• date152 item89 22750 1 144
+• date156 item78 11500 0 48
+• date160 item15 25870 1 318
+• date161 item34 64130 0 42
+• date165 item09 3452 0 188
+• date172 item68 27590 1 120
+• date181 item89 28520 0 400
+• date187 item81 166250 1 24
+• date188 item22 60000 1 46
+• date195 item80 36575 0 48","• item89 machine35 4.58
+• item15 machine09 10.33
+• item80 machine04 6.22
+• item89 machine07 5.17
+• item15 machine31 9.0
+• item81 machine03 36.54
+• item22 machine05 11.23
+• item78 machine08 4.42
+• item22 machine18 15.63
+• item22 machine33 7.4
+• item78 machine14 5.0
+• item68 machine10 9.82
+• item80 machine10 5.87
+• item89 machine14 9.67
+• item68 machine14 11.6
+• item09 machine30 2.4
+• item68 machine29 10.0
+• item89 machine32 8.27
+• item15 machine08 9.12
+• item68 machine21 10.0
+• item22 machine01 9.36
+• item89 machine22 4.7
+• item22 machine34 5.42
+• item15 machine23 11.77
+• item15 machine35 9.4
+• item34 machine32 7.5
+• item15 machine14 11.23
+• item68 machine33 10.0
+• item22 machine19 9.31
+• item22 machine32 7.35
+• item81 machine01 43.05
+• item15 machine28 9.54
+• item81 machine06 39.0
+• item09 machine21 2.44
+• item09 machine10 2.32
+• item80 machine28 5.99
+• item09 machine14 3.0
+• item81 machine17 40.0
+• item15 machine33 4.4
+• item89 machine29 8.81
+• item15 machine12 12.32
+• item34 machine29 7.67
+• item22 machine20 10.52
+• item22 machine08 8.24
+• item89 machine09 8.99
+• item81 machine19 35.63
+• item78 machine32 3.5
+• item15 machine05 10.42
+• item68 machine09 10.3
+• item15 machine04 12.84
+• item89 machine04 9.86
+• item89 machine05 10.0
+• item09 machine35 1.92
+• item15 machine20 4.0
+• item89 machine28 2.97
+• item89 machine21 5.35
+• item09 machine08 2.31
+• item22 machine03 11.64
+• item78 machine21 3.73
+• item22 machine06 4.4
+• item15 machine29 13.05
+• item89 machine33 9.25
+• item15 machine10 8.99
+• item78 machine33 5.18
+• item89 machine34 3.77
+• item78 machine10 3.34
+• item34 machine23 7.5
+• item09 machine22 2.34
+• item89 machine30 8.68
+• item89 machine10 1.44
+• item68 machine28 10.0
+• item80 machine23 5.5
+• item15 machine07 8.69
+• item09 machine31 2.21
+• item78 machine09 5.63
+• item15 machine34 12.47
+• item34 machine09 16.0
+• item89 machine23 1.44
+• item09 machine28 2.59
+• item22 machine21 6.41
+• item15 machine21 9.87
+• item89 machine08 6.23
+• item15 machine30 9.0
+• item22 machine16 5.0","• item89 machine04 date152 14
+• item89 machine05 date152 9
+• item89 machine07 date152 8
+• item89 machine08 date152 13
+• item89 machine09 date152 14
+• item89 machine10 date152 6
+• item89 machine14 date152 3
+• item89 machine21 date152 5
+• item89 machine22 date152 12
+• item89 machine23 date152 10
+• item89 machine28 date152 14
+• item89 machine29 date152 2
+• item89 machine30 date152 13
+• item89 machine32 date152 5
+• item89 machine33 date152 14
+• item89 machine35 date152 1
+• item78 machine08 date156 1
+• item78 machine09 date156 1
+• item78 machine14 date156 2
+• item78 machine21 date156 3
+• item78 machine32 date156 1
+• item78 machine33 date156 1
+• item15 machine04 date160 9
+• item15 machine05 date160 34
+• item15 machine08 date160 16
+• item15 machine09 date160 1
+• item15 machine10 date160 3
+• item15 machine12 date160 17
+• item15 machine14 date160 38
+• item15 machine20 date160 27
+• item15 machine21 date160 22
+• item15 machine23 date160 26
+• item15 machine28 date160 16
+• item15 machine29 date160 33
+• item15 machine30 date160 14
+• item15 machine31 date160 37
+• item15 machine33 date160 12
+• item15 machine34 date160 7
+• item15 machine35 date160 6
+• item34 machine09 date161 8
+• item34 machine23 date161 1
+• item34 machine29 date161 9
+• item34 machine32 date161 8
+• item09 machine08 date165 5
+• item09 machine10 date165 6
+• item09 machine14 date165 15
+• item09 machine21 date165 9
+• item09 machine22 date165 6
+• item09 machine28 date165 8
+• item09 machine30 date165 3
+• item09 machine31 date165 3
+• item09 machine35 date165 11
+• item68 machine09 date172 27
+• item68 machine10 date172 23
+• item68 machine14 date172 9
+• item68 machine21 date172 15
+• item68 machine28 date172 5
+• item68 machine29 date172 27
+• item68 machine33 date172 14
+• item89 machine04 date181 14
+• item89 machine05 date181 18
+• item89 machine07 date181 7
+• item89 machine08 date181 32
+• item89 machine09 date181 12
+• item89 machine10 date181 17
+• item89 machine14 date181 31
+• item89 machine21 date181 18
+• item89 machine22 date181 19
+• item89 machine23 date181 42
+• item89 machine28 date181 39
+• item89 machine29 date181 22
+• item89 machine30 date181 29
+• item89 machine32 date181 24
+• item89 machine33 date181 41
+• item89 machine34 date181 7
+• item89 machine35 date181 29
+• item81 machine01 date187 9
+• item81 machine03 date187 6
+• item81 machine06 date187 3
+• item81 machine17 date187 5
+• item22 machine01 date188 3
+• item22 machine03 date188 6
+• item22 machine05 date188 5
+• item22 machine06 date188 6
+• item22 machine08 date188 6
+• item22 machine16 date188 2
+• item22 machine18 date188 5
+• item22 machine19 date188 3
+• item22 machine20 date188 4
+• item22 machine21 date188 3
+• item22 machine33 date188 1
+• item22 machine34 date188 1
+• item80 machine04 date195 3
+• item80 machine10 date195 2
+• item80 machine23 date195 14
+• item80 machine28 date195 12"
+"• date100 item05 2990 0 500
+• date161 item10 5050 0 178
+• date162 item17 24418 1 40
+• date166 item63 24360 0 72
+• date179 item31 7500 0 16
+• date180 item74 11900 0 33
+• date180 item85 246800 0 64
+• date181 item55 44732 0 18
+• date183 item49 11500 0 42
+• date193 item32 17436 0 90","• item85 machine10 7.91
+• item17 machine35 7.48
+• item17 machine22 4.38
+• item10 machine21 2.48
+• item63 machine21 5.0
+• item17 machine28 4.27
+• item10 machine31 2.05
+• item17 machine29 9.32
+• item10 machine34 1.94
+• item17 machine14 8.56
+• item17 machine08 8.31
+• item55 machine04 7.0
+• item17 machine10 1.17
+• item31 machine10 1.0
+• item10 machine23 1.0
+• item10 machine22 2.35
+• item10 machine28 2.6
+• item74 machine10 9.17
+• item74 machine23 4.65
+• item55 machine28 7.0
+• item55 machine10 7.0
+• item10 machine07 1.83
+• item74 machine08 7.76
+• item17 machine33 8.42
+• item17 machine23 11.0
+• item49 machine21 2.5
+• item17 machine07 6.8
+• item49 machine14 4.83
+• item74 machine14 7.95
+• item05 machine10 4.6
+• item63 machine32 6.57
+• item17 machine09 7.24
+• item74 machine33 7.82
+• item31 machine22 3.58
+• item32 machine32 4.83
+• item17 machine18 10.73
+• item17 machine21 7.54
+• item63 machine08 4.67
+• item74 machine22 4.3
+• item74 machine21 8.35
+• item10 machine08 2.49
+• item74 machine09 8.2
+• item74 machine29 8.73
+• item74 machine28 9.05
+• item49 machine33 3.67
+• item10 machine35 1.67
+• item63 machine33 6.15
+• item55 machine23 7.0
+• item17 machine04 8.47
+• item10 machine09 1.85
+• item10 machine30 1.84","• item05 machine10 date100 44
+• item10 machine07 date161 17
+• item10 machine08 date161 16
+• item10 machine09 date161 9
+• item10 machine21 date161 16
+• item10 machine22 date161 11
+• item10 machine23 date161 4
+• item10 machine28 date161 5
+• item10 machine30 date161 1
+• item10 machine34 date161 9
+• item10 machine35 date161 20
+• item17 machine04 date162 7
+• item17 machine07 date162 1
+• item17 machine08 date162 1
+• item17 machine09 date162 2
+• item17 machine10 date162 6
+• item17 machine18 date162 3
+• item17 machine21 date162 6
+• item17 machine22 date162 6
+• item17 machine23 date162 1
+• item17 machine28 date162 1
+• item17 machine29 date162 3
+• item17 machine33 date162 1
+• item17 machine35 date162 1
+• item63 machine08 date166 7
+• item63 machine21 date166 7
+• item63 machine32 date166 4
+• item63 machine33 date166 2
+• item31 machine10 date179 1
+• item31 machine22 date179 1
+• item74 machine08 date180 2
+• item74 machine09 date180 2
+• item74 machine10 date180 1
+• item74 machine14 date180 1
+• item74 machine21 date180 3
+• item74 machine22 date180 3
+• item74 machine23 date180 1
+• item74 machine29 date180 2
+• item74 machine33 date180 1
+• item85 machine10 date180 4
+• item55 machine04 date181 1
+• item55 machine10 date181 2
+• item55 machine23 date181 1
+• item55 machine28 date181 1
+• item49 machine14 date183 4
+• item49 machine33 date183 1
+• item32 machine32 date193 4"
+"• date161 item33 64130 0 42
+• date166 item62 20475 0 72
+• date168 item27 53798 1 5
+• date169 item20 57641 1 85
+• date173 item73 37650 0 42
+• date174 item26 25840 0 25
+• date174 item77 12500 1 240
+• date180 item44 39200 0 12
+• date190 item89 24418 1 116
+• date231 item29 6750 0 12","• item33 machine09 9.67
+• item89 machine35 4.58
+• item27 machine30 8.9
+• item77 machine10 1.17
+• item20 machine02 10.0
+• item20 machine19 4.4
+• item26 machine14 9.63
+• item77 machine09 4.38
+• item77 machine29 4.92
+• item44 machine05 15.0
+• item89 machine07 5.17
+• item29 machine29 13.71
+• item27 machine20 12.0
+• item77 machine22 3.88
+• item89 machine28 2.97
+• item27 machine07 8.05
+• item89 machine21 5.35
+• item73 machine29 8.58
+• item20 machine17 7.27
+• item29 machine30 4.01
+• item27 machine14 9.12
+• item73 machine28 6.5
+• item26 machine09 13.23
+• item89 machine29 8.81
+• item89 machine14 9.67
+• item89 machine30 8.68
+• item89 machine10 1.44
+• item33 machine29 7.0
+• item62 machine08 5.38
+• item26 machine23 10.82
+• item62 machine28 4.38
+• item20 machine33 5.18
+• item26 machine28 11.54
+• item44 machine32 15.0
+• item89 machine09 8.99
+• item26 machine08 8.5
+• item62 machine21 4.62
+• item89 machine34 3.77
+• item20 machine20 6.89
+• item26 machine10 10.0
+• item62 machine33 6.28
+• item77 machine21 4.0
+• item62 machine09 5.81
+• item27 machine21 9.5
+• item20 machine06 6.5
+• item89 machine32 8.27
+• item89 machine33 9.25
+• item20 machine14 8.65
+• item26 machine07 12.07
+• item20 machine03 6.97
+• item89 machine22 4.7
+• item62 machine32 5.28
+• item20 machine18 12.16
+• item26 machine21 9.81
+• item26 machine34 2.42
+• item77 machine08 4.53
+• item62 machine29 6.67
+• item20 machine05 7.92
+• item20 machine16 6.0
+• item26 machine33 9.95
+• item20 machine32 6.09
+• item27 machine09 8.0
+• item77 machine28 4.31
+• item89 machine23 1.44
+• item20 machine01 5.54
+• item89 machine05 10.0
+• item27 machine32 14.0
+• item27 machine08 9.2
+• item26 machine35 9.65
+• item89 machine08 6.23
+• item89 machine04 9.86
+• item77 machine23 4.0
+• item26 machine01 1.0","• item33 machine09 date161 2
+• item33 machine29 date161 2
+• item62 machine08 date166 4
+• item62 machine09 date166 2
+• item62 machine21 date166 4
+• item62 machine28 date166 1
+• item62 machine29 date166 4
+• item62 machine32 date166 2
+• item62 machine33 date166 3
+• item27 machine08 date168 1
+• item27 machine14 date168 1
+• item27 machine20 date168 1
+• item27 machine30 date168 1
+• item27 machine32 date168 1
+• item20 machine02 date169 6
+• item20 machine03 date169 11
+• item20 machine05 date169 1
+• item20 machine06 date169 4
+• item20 machine14 date169 12
+• item20 machine16 date169 4
+• item20 machine17 date169 4
+• item20 machine18 date169 11
+• item20 machine19 date169 2
+• item20 machine20 date169 13
+• item20 machine32 date169 3
+• item20 machine33 date169 13
+• item73 machine28 date173 2
+• item73 machine29 date173 2
+• item26 machine07 date174 1
+• item26 machine08 date174 2
+• item26 machine14 date174 2
+• item26 machine21 date174 2
+• item26 machine28 date174 2
+• item26 machine33 date174 1
+• item26 machine34 date174 1
+• item77 machine08 date174 35
+• item77 machine09 date174 26
+• item77 machine10 date174 33
+• item77 machine21 date174 35
+• item77 machine22 date174 10
+• item77 machine23 date174 15
+• item77 machine28 date174 64
+• item77 machine29 date174 21
+• item44 machine05 date180 10
+• item44 machine32 date180 2
+• item89 machine04 date190 1
+• item89 machine05 date190 1
+• item89 machine07 date190 11
+• item89 machine08 date190 10
+• item89 machine09 date190 5
+• item89 machine10 date190 1
+• item89 machine14 date190 6
+• item89 machine21 date190 10
+• item89 machine22 date190 6
+• item89 machine28 date190 4
+• item89 machine29 date190 8
+• item89 machine30 date190 13
+• item89 machine32 date190 13
+• item89 machine33 date190 11
+• item89 machine34 date190 12
+• item89 machine35 date190 5
+• item29 machine29 date231 1
+• item29 machine30 date231 1"
+"• date049 item95 20000 0 2
+• date069 item05 2990 0 500
+• date152 item57 366680 0 2
+• date166 item24 26719 0 28
+• date168 item19 19300 1 2
+• date181 item45 23362 1 716
+• date183 item39 10220 0 80
+• date193 item64 17836 0 40
+• date202 item76 35100 0 20
+• date207 item23 20957 1 40","• item24 machine35 7.48
+• item57 machine20 12.0
+• item19 machine14 6.35
+• item24 machine14 6.97
+• item76 machine04 4.67
+• item24 machine33 7.83
+• item19 machine07 5.03
+• item64 machine33 4.93
+• item24 machine20 6.57
+• item64 machine30 6.17
+• item23 machine31 8.88
+• item19 machine30 6.0
+• item76 machine08 5.67
+• item19 machine21 6.56
+• item19 machine23 5.83
+• item45 machine33 4.76
+• item23 machine18 13.0
+• item23 machine20 9.12
+• item76 machine23 5.86
+• item76 machine21 4.59
+• item57 machine21 13.0
+• item64 machine32 5.26
+• item23 machine23 12.42
+• item23 machine34 10.17
+• item95 machine19 200.0
+• item24 machine34 7.59
+• item23 machine21 9.72
+• item57 machine14 10.67
+• item64 machine28 3.06
+• item76 machine29 4.67
+• item23 machine04 10.21
+• item24 machine22 7.51
+• item76 machine14 5.22
+• item24 machine07 6.99
+• item76 machine09 5.67
+• item24 machine28 7.8
+• item19 machine10 5.67
+• item05 machine10 4.6
+• item39 machine09 6.75
+• item76 machine22 4.37
+• item24 machine10 7.82
+• item24 machine05 7.8
+• item19 machine09 5.71
+• item57 machine09 12.0
+• item64 machine14 4.81
+• item23 machine07 8.82
+• item19 machine01 6.0
+• item64 machine09 4.41
+• item23 machine08 8.72
+• item23 machine14 9.31
+• item24 machine08 6.86
+• item64 machine08 4.72
+• item19 machine35 5.05
+• item24 machine21 6.99
+• item57 machine28 11.5
+• item24 machine30 9.22
+• item57 machine04 12.0
+• item23 machine30 10.55
+• item45 machine30 4.82
+• item76 machine10 5.74
+• item19 machine04 8.0
+• item19 machine20 6.0
+• item45 machine32 4.82
+• item19 machine31 6.64
+• item19 machine34 6.01
+• item64 machine21 4.32
+• item24 machine04 8.03
+• item64 machine10 4.33
+• item19 machine08 5.66
+• item23 machine09 9.51
+• item23 machine22 8.95
+• item19 machine22 5.85
+• item23 machine10 10.3
+• item95 machine10 25.0
+• item19 machine33 6.16
+• item24 machine09 7.43
+• item23 machine12 8.12
+• item19 machine28 5.92
+• item45 machine08 4.16
+• item23 machine35 8.56
+• item57 machine05 9.5
+• item57 machine23 10.94
+• item64 machine29 5.89
+• item76 machine28 4.6
+• item23 machine28 10.46","• item95 machine10 date049 1
+• item95 machine19 date049 1
+• item05 machine10 date069 500
+• item24 machine04 date166 2
+• item24 machine05 date166 1
+• item24 machine07 date166 1
+• item24 machine08 date166 2
+• item24 machine09 date166 3
+• item24 machine10 date166 2
+• item24 machine14 date166 3
+• item24 machine20 date166 1
+• item24 machine21 date166 3
+• item24 machine22 date166 2
+• item24 machine28 date166 2
+• item24 machine30 date166 1
+• item24 machine33 date166 2
+• item24 machine34 date166 1
+• item24 machine35 date166 2
+• item45 machine08 date181 105
+• item45 machine30 date181 53
+• item45 machine32 date181 118
+• item45 machine33 date181 80
+• item39 machine09 date183 80
+• item64 machine08 date193 4
+• item64 machine09 date193 3
+• item64 machine10 date193 4
+• item64 machine14 date193 5
+• item64 machine21 date193 3
+• item64 machine28 date193 4
+• item64 machine29 date193 3
+• item64 machine30 date193 6
+• item64 machine32 date193 4
+• item64 machine33 date193 4
+• item76 machine04 date202 3
+• item76 machine08 date202 1
+• item76 machine09 date202 1
+• item76 machine10 date202 2
+• item76 machine14 date202 3
+• item76 machine22 date202 3
+• item76 machine23 date202 1
+• item76 machine28 date202 3
+• item76 machine29 date202 3
+• item23 machine04 date207 3
+• item23 machine07 date207 3
+• item23 machine08 date207 3
+• item23 machine09 date207 1
+• item23 machine10 date207 2
+• item23 machine12 date207 2
+• item23 machine14 date207 1
+• item23 machine18 date207 3
+• item23 machine20 date207 3
+• item23 machine21 date207 3
+• item23 machine22 date207 2
+• item23 machine23 date207 2
+• item23 machine28 date207 3
+• item23 machine30 date207 2
+• item23 machine31 date207 2
+• item23 machine34 date207 3
+• item23 machine35 date207 2"
+"• date041 item05 2990 0 500
+• date150 item95 20000 0 2
+• date153 item72 18563 0 20
+• date154 item91 36533 0 4
+• date166 item02 10450 0 300
+• date181 item22 60000 1 66
+• date186 item48 11000 0 240
+• date194 item69 44803 0 4
+• date196 item70 13099 0 40
+• date197 item37 19200 0 24","• item69 machine21 10.0
+• item70 machine10 4.0
+• item95 machine19 200.0
+• item22 machine05 11.23
+• item70 machine08 5.42
+• item22 machine18 15.63
+• item22 machine33 7.4
+• item72 machine23 3.68
+• item70 machine21 3.67
+• item91 machine10 5.32
+• item91 machine28 4.33
+• item48 machine09 5.31
+• item22 machine03 11.64
+• item95 machine10 25.0
+• item02 machine14 0.82
+• item91 machine09 4.03
+• item22 machine06 4.4
+• item22 machine20 10.52
+• item72 machine28 3.1
+• item69 machine10 9.92
+• item22 machine08 8.24
+• item69 machine14 13.0
+• item37 machine08 5.0
+• item02 machine09 3.86
+• item72 machine10 3.04
+• item70 machine22 4.0
+• item91 machine21 4.8
+• item91 machine34 5.25
+• item91 machine35 4.5
+• item05 machine10 4.6
+• item70 machine23 26.0
+• item22 machine01 9.36
+• item72 machine09 4.83
+• item70 machine30 4.0
+• item22 machine34 5.42
+• item69 machine04 10.25
+• item22 machine19 9.31
+• item91 machine08 4.42
+• item70 machine28 4.38
+• item48 machine08 5.43
+• item72 machine04 5.0
+• item91 machine14 4.0
+• item70 machine29 4.0
+• item22 machine32 7.35
+• item70 machine04 4.5
+• item22 machine21 6.41
+• item72 machine08 3.67
+• item72 machine21 2.55
+• item91 machine29 5.32
+• item22 machine16 5.0","• item05 machine10 date041 12
+• item72 machine04 date153 3
+• item72 machine09 date153 4
+• item72 machine10 date153 3
+• item72 machine21 date153 3
+• item72 machine23 date153 4
+• item72 machine28 date153 3
+• item91 machine09 date154 1
+• item91 machine21 date154 1
+• item91 machine28 date154 1
+• item91 machine35 date154 1
+• item02 machine09 date166 20
+• item02 machine14 date166 10
+• item22 machine01 date181 4
+• item22 machine03 date181 1
+• item22 machine05 date181 6
+• item22 machine06 date181 3
+• item22 machine08 date181 5
+• item22 machine16 date181 5
+• item22 machine18 date181 7
+• item22 machine19 date181 1
+• item22 machine20 date181 5
+• item22 machine21 date181 4
+• item22 machine32 date181 11
+• item22 machine33 date181 8
+• item22 machine34 date181 6
+• item48 machine08 date186 4
+• item48 machine09 date186 14
+• item70 machine08 date196 1
+• item70 machine10 date196 2
+• item70 machine21 date196 3
+• item70 machine22 date196 2
+• item70 machine23 date196 1
+• item70 machine28 date196 3
+• item70 machine29 date196 1
+• item70 machine30 date196 1
+• item37 machine08 date197 2"
+"• date169 item60 20054 0 47
+• date173 item04 32450 0 56
+• date174 item08 4845 0 138
+• date177 item36 27039 0 40
+• date182 item88 16100 1 144
+• date183 item87 40973 1 204
+• date191 item10 5303 0 210
+• date191 item46 21360 0 44
+• date197 item71 47900 0 12
+• date230 item35 242250 1 28","• item88 machine22 2.8
+• item88 machine34 4.42
+• item87 machine01 5.88
+• item08 machine09 3.2
+• item08 machine22 3.37
+• item08 machine30 3.16
+• item88 machine10 1.38
+• item88 machine23 1.5
+• item60 machine10 6.75
+• item08 machine21 2.46
+• item88 machine04 4.7
+• item08 machine08 2.82
+• item88 machine07 4.27
+• item35 machine19 42.0
+• item88 machine09 4.28
+• item46 machine09 5.67
+• item08 machine10 2.32
+• item87 machine03 6.5
+• item04 machine14 5.17
+• item36 machine33 6.66
+• item10 machine21 2.48
+• item04 machine04 17.0
+• item88 machine33 4.87
+• item10 machine31 2.05
+• item10 machine34 1.94
+• item46 machine08 4.87
+• item35 machine05 49.0
+• item87 machine32 5.49
+• item60 machine04 6.82
+• item87 machine18 11.82
+• item87 machine21 7.85
+• item87 machine05 11.64
+• item88 machine08 4.29
+• item10 machine22 2.35
+• item10 machine23 1.0
+• item10 machine28 2.6
+• item88 machine31 3.87
+• item08 machine31 2.49
+• item04 machine28 7.5
+• item46 machine28 6.17
+• item10 machine07 1.83
+• item46 machine21 5.17
+• item46 machine33 5.25
+• item88 machine32 1.5
+• item88 machine21 3.35
+• item36 machine09 5.32
+• item46 machine29 5.06
+• item08 machine35 2.5
+• item36 machine08 14.5
+• item71 machine05 17.0
+• item36 machine32 6.38
+• item46 machine14 4.94
+• item87 machine20 11.37
+• item88 machine28 2.62
+• item88 machine35 4.35
+• item88 machine29 1.0
+• item08 machine14 2.57
+• item60 machine28 6.82
+• item10 machine08 2.49
+• item87 machine19 10.0
+• item35 machine20 49.0
+• item88 machine14 4.63
+• item60 machine23 6.82
+• item71 machine20 17.4
+• item10 machine35 1.67
+• item87 machine33 6.9
+• item87 machine17 12.0
+• item71 machine33 16.83
+• item10 machine09 1.85
+• item10 machine30 1.84","• item60 machine04 date169 7
+• item60 machine10 date169 25
+• item60 machine23 date169 2
+• item60 machine28 date169 13
+• item04 machine04 date173 2
+• item04 machine14 date173 1
+• item04 machine28 date173 2
+• item08 machine08 date174 15
+• item08 machine09 date174 3
+• item08 machine10 date174 9
+• item08 machine14 date174 18
+• item08 machine21 date174 12
+• item08 machine22 date174 18
+• item08 machine30 date174 5
+• item08 machine31 date174 8
+• item08 machine35 date174 13
+• item36 machine08 date177 1
+• item36 machine09 date177 1
+• item36 machine32 date177 2
+• item36 machine33 date177 2
+• item88 machine04 date182 8
+• item88 machine07 date182 24
+• item88 machine08 date182 20
+• item88 machine09 date182 2
+• item88 machine10 date182 11
+• item88 machine14 date182 21
+• item88 machine21 date182 3
+• item88 machine22 date182 2
+• item88 machine23 date182 12
+• item88 machine28 date182 9
+• item88 machine29 date182 2
+• item88 machine31 date182 1
+• item88 machine33 date182 19
+• item88 machine34 date182 5
+• item88 machine35 date182 5
+• item87 machine01 date183 31
+• item87 machine03 date183 13
+• item87 machine05 date183 26
+• item87 machine17 date183 28
+• item87 machine18 date183 8
+• item87 machine19 date183 21
+• item87 machine20 date183 26
+• item87 machine21 date183 7
+• item87 machine32 date183 38
+• item87 machine33 date183 5
+• item10 machine07 date191 14
+• item10 machine08 date191 12
+• item10 machine09 date191 10
+• item10 machine21 date191 17
+• item10 machine22 date191 6
+• item10 machine23 date191 25
+• item10 machine28 date191 4
+• item10 machine30 date191 22
+• item10 machine31 date191 20
+• item10 machine34 date191 26
+• item10 machine35 date191 10
+• item46 machine08 date191 2
+• item46 machine09 date191 1
+• item46 machine14 date191 3
+• item46 machine28 date191 1
+• item46 machine29 date191 1
+• item46 machine33 date191 2
+• item71 machine05 date197 2
+• item71 machine20 date197 4
+• item71 machine33 date197 5
+• item35 machine05 date230 11
+• item35 machine19 date230 11
+• item35 machine20 date230 6"
+"• date166 item24 26719 0 30
+• date168 item25 72993 0 6
+• date172 item65 23500 1 160
+• date175 item03 13960 1 400
+• date176 item38 7600 0 70
+• date181 item88 21160 0 400
+• date186 item50 266000 0 5
+• date186 item58 17684 0 20
+• date194 item40 31160 1 28
+• date204 item84 34000 1 24","• item24 machine35 7.48
+• item88 machine34 4.42
+• item24 machine14 6.97
+• item84 machine20 17.27
+• item24 machine33 7.83
+• item03 machine23 3.45
+• item84 machine10 13.5
+• item24 machine20 6.57
+• item03 machine07 2.67
+• item65 machine08 7.67
+• item03 machine14 3.42
+• item25 machine33 9.56
+• item84 machine05 15.89
+• item88 machine35 4.35
+• item84 machine07 7.0
+• item25 machine01 11.44
+• item40 machine09 15.0
+• item25 machine19 14.29
+• item65 machine22 7.53
+• item84 machine32 14.4
+• item65 machine21 6.06
+• item03 machine28 3.92
+• item88 machine10 1.38
+• item88 machine04 4.7
+• item24 machine34 7.59
+• item65 machine14 7.34
+• item24 machine22 7.51
+• item65 machine09 7.98
+• item03 machine10 4.28
+• item24 machine07 6.99
+• item03 machine01 1.0
+• item24 machine28 7.8
+• item84 machine14 12.67
+• item03 machine21 3.66
+• item38 machine08 4.83
+• item88 machine29 1.0
+• item24 machine10 7.82
+• item84 machine04 17.5
+• item65 machine33 6.67
+• item65 machine28 3.55
+• item03 machine06 5.0
+• item24 machine05 7.8
+• item84 machine33 12.74
+• item25 machine05 10.25
+• item88 machine22 2.8
+• item25 machine32 11.04
+• item03 machine09 4.09
+• item88 machine23 1.5
+• item88 machine09 4.28
+• item58 machine21 4.0
+• item84 machine21 15.38
+• item03 machine29 4.2
+• item65 machine10 1.32
+• item65 machine30 7.6
+• item65 machine04 7.67
+• item88 machine31 3.87
+• item03 machine08 3.71
+• item88 machine32 1.5
+• item24 machine08 6.86
+• item03 machine35 3.67
+• item24 machine21 6.99
+• item88 machine28 2.62
+• item24 machine30 9.22
+• item88 machine14 4.63
+• item25 machine35 8.5
+• item88 machine07 4.27
+• item25 machine03 12.12
+• item24 machine04 8.03
+• item88 machine33 4.87
+• item58 machine10 4.0
+• item58 machine23 4.0
+• item58 machine28 4.0
+• item88 machine08 4.29
+• item03 machine22 3.78
+• item84 machine28 15.0
+• item88 machine21 3.35
+• item24 machine09 7.43
+• item25 machine17 11.41
+• item03 machine34 3.25
+• item25 machine06 9.5
+• item25 machine34 9.02
+• item50 machine23 24.75","• item24 machine04 date166 1
+• item24 machine05 date166 1
+• item24 machine07 date166 1
+• item24 machine08 date166 2
+• item24 machine09 date166 1
+• item24 machine10 date166 1
+• item24 machine14 date166 2
+• item24 machine20 date166 1
+• item24 machine21 date166 1
+• item24 machine22 date166 1
+• item24 machine28 date166 1
+• item24 machine30 date166 1
+• item24 machine33 date166 2
+• item24 machine34 date166 1
+• item24 machine35 date166 1
+• item65 machine04 date172 2
+• item65 machine08 date172 15
+• item65 machine09 date172 27
+• item65 machine10 date172 28
+• item65 machine14 date172 20
+• item65 machine21 date172 24
+• item65 machine22 date172 14
+• item65 machine28 date172 2
+• item65 machine30 date172 9
+• item65 machine33 date172 19
+• item03 machine01 date175 4
+• item03 machine06 date175 35
+• item03 machine07 date175 23
+• item03 machine08 date175 39
+• item03 machine09 date175 50
+• item03 machine10 date175 20
+• item03 machine14 date175 41
+• item03 machine21 date175 30
+• item03 machine22 date175 10
+• item03 machine23 date175 43
+• item03 machine28 date175 52
+• item03 machine29 date175 3
+• item03 machine34 date175 11
+• item03 machine35 date175 38
+• item38 machine08 date176 1
+• item88 machine04 date181 15
+• item88 machine07 date181 15
+• item88 machine08 date181 12
+• item88 machine09 date181 20
+• item88 machine10 date181 16
+• item88 machine14 date181 19
+• item88 machine21 date181 5
+• item88 machine22 date181 10
+• item88 machine23 date181 21
+• item88 machine28 date181 13
+• item88 machine29 date181 20
+• item88 machine31 date181 22
+• item88 machine32 date181 25
+• item88 machine33 date181 5
+• item88 machine34 date181 17
+• item88 machine35 date181 20
+• item58 machine10 date186 1
+• item40 machine09 date194 28
+• item84 machine04 date204 1
+• item84 machine05 date204 2
+• item84 machine07 date204 4
+• item84 machine10 date204 4
+• item84 machine14 date204 1
+• item84 machine20 date204 1
+• item84 machine21 date204 2
+• item84 machine28 date204 1
+• item84 machine32 date204 4
+• item84 machine33 date204 2"
+"• date144 item16 16229 1 383
+• date150 item96 8333 0 19
+• date156 item86 23740 0 64
+• date162 item18 17794 1 40
+• date166 item82 8226 0 24
+• date173 item28 17050 0 8
+• date176 item53 42940 0 20
+• date179 item30 95000 0 16
+• date196 item14 7810 1 430
+• date227 item02 10450 0 300","• item16 machine09 5.37
+• item82 machine28 4.5
+• item14 machine09 3.89
+• item96 machine29 7.12
+• item82 machine14 4.84
+• item16 machine23 6.25
+• item18 machine35 4.03
+• item28 machine21 3.33
+• item82 machine23 4.8
+• item02 machine14 0.82
+• item14 machine35 3.18
+• item82 machine22 4.7
+• item18 machine07 3.21
+• item28 machine34 5.45
+• item82 machine10 4.61
+• item14 machine07 2.82
+• item18 machine08 3.92
+• item96 machine30 1.32
+• item86 machine33 5.52
+• item53 machine28 5.82
+• item18 machine28 2.43
+• item18 machine23 1.17
+• item16 machine29 3.86
+• item82 machine09 4.72
+• item28 machine28 5.77
+• item28 machine33 5.67
+• item14 machine08 3.25
+• item16 machine35 3.85
+• item14 machine26 3.38
+• item14 machine25 3.0
+• item14 machine29 3.25
+• item30 machine23 5.0
+• item14 machine31 2.86
+• item14 machine22 4.88
+• item96 machine12 3.5
+• item18 machine30 3.84
+• item16 machine08 3.83
+• item86 machine10 4.5
+• item16 machine22 5.47
+• item96 machine08 4.89
+• item16 machine31 4.53
+• item14 machine14 2.83
+• item28 machine23 5.0
+• item82 machine21 4.46
+• item16 machine30 3.8
+• item53 machine10 5.82
+• item18 machine09 3.5
+• item86 machine08 5.01
+• item28 machine08 5.11
+• item86 machine21 3.94
+• item28 machine10 6.82
+• item14 machine21 4.13
+• item96 machine10 4.91
+• item96 machine14 1.03
+• item96 machine23 3.83
+• item16 machine21 3.94
+• item28 machine05 2.0
+• item14 machine28 1.61
+• item96 machine09 5.92
+• item18 machine21 3.51
+• item86 machine09 5.06
+• item14 machine30 4.62
+• item96 machine35 1.83
+• item30 machine30 4.33
+• item14 machine10 1.55
+• item16 machine07 4.85
+• item28 machine30 5.12
+• item28 machine22 5.46
+• item53 machine04 5.82
+• item28 machine31 1.41
+• item96 machine22 4.54
+• item16 machine28 3.37
+• item28 machine32 3.84
+• item86 machine32 6.01
+• item86 machine28 7.5
+• item18 machine34 3.45
+• item82 machine30 4.67
+• item96 machine34 3.0
+• item14 machine23 2.2
+• item16 machine14 2.73
+• item28 machine09 4.06
+• item96 machine28 4.64
+• item18 machine14 4.0
+• item82 machine35 4.33
+• item18 machine29 3.92
+• item16 machine10 3.09
+• item02 machine09 3.86
+• item18 machine10 1.66
+• item96 machine21 4.6
+• item18 machine22 3.41
+• item28 machine14 3.5
+• item82 machine08 4.57
+• item18 machine04 3.86
+• item14 machine34 2.97
+• item28 machine29 5.25
+• item30 machine29 5.5
+• item14 machine01 1.17","• item16 machine07 date144 5
+• item16 machine08 date144 45
+• item16 machine09 date144 20
+• item16 machine10 date144 17
+• item16 machine14 date144 38
+• item16 machine21 date144 39
+• item16 machine22 date144 49
+• item16 machine23 date144 42
+• item16 machine28 date144 40
+• item16 machine29 date144 34
+• item16 machine30 date144 2
+• item16 machine31 date144 17
+• item16 machine35 date144 35
+• item96 machine09 date150 1
+• item96 machine12 date150 1
+• item96 machine14 date150 1
+• item96 machine21 date150 1
+• item96 machine22 date150 1
+• item96 machine23 date150 1
+• item96 machine28 date150 1
+• item96 machine29 date150 1
+• item96 machine34 date150 1
+• item96 machine35 date150 1
+• item86 machine08 date156 5
+• item86 machine09 date156 3
+• item86 machine10 date156 2
+• item86 machine21 date156 2
+• item86 machine28 date156 1
+• item86 machine32 date156 4
+• item86 machine33 date156 5
+• item18 machine04 date162 4
+• item18 machine07 date162 3
+• item18 machine08 date162 4
+• item18 machine09 date162 3
+• item18 machine10 date162 3
+• item18 machine14 date162 2
+• item18 machine21 date162 4
+• item18 machine22 date162 1
+• item18 machine23 date162 3
+• item18 machine28 date162 3
+• item18 machine29 date162 1
+• item18 machine30 date162 1
+• item18 machine34 date162 4
+• item18 machine35 date162 4
+• item82 machine08 date166 2
+• item82 machine09 date166 1
+• item82 machine10 date166 1
+• item82 machine14 date166 1
+• item82 machine21 date166 1
+• item82 machine22 date166 1
+• item82 machine23 date166 1
+• item82 machine30 date166 2
+• item82 machine35 date166 1
+• item28 machine08 date173 1
+• item28 machine14 date173 1
+• item28 machine33 date173 1
+• item53 machine04 date176 1
+• item53 machine28 date176 1
+• item30 machine23 date179 10
+• item30 machine29 date179 4
+• item30 machine30 date179 2
+• item14 machine01 date196 3
+• item14 machine07 date196 10
+• item14 machine08 date196 44
+• item14 machine09 date196 27
+• item14 machine10 date196 12
+• item14 machine14 date196 27
+• item14 machine21 date196 24
+• item14 machine22 date196 3
+• item14 machine23 date196 31
+• item14 machine25 date196 16
+• item14 machine26 date196 18
+• item14 machine28 date196 40
+• item14 machine29 date196 33
+• item14 machine30 date196 46
+• item14 machine31 date196 18
+• item14 machine34 date196 43
+• item14 machine35 date196 38
+• item02 machine09 date227 21
+• item02 machine14 date227 12"
+"• date155 item35 242250 1 28
+• date160 item83 7752 0 5
+• date181 item67 32000 0 2
+• date183 item41 481190 1 52
+• date183 item42 9170 0 128
+• date186 item47 8000 0 66
+• date190 item87 40973 1 208
+• date193 item54 12400 0 48
+• date197 item56 20343 0 8
+• date258 item02 10450 0 325","• item54 machine10 2.83
+• item87 machine01 5.88
+• item87 machine17 12.0
+• item35 machine19 42.0
+• item56 machine04 10.0
+• item83 machine08 4.47
+• item54 machine33 5.33
+• item83 machine23 12.77
+• item83 machine22 3.07
+• item83 machine14 2.0
+• item87 machine03 6.5
+• item47 machine29 4.33
+• item42 machine08 3.82
+• item83 machine31 2.95
+• item35 machine05 49.0
+• item87 machine32 5.49
+• item67 machine21 4.32
+• item54 machine07 3.5
+• item87 machine18 11.82
+• item87 machine21 7.85
+• item02 machine14 0.82
+• item54 machine09 3.79
+• item87 machine05 11.64
+• item41 machine06 70.0
+• item54 machine21 4.42
+• item02 machine09 3.86
+• item67 machine08 4.32
+• item47 machine23 2.92
+• item56 machine21 10.0
+• item56 machine23 9.67
+• item87 machine20 11.37
+• item83 machine21 3.22
+• item56 machine14 10.0
+• item47 machine08 3.56
+• item35 machine20 49.0
+• item87 machine19 10.0
+• item56 machine09 10.83
+• item83 machine10 4.32
+• item67 machine23 4.32
+• item83 machine09 4.58
+• item87 machine33 6.9
+• item41 machine19 70.0
+• item54 machine08 3.55
+• item47 machine28 5.92","• item35 machine05 date155 11
+• item35 machine19 date155 12
+• item35 machine20 date155 4
+• item41 machine06 date183 3
+• item41 machine19 date183 5
+• item42 machine08 date183 7
+• item47 machine08 date186 4
+• item47 machine23 date186 5
+• item47 machine28 date186 3
+• item47 machine29 date186 2
+• item87 machine01 date190 25
+• item87 machine03 date190 25
+• item87 machine05 date190 19
+• item87 machine17 date190 13
+• item87 machine18 date190 30
+• item87 machine19 date190 16
+• item87 machine20 date190 27
+• item87 machine21 date190 16
+• item87 machine32 date190 19
+• item87 machine33 date190 18
+• item54 machine07 date193 3
+• item54 machine09 date193 1
+• item54 machine10 date193 3
+• item54 machine33 date193 3
+• item56 machine09 date197 2
+• item56 machine14 date197 1
+• item56 machine21 date197 2
+• item56 machine23 date197 2
+• item02 machine09 date258 18
+• item02 machine14 date258 18"
