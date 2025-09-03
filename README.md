@@ -97,14 +97,6 @@ Diffusion 기반 대형 언어 모델(Diffusion LLM)이 생산 스케줄링 최�
 
 
 
-## 🧠 모델 성능 요약
-
-| 모델   | F1 Score | Load Variance | Composite Score |
-|--------|----------|----------------|------------------|
-| SEDD   | 00    | 00          | 00            |
-| LLaDa  | 00| 00        | 00        |
-
-
 
 
 🧪 추가 실험
